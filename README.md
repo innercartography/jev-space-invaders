@@ -36,7 +36,7 @@ Full tables and 95% intervals: [docs/DETAILS.md](docs/DETAILS.md#1-player-pilot)
 
 - **Scroll story:** https://innercartography.github.io/jev-space-invaders/
 - **Presentation cut** (1:45; Space pauses, ← → step through scenes, Esc exits): https://innercartography.github.io/jev-space-invaders/?demo=1
-- **Video:** the same cut as an MP4, attached to the [v1.0 release](https://github.com/innercartography/jev-space-invaders/releases/tag/v1.0).
+- **Video:** a screen recording of the same cut accompanies the entry.
 
 All game footage is exact emulator replay of recorded games, not live inference. Every number on the site is generated from committed result files by `site/tools/build_data.py`.
 
