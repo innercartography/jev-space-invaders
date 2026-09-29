@@ -1,0 +1,96 @@
+{
+ "attempts": [
+  {
+   "run": "v0smoke2",
+   "what": "1-trial smoke test of the full layout (B, D, E)",
+   "conds": [
+    "B",
+    "D",
+    "E"
+   ],
+   "trials": 1,
+   "completed_trials": 3,
+   "sandboxes": 31,
+   "games_played_on_tenki": 360,
+   "retries": 0,
+   "wall_s": 547.6,
+   "cost_usd_estimate": 0.0996,
+   "first_error": []
+  },
+  {
+   "run": "v1_aborted_infra",
+   "what": "launcher's watch call hit a Tenki 'timed out waiting for command start'; launcher then closed the coordinator (fixed: watch errors are retried)",
+   "conds": null,
+   "trials": null,
+   "completed_trials": 0,
+   "sandboxes": 1,
+   "games_played_on_tenki": 0,
+   "retries": null,
+   "wall_s": null,
+   "cost_usd_estimate": 0.0023,
+   "first_error": [
+    "launcher crash"
+   ]
+  },
+  {
+   "run": "v2_aborted_infra",
+   "what": "Tenki HTTP 502 / stream reset on a long worker command at round 5 (fixed: batches run detached, collected by short retried polls)",
+   "conds": [
+    "B",
+    "D",
+    "E"
+   ],
+   "trials": 10,
+   "completed_trials": 0,
+   "sandboxes": 8,
+   "games_played_on_tenki": 480,
+   "retries": 7,
+   "wall_s": 732.0,
+   "cost_usd_estimate": 0.1252,
+   "first_error": [
+    "D t500: SandboxError: Received http2 header with status: 502"
+   ]
+  },
+  {
+   "run": "v3_aborted_infra",
+   "what": "Tenki had no capacity to create a replacement worker at round 10 ('no live node-agent satisfies placement constraints'); no capacity for ~7 min after",
+   "conds": [
+    "B",
+    "D",
+    "E"
+   ],
+   "trials": 10,
+   "completed_trials": 0,
+   "sandboxes": 12,
+   "games_played_on_tenki": 1200,
+   "retries": 17,
+   "wall_s": 1439.7,
+   "cost_usd_estimate": 0.2494,
+   "first_error": [
+    "B t508: QuotaExceededError: sandbox capacity unavailable: no live node-agent satisfies placement constraints"
+   ]
+  },
+  {
+   "run": "v4",
+   "what": "the validation run (D, E; 10 paired trials each)",
+   "conds": [
+    "D",
+    "E"
+   ],
+   "trials": 10,
+   "completed_trials": 20,
+   "sandboxes": 31,
+   "games_played_on_tenki": 2400,
+   "retries": 1,
+   "wall_s": 1968.6,
+   "cost_usd_estimate": 0.3618,
+   "first_error": []
+  }
+ ],
+ "totals": {
+  "sandboxes": 83,
+  "games_played_on_tenki": 4440,
+  "cost_usd_estimate": 0.8383
+ },
+ "note": "a v4 launch attempt at 18:12 PT failed at coordinator creation (no Tenki capacity); nothing ran"
+}

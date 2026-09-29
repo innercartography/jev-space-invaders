@@ -1,0 +1,21 @@
+{
+  "experiment_id": "exp002_repr_check",
+  "description": "Is the THREAT (simplified) advantage over RAW real? Same 5 seeds; JEV RAW and JEV THREAT x3 reps each on Tenki; random control x10 reps (policy RNG varies, env seed fixed); Haiku 4.5 baseline x1 per seed (official minimum). Policy, questions, representations and extractor are frozen at this config's commit.",
+  "env": {
+    "env_id": "ALE/SpaceInvaders-v5",
+    "obs_type": "ram",
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "full_action_space": false,
+    "max_num_frames_per_episode": 108000
+  },
+  "clock": "turn_based",
+  "low_conf_threshold": 0.5,
+  "seeds": [1, 2, 3, 4, 5],
+  "arms": [
+    {"name": "random__raw", "policy": "random", "representation": "raw", "notes": "control floor, not a JEV run"},
+    {"name": "jev_basic__raw", "policy": "jev_basic", "representation": "raw", "question_set": "move_v1", "model": "jev-latest"},
+    {"name": "jev_basic__threat", "policy": "jev_basic", "representation": "threat", "question_set": "move_v1", "model": "jev-latest"},
+    {"name": "baseline_llm__raw", "policy": "baseline_llm", "representation": "raw", "question_set": "move_v1", "provider": "anthropic", "model": "claude-haiku-4-5"}
+  ]
+}

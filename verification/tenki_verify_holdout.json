@@ -1,0 +1,5579 @@
+{
+ "started_utc": "2026-09-27T13:53:39.906994+00:00",
+ "replays": "ufa/replays/holdout.json",
+ "games": 305,
+ "verified": 305,
+ "matched": 305,
+ "mismatched": [],
+ "wall_s": 33.21,
+ "compute_cost_usd_estimate": 0.006045,
+ "shards": [
+  {
+   "shard": 0,
+   "games": 61,
+   "timings_s": {
+    "create_to_ready": 0.41,
+    "upload": 0.52,
+    "install_deps": 1.41,
+    "verify": 30.13
+   },
+   "sandbox_id": "01a0e324-11ee-7f3e-88a1-2cb98c0ee18b",
+   "teardown": "close() returned",
+   "compute_cost_usd_estimate": 0.001203,
+   "platform": "Linux-6.18.29-x86_64-with-glibc2.39",
+   "matched": 61
+  },
+  {
+   "shard": 1,
+   "games": 61,
+   "timings_s": {
+    "create_to_ready": 0.41,
+    "upload": 0.49,
+    "install_deps": 1.46,
+    "verify": 30.64
+   },
+   "sandbox_id": "01a0e324-11ed-7969-94bd-2e3a0bca1b56",
+   "teardown": "close() returned",
+   "compute_cost_usd_estimate": 0.001223,
+   "platform": "Linux-6.18.29-x86_64-with-glibc2.39",
+   "matched": 61
+  },
+  {
+   "shard": 2,
+   "games": 61,
+   "timings_s": {
+    "create_to_ready": 0.41,
+    "upload": 0.55,
+    "install_deps": 1.55,
+    "verify": 29.99
+   },
+   "sandbox_id": "01a0e324-11ed-796a-8303-3445a0f9f53e",
+   "teardown": "close() returned",
+   "compute_cost_usd_estimate": 0.001204,
+   "platform": "Linux-6.18.29-x86_64-with-glibc2.39",
+   "matched": 61
+  },
+  {
+   "shard": 3,
+   "games": 61,
+   "timings_s": {
+    "create_to_ready": 0.41,
+    "upload": 0.49,
+    "install_deps": 1.4,
+    "verify": 30.35
+   },
+   "sandbox_id": "01a0e324-11ed-77c6-b65d-fe39759913d0",
+   "teardown": "close() returned",
+   "compute_cost_usd_estimate": 0.00121,
+   "platform": "Linux-6.18.29-x86_64-with-glibc2.39",
+   "matched": 61
+  },
+  {
+   "shard": 4,
+   "games": 61,
+   "timings_s": {
+    "create_to_ready": 0.41,
+    "upload": 0.5,
+    "install_deps": 1.51,
+    "verify": 30.1
+   },
+   "sandbox_id": "01a0e324-11ed-77c5-b6f5-019447ff73fe",
+   "teardown": "close() returned",
+   "compute_cost_usd_estimate": 0.001205,
+   "platform": "Linux-6.18.29-x86_64-with-glibc2.39",
+   "matched": 61
+  }
+ ],
+ "results": [
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1050188302__20260927T122910168Z",
+   "arm": "control_sweep",
+   "seed": 1050188302,
+   "expected": {
+    "score": 135.0,
+    "steps": 527,
+    "frames": 2107,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 135.0,
+    "steps": 527,
+    "frames": 2107,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1175372118__20260927T122912402Z",
+   "arm": "control_sweep",
+   "seed": 1175372118,
+   "expected": {
+    "score": 290.0,
+    "steps": 850,
+    "frames": 3399,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 290.0,
+    "steps": 850,
+    "frames": 3399,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1244754828__20260927T122915616Z",
+   "arm": "control_sweep",
+   "seed": 1244754828,
+   "expected": {
+    "score": 410.0,
+    "steps": 557,
+    "frames": 2225,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 410.0,
+    "steps": 557,
+    "frames": 2225,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1276511492__20260927T122918543Z",
+   "arm": "control_sweep",
+   "seed": 1276511492,
+   "expected": {
+    "score": 385.0,
+    "steps": 610,
+    "frames": 2437,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 385.0,
+    "steps": 610,
+    "frames": 2437,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1371269379__20260927T122920897Z",
+   "arm": "control_sweep",
+   "seed": 1371269379,
+   "expected": {
+    "score": 505.0,
+    "steps": 798,
+    "frames": 3189,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 505.0,
+    "steps": 798,
+    "frames": 3189,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1460194047__20260927T122922817Z",
+   "arm": "control_sweep",
+   "seed": 1460194047,
+   "expected": {
+    "score": 330.0,
+    "steps": 728,
+    "frames": 2911,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 330.0,
+    "steps": 728,
+    "frames": 2911,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1569824923__20260927T122925622Z",
+   "arm": "control_sweep",
+   "seed": 1569824923,
+   "expected": {
+    "score": 375.0,
+    "steps": 831,
+    "frames": 3323,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 375.0,
+    "steps": 831,
+    "frames": 3323,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1661695903__20260927T122928792Z",
+   "arm": "control_sweep",
+   "seed": 1661695903,
+   "expected": {
+    "score": 200.0,
+    "steps": 611,
+    "frames": 2443,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 200.0,
+    "steps": 611,
+    "frames": 2443,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1751773043__20260927T122930905Z",
+   "arm": "control_sweep",
+   "seed": 1751773043,
+   "expected": {
+    "score": 465.0,
+    "steps": 828,
+    "frames": 3311,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 465.0,
+    "steps": 828,
+    "frames": 3311,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed185589485__20260927T122848927Z",
+   "arm": "control_sweep",
+   "seed": 185589485,
+   "expected": {
+    "score": 185.0,
+    "steps": 504,
+    "frames": 2013,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 185.0,
+    "steps": 504,
+    "frames": 2013,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1912830523__20260927T122935214Z",
+   "arm": "control_sweep",
+   "seed": 1912830523,
+   "expected": {
+    "score": 305.0,
+    "steps": 679,
+    "frames": 2715,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 305.0,
+    "steps": 679,
+    "frames": 2715,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed196879695__20260927T122849754Z",
+   "arm": "control_sweep",
+   "seed": 196879695,
+   "expected": {
+    "score": 515.0,
+    "steps": 776,
+    "frames": 3101,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 515.0,
+    "steps": 776,
+    "frames": 3101,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed2116281648__20260927T122939175Z",
+   "arm": "control_sweep",
+   "seed": 2116281648,
+   "expected": {
+    "score": 435.0,
+    "steps": 996,
+    "frames": 3981,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 435.0,
+    "steps": 996,
+    "frames": 3981,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed253171605__20260927T122852804Z",
+   "arm": "control_sweep",
+   "seed": 253171605,
+   "expected": {
+    "score": 470.0,
+    "steps": 898,
+    "frames": 3589,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 470.0,
+    "steps": 898,
+    "frames": 3589,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed326943149__20260927T122855320Z",
+   "arm": "control_sweep",
+   "seed": 326943149,
+   "expected": {
+    "score": 380.0,
+    "steps": 810,
+    "frames": 3240,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 380.0,
+    "steps": 810,
+    "frames": 3240,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed404954492__20260927T122858111Z",
+   "arm": "control_sweep",
+   "seed": 404954492,
+   "expected": {
+    "score": 520.0,
+    "steps": 766,
+    "frames": 3061,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 520.0,
+    "steps": 766,
+    "frames": 3061,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed49122184__20260927T122845007Z",
+   "arm": "control_sweep",
+   "seed": 49122184,
+   "expected": {
+    "score": 470.0,
+    "steps": 883,
+    "frames": 3529,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 470.0,
+    "steps": 883,
+    "frames": 3529,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed701470725__20260927T122903286Z",
+   "arm": "control_sweep",
+   "seed": 701470725,
+   "expected": {
+    "score": 350.0,
+    "steps": 657,
+    "frames": 2627,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 350.0,
+    "steps": 657,
+    "frames": 2627,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed791812359__20260927T122905327Z",
+   "arm": "control_sweep",
+   "seed": 791812359,
+   "expected": {
+    "score": 315.0,
+    "steps": 615,
+    "frames": 2457,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 315.0,
+    "steps": 615,
+    "frames": 2457,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed872376047__20260927T122907322Z",
+   "arm": "control_sweep",
+   "seed": 872376047,
+   "expected": {
+    "score": 305.0,
+    "steps": 725,
+    "frames": 2898,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 305.0,
+    "steps": 725,
+    "frames": 2898,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/haiku_final/seed13396033__20260927T123504481Z",
+   "arm": "haiku_final",
+   "seed": 13396033,
+   "expected": {
+    "score": 235.0,
+    "steps": 671,
+    "frames": 2681,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 235.0,
+    "steps": 671,
+    "frames": 2681,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1050188302__20260927T123800132Z",
+   "arm": "jev_final",
+   "seed": 1050188302,
+   "expected": {
+    "score": 585.0,
+    "steps": 1283,
+    "frames": 5129,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 585.0,
+    "steps": 1283,
+    "frames": 5129,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1175372118__20260927T123805433Z",
+   "arm": "jev_final",
+   "seed": 1175372118,
+   "expected": {
+    "score": 820.0,
+    "steps": 1147,
+    "frames": 4588,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 820.0,
+    "steps": 1147,
+    "frames": 4588,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1244754828__20260927T123830703Z",
+   "arm": "jev_final",
+   "seed": 1244754828,
+   "expected": {
+    "score": 575.0,
+    "steps": 1051,
+    "frames": 4204,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 575.0,
+    "steps": 1051,
+    "frames": 4204,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1276511492__20260927T123504073Z",
+   "arm": "jev_final",
+   "seed": 1276511492,
+   "expected": {
+    "score": 420.0,
+    "steps": 1190,
+    "frames": 4759,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 420.0,
+    "steps": 1190,
+    "frames": 4759,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1371269379__20260927T123504080Z",
+   "arm": "jev_final",
+   "seed": 1371269379,
+   "expected": {
+    "score": 730.0,
+    "steps": 1513,
+    "frames": 6049,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 730.0,
+    "steps": 1513,
+    "frames": 6049,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1460194047__20260927T123728201Z",
+   "arm": "jev_final",
+   "seed": 1460194047,
+   "expected": {
+    "score": 530.0,
+    "steps": 923,
+    "frames": 3692,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 530.0,
+    "steps": 923,
+    "frames": 3692,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1569824923__20260927T123819211Z",
+   "arm": "jev_final",
+   "seed": 1569824923,
+   "expected": {
+    "score": 805.0,
+    "steps": 1340,
+    "frames": 5357,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 805.0,
+    "steps": 1340,
+    "frames": 5357,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1661695903__20260927T124022668Z",
+   "arm": "jev_final",
+   "seed": 1661695903,
+   "expected": {
+    "score": 425.0,
+    "steps": 1214,
+    "frames": 4855,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 425.0,
+    "steps": 1214,
+    "frames": 4855,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1751773043__20260927T124105685Z",
+   "arm": "jev_final",
+   "seed": 1751773043,
+   "expected": {
+    "score": 820.0,
+    "steps": 1345,
+    "frames": 5379,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 820.0,
+    "steps": 1345,
+    "frames": 5379,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed185589485__20260927T123508782Z",
+   "arm": "jev_final",
+   "seed": 185589485,
+   "expected": {
+    "score": 810.0,
+    "steps": 1105,
+    "frames": 4417,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 810.0,
+    "steps": 1105,
+    "frames": 4417,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1912830523__20260927T124339826Z",
+   "arm": "jev_final",
+   "seed": 1912830523,
+   "expected": {
+    "score": 850.0,
+    "steps": 1094,
+    "frames": 4375,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 850.0,
+    "steps": 1094,
+    "frames": 4375,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed196879695__20260927T123510163Z",
+   "arm": "jev_final",
+   "seed": 196879695,
+   "expected": {
+    "score": 395.0,
+    "steps": 1169,
+    "frames": 4673,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 395.0,
+    "steps": 1169,
+    "frames": 4673,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed2116281648__20260927T124540611Z",
+   "arm": "jev_final",
+   "seed": 2116281648,
+   "expected": {
+    "score": 605.0,
+    "steps": 1397,
+    "frames": 5585,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 605.0,
+    "steps": 1397,
+    "frames": 5585,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed253171605__20260927T123510165Z",
+   "arm": "jev_final",
+   "seed": 253171605,
+   "expected": {
+    "score": 775.0,
+    "steps": 1686,
+    "frames": 6743,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 775.0,
+    "steps": 1686,
+    "frames": 6743,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed326943149__20260927T123510158Z",
+   "arm": "jev_final",
+   "seed": 326943149,
+   "expected": {
+    "score": 435.0,
+    "steps": 1179,
+    "frames": 4716,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 435.0,
+    "steps": 1179,
+    "frames": 4716,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed404954492__20260927T123510163Z",
+   "arm": "jev_final",
+   "seed": 404954492,
+   "expected": {
+    "score": 660.0,
+    "steps": 1290,
+    "frames": 5157,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 660.0,
+    "steps": 1290,
+    "frames": 5157,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed49122184__20260927T123508764Z",
+   "arm": "jev_final",
+   "seed": 49122184,
+   "expected": {
+    "score": 425.0,
+    "steps": 1256,
+    "frames": 5022,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 425.0,
+    "steps": 1256,
+    "frames": 5022,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed701470725__20260927T123736266Z",
+   "arm": "jev_final",
+   "seed": 701470725,
+   "expected": {
+    "score": 1430.0,
+    "steps": 3086,
+    "frames": 12343,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 1430.0,
+    "steps": 3086,
+    "frames": 12343,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed791812359__20260927T123806598Z",
+   "arm": "jev_final",
+   "seed": 791812359,
+   "expected": {
+    "score": 775.0,
+    "steps": 1478,
+    "frames": 5911,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 775.0,
+    "steps": 1478,
+    "frames": 5911,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed872376047__20260927T123758926Z",
+   "arm": "jev_final",
+   "seed": 872376047,
+   "expected": {
+    "score": 810.0,
+    "steps": 1468,
+    "frames": 5869,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 810.0,
+    "steps": 1468,
+    "frames": 5869,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1050188302__20260927T122910316Z",
+   "arm": "random__raw",
+   "seed": 1050188302,
+   "expected": {
+    "score": 80.0,
+    "steps": 473,
+    "frames": 1891,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 80.0,
+    "steps": 473,
+    "frames": 1891,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1175372118__20260927T122912515Z",
+   "arm": "random__raw",
+   "seed": 1175372118,
+   "expected": {
+    "score": 55.0,
+    "steps": 285,
+    "frames": 1139,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 55.0,
+    "steps": 285,
+    "frames": 1139,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1244754828__20260927T122915861Z",
+   "arm": "random__raw",
+   "seed": 1244754828,
+   "expected": {
+    "score": 120.0,
+    "steps": 531,
+    "frames": 2123,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 120.0,
+    "steps": 531,
+    "frames": 2123,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1276511492__20260927T122918712Z",
+   "arm": "random__raw",
+   "seed": 1276511492,
+   "expected": {
+    "score": 35.0,
+    "steps": 417,
+    "frames": 1667,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 35.0,
+    "steps": 417,
+    "frames": 1667,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1371269379__20260927T122921044Z",
+   "arm": "random__raw",
+   "seed": 1371269379,
+   "expected": {
+    "score": 110.0,
+    "steps": 515,
+    "frames": 2059,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 110.0,
+    "steps": 515,
+    "frames": 2059,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1460194047__20260927T122922827Z",
+   "arm": "random__raw",
+   "seed": 1460194047,
+   "expected": {
+    "score": 125.0,
+    "steps": 429,
+    "frames": 1715,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 125.0,
+    "steps": 429,
+    "frames": 1715,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1569824923__20260927T122926152Z",
+   "arm": "random__raw",
+   "seed": 1569824923,
+   "expected": {
+    "score": 80.0,
+    "steps": 375,
+    "frames": 1497,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 80.0,
+    "steps": 375,
+    "frames": 1497,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1661695903__20260927T122928977Z",
+   "arm": "random__raw",
+   "seed": 1661695903,
+   "expected": {
+    "score": 35.0,
+    "steps": 397,
+    "frames": 1585,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 35.0,
+    "steps": 397,
+    "frames": 1585,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1751773043__20260927T122930974Z",
+   "arm": "random__raw",
+   "seed": 1751773043,
+   "expected": {
+    "score": 255.0,
+    "steps": 670,
+    "frames": 2679,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 255.0,
+    "steps": 670,
+    "frames": 2679,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed185589485__20260927T122849015Z",
+   "arm": "random__raw",
+   "seed": 185589485,
+   "expected": {
+    "score": 190.0,
+    "steps": 664,
+    "frames": 2655,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 190.0,
+    "steps": 664,
+    "frames": 2655,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1912830523__20260927T122935287Z",
+   "arm": "random__raw",
+   "seed": 1912830523,
+   "expected": {
+    "score": 90.0,
+    "steps": 403,
+    "frames": 1609,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 90.0,
+    "steps": 403,
+    "frames": 1609,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed196879695__20260927T122849840Z",
+   "arm": "random__raw",
+   "seed": 196879695,
+   "expected": {
+    "score": 140.0,
+    "steps": 582,
+    "frames": 2327,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 140.0,
+    "steps": 582,
+    "frames": 2327,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed2116281648__20260927T122939223Z",
+   "arm": "random__raw",
+   "seed": 2116281648,
+   "expected": {
+    "score": 350.0,
+    "steps": 777,
+    "frames": 3105,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 350.0,
+    "steps": 777,
+    "frames": 3105,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed253171605__20260927T122853006Z",
+   "arm": "random__raw",
+   "seed": 253171605,
+   "expected": {
+    "score": 45.0,
+    "steps": 376,
+    "frames": 1501,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 45.0,
+    "steps": 376,
+    "frames": 1501,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed326943149__20260927T122855377Z",
+   "arm": "random__raw",
+   "seed": 326943149,
+   "expected": {
+    "score": 75.0,
+    "steps": 450,
+    "frames": 1797,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 75.0,
+    "steps": 450,
+    "frames": 1797,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed404954492__20260927T122858666Z",
+   "arm": "random__raw",
+   "seed": 404954492,
+   "expected": {
+    "score": 70.0,
+    "steps": 388,
+    "frames": 1549,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 70.0,
+    "steps": 388,
+    "frames": 1549,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed49122184__20260927T122845125Z",
+   "arm": "random__raw",
+   "seed": 49122184,
+   "expected": {
+    "score": 80.0,
+    "steps": 281,
+    "frames": 1123,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 80.0,
+    "steps": 281,
+    "frames": 1123,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed701470725__20260927T122903500Z",
+   "arm": "random__raw",
+   "seed": 701470725,
+   "expected": {
+    "score": 65.0,
+    "steps": 386,
+    "frames": 1541,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 65.0,
+    "steps": 386,
+    "frames": 1541,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed791812359__20260927T122905380Z",
+   "arm": "random__raw",
+   "seed": 791812359,
+   "expected": {
+    "score": 65.0,
+    "steps": 402,
+    "frames": 1607,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 65.0,
+    "steps": 402,
+    "frames": 1607,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed872376047__20260927T122907824Z",
+   "arm": "random__raw",
+   "seed": 872376047,
+   "expected": {
+    "score": 120.0,
+    "steps": 534,
+    "frames": 2133,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 120.0,
+    "steps": 534,
+    "frames": 2133,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed107308253__20260927T122846583Z",
+   "arm": "control_sweep",
+   "seed": 107308253,
+   "expected": {
+    "score": 350.0,
+    "steps": 689,
+    "frames": 2753,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 350.0,
+    "steps": 689,
+    "frames": 2753,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1216503327__20260927T122913136Z",
+   "arm": "control_sweep",
+   "seed": 1216503327,
+   "expected": {
+    "score": 335.0,
+    "steps": 760,
+    "frames": 3037,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 335.0,
+    "steps": 760,
+    "frames": 3037,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1250055990__20260927T122915901Z",
+   "arm": "control_sweep",
+   "seed": 1250055990,
+   "expected": {
+    "score": 295.0,
+    "steps": 700,
+    "frames": 2797,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 295.0,
+    "steps": 700,
+    "frames": 2797,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1291410554__20260927T122918735Z",
+   "arm": "control_sweep",
+   "seed": 1291410554,
+   "expected": {
+    "score": 290.0,
+    "steps": 709,
+    "frames": 2833,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 290.0,
+    "steps": 709,
+    "frames": 2833,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed139155140__20260927T122847300Z",
+   "arm": "control_sweep",
+   "seed": 139155140,
+   "expected": {
+    "score": 310.0,
+    "steps": 681,
+    "frames": 2724,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 310.0,
+    "steps": 681,
+    "frames": 2724,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1487704192__20260927T122923315Z",
+   "arm": "control_sweep",
+   "seed": 1487704192,
+   "expected": {
+    "score": 260.0,
+    "steps": 771,
+    "frames": 3083,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 260.0,
+    "steps": 771,
+    "frames": 3083,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1582982902__20260927T122926277Z",
+   "arm": "control_sweep",
+   "seed": 1582982902,
+   "expected": {
+    "score": 320.0,
+    "steps": 785,
+    "frames": 3140,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 320.0,
+    "steps": 785,
+    "frames": 3140,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed166356852__20260927T122847393Z",
+   "arm": "control_sweep",
+   "seed": 166356852,
+   "expected": {
+    "score": 520.0,
+    "steps": 763,
+    "frames": 3049,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 520.0,
+    "steps": 763,
+    "frames": 3049,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1790887077__20260927T122931107Z",
+   "arm": "control_sweep",
+   "seed": 1790887077,
+   "expected": {
+    "score": 80.0,
+    "steps": 499,
+    "frames": 1995,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 80.0,
+    "steps": 499,
+    "frames": 1995,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1883335757__20260927T122933135Z",
+   "arm": "control_sweep",
+   "seed": 1883335757,
+   "expected": {
+    "score": 55.0,
+    "steps": 474,
+    "frames": 1893,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 55.0,
+    "steps": 474,
+    "frames": 1893,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1930414069__20260927T122936144Z",
+   "arm": "control_sweep",
+   "seed": 1930414069,
+   "expected": {
+    "score": 370.0,
+    "steps": 690,
+    "frames": 2757,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 370.0,
+    "steps": 690,
+    "frames": 2757,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1980977145__20260927T122937458Z",
+   "arm": "control_sweep",
+   "seed": 1980977145,
+   "expected": {
+    "score": 250.0,
+    "steps": 579,
+    "frames": 2313,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 250.0,
+    "steps": 579,
+    "frames": 2313,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed21372655__20260927T122844493Z",
+   "arm": "control_sweep",
+   "seed": 21372655,
+   "expected": {
+    "score": 430.0,
+    "steps": 876,
+    "frames": 3504,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 430.0,
+    "steps": 876,
+    "frames": 3504,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed280983971__20260927T122853128Z",
+   "arm": "control_sweep",
+   "seed": 280983971,
+   "expected": {
+    "score": 120.0,
+    "steps": 437,
+    "frames": 1747,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 120.0,
+    "steps": 437,
+    "frames": 1747,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed344943544__20260927T122855495Z",
+   "arm": "control_sweep",
+   "seed": 344943544,
+   "expected": {
+    "score": 330.0,
+    "steps": 775,
+    "frames": 3097,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 330.0,
+    "steps": 775,
+    "frames": 3097,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed413596586__20260927T122859162Z",
+   "arm": "control_sweep",
+   "seed": 413596586,
+   "expected": {
+    "score": 525.0,
+    "steps": 753,
+    "frames": 3010,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 525.0,
+    "steps": 753,
+    "frames": 3010,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed5233857__20260927T122842911Z",
+   "arm": "control_sweep",
+   "seed": 5233857,
+   "expected": {
+    "score": 215.0,
+    "steps": 581,
+    "frames": 2323,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 215.0,
+    "steps": 581,
+    "frames": 2323,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed70418170__20260927T122845221Z",
+   "arm": "control_sweep",
+   "seed": 70418170,
+   "expected": {
+    "score": 190.0,
+    "steps": 721,
+    "frames": 2881,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 190.0,
+    "steps": 721,
+    "frames": 2881,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed835205016__20260927T122905600Z",
+   "arm": "control_sweep",
+   "seed": 835205016,
+   "expected": {
+    "score": 165.0,
+    "steps": 602,
+    "frames": 2405,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 165.0,
+    "steps": 602,
+    "frames": 2405,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed938847985__20260927T122908055Z",
+   "arm": "control_sweep",
+   "seed": 938847985,
+   "expected": {
+    "score": 195.0,
+    "steps": 563,
+    "frames": 2251,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 195.0,
+    "steps": 563,
+    "frames": 2251,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/haiku_final/seed14115873__20260927T123504481Z",
+   "arm": "haiku_final",
+   "seed": 14115873,
+   "expected": {
+    "score": 285.0,
+    "steps": 1338,
+    "frames": 5349,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 285.0,
+    "steps": 1338,
+    "frames": 5349,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed107308253__20260927T123509597Z",
+   "arm": "jev_final",
+   "seed": 107308253,
+   "expected": {
+    "score": 1210.0,
+    "steps": 2362,
+    "frames": 9448,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 1210.0,
+    "steps": 2362,
+    "frames": 9448,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1216503327__20260927T123804898Z",
+   "arm": "jev_final",
+   "seed": 1216503327,
+   "expected": {
+    "score": 870.0,
+    "steps": 1190,
+    "frames": 4759,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 870.0,
+    "steps": 1190,
+    "frames": 4759,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1250055990__20260927T123504065Z",
+   "arm": "jev_final",
+   "seed": 1250055990,
+   "expected": {
+    "score": 640.0,
+    "steps": 1131,
+    "frames": 4524,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 640.0,
+    "steps": 1131,
+    "frames": 4524,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1291410554__20260927T123504103Z",
+   "arm": "jev_final",
+   "seed": 1291410554,
+   "expected": {
+    "score": 600.0,
+    "steps": 1575,
+    "frames": 6297,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 600.0,
+    "steps": 1575,
+    "frames": 6297,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed139155140__20260927T123510160Z",
+   "arm": "jev_final",
+   "seed": 139155140,
+   "expected": {
+    "score": 800.0,
+    "steps": 1464,
+    "frames": 5853,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 800.0,
+    "steps": 1464,
+    "frames": 5853,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1487704192__20260927T123734819Z",
+   "arm": "jev_final",
+   "seed": 1487704192,
+   "expected": {
+    "score": 600.0,
+    "steps": 1656,
+    "frames": 6623,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 600.0,
+    "steps": 1656,
+    "frames": 6623,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1582982902__20260927T123826449Z",
+   "arm": "jev_final",
+   "seed": 1582982902,
+   "expected": {
+    "score": 575.0,
+    "steps": 1078,
+    "frames": 4312,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 575.0,
+    "steps": 1078,
+    "frames": 4312,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed166356852__20260927T123508767Z",
+   "arm": "jev_final",
+   "seed": 166356852,
+   "expected": {
+    "score": 475.0,
+    "steps": 1452,
+    "frames": 5805,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 475.0,
+    "steps": 1452,
+    "frames": 5805,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1790887077__20260927T124111356Z",
+   "arm": "jev_final",
+   "seed": 1790887077,
+   "expected": {
+    "score": 1090.0,
+    "steps": 2364,
+    "frames": 9456,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 1090.0,
+    "steps": 2364,
+    "frames": 9456,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1883335757__20260927T124251726Z",
+   "arm": "jev_final",
+   "seed": 1883335757,
+   "expected": {
+    "score": 600.0,
+    "steps": 1667,
+    "frames": 6665,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 600.0,
+    "steps": 1667,
+    "frames": 6665,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1930414069__20260927T124343061Z",
+   "arm": "jev_final",
+   "seed": 1930414069,
+   "expected": {
+    "score": 760.0,
+    "steps": 1238,
+    "frames": 4951,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 760.0,
+    "steps": 1238,
+    "frames": 4951,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1980977145__20260927T124446643Z",
+   "arm": "jev_final",
+   "seed": 1980977145,
+   "expected": {
+    "score": 620.0,
+    "steps": 1224,
+    "frames": 4893,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 620.0,
+    "steps": 1224,
+    "frames": 4893,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed21372655__20260927T123510165Z",
+   "arm": "jev_final",
+   "seed": 21372655,
+   "expected": {
+    "score": 695.0,
+    "steps": 1194,
+    "frames": 4773,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 695.0,
+    "steps": 1194,
+    "frames": 4773,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed280983971__20260927T123508697Z",
+   "arm": "jev_final",
+   "seed": 280983971,
+   "expected": {
+    "score": 470.0,
+    "steps": 1254,
+    "frames": 5014,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 470.0,
+    "steps": 1254,
+    "frames": 5014,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed344943544__20260927T123508734Z",
+   "arm": "jev_final",
+   "seed": 344943544,
+   "expected": {
+    "score": 785.0,
+    "steps": 1453,
+    "frames": 5811,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 785.0,
+    "steps": 1453,
+    "frames": 5811,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed413596586__20260927T123729185Z",
+   "arm": "jev_final",
+   "seed": 413596586,
+   "expected": {
+    "score": 485.0,
+    "steps": 1179,
+    "frames": 4713,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 485.0,
+    "steps": 1179,
+    "frames": 4713,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed5233857__20260927T123510279Z",
+   "arm": "jev_final",
+   "seed": 5233857,
+   "expected": {
+    "score": 620.0,
+    "steps": 1179,
+    "frames": 4715,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 620.0,
+    "steps": 1179,
+    "frames": 4715,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed70418170__20260927T123510272Z",
+   "arm": "jev_final",
+   "seed": 70418170,
+   "expected": {
+    "score": 755.0,
+    "steps": 1490,
+    "frames": 5959,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 755.0,
+    "steps": 1490,
+    "frames": 5959,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed835205016__20260927T123738690Z",
+   "arm": "jev_final",
+   "seed": 835205016,
+   "expected": {
+    "score": 565.0,
+    "steps": 1080,
+    "frames": 4318,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 565.0,
+    "steps": 1080,
+    "frames": 4318,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed938847985__20260927T123806683Z",
+   "arm": "jev_final",
+   "seed": 938847985,
+   "expected": {
+    "score": 560.0,
+    "steps": 1110,
+    "frames": 4437,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 560.0,
+    "steps": 1110,
+    "frames": 4437,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed107308253__20260927T122847255Z",
+   "arm": "random__raw",
+   "seed": 107308253,
+   "expected": {
+    "score": 245.0,
+    "steps": 662,
+    "frames": 2645,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 245.0,
+    "steps": 662,
+    "frames": 2645,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1216503327__20260927T122913191Z",
+   "arm": "random__raw",
+   "seed": 1216503327,
+   "expected": {
+    "score": 345.0,
+    "steps": 806,
+    "frames": 3223,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 345.0,
+    "steps": 806,
+    "frames": 3223,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1250055990__20260927T122916195Z",
+   "arm": "random__raw",
+   "seed": 1250055990,
+   "expected": {
+    "score": 285.0,
+    "steps": 841,
+    "frames": 3361,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 285.0,
+    "steps": 841,
+    "frames": 3361,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1291410554__20260927T122919309Z",
+   "arm": "random__raw",
+   "seed": 1291410554,
+   "expected": {
+    "score": 80.0,
+    "steps": 351,
+    "frames": 1401,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 80.0,
+    "steps": 351,
+    "frames": 1401,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed139155140__20260927T122847397Z",
+   "arm": "random__raw",
+   "seed": 139155140,
+   "expected": {
+    "score": 60.0,
+    "steps": 291,
+    "frames": 1161,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 60.0,
+    "steps": 291,
+    "frames": 1161,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1487704192__20260927T122923697Z",
+   "arm": "random__raw",
+   "seed": 1487704192,
+   "expected": {
+    "score": 15.0,
+    "steps": 387,
+    "frames": 1547,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 15.0,
+    "steps": 387,
+    "frames": 1547,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1582982902__20260927T122926488Z",
+   "arm": "random__raw",
+   "seed": 1582982902,
+   "expected": {
+    "score": 120.0,
+    "steps": 533,
+    "frames": 2131,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 120.0,
+    "steps": 533,
+    "frames": 2131,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed166356852__20260927T122847454Z",
+   "arm": "random__raw",
+   "seed": 166356852,
+   "expected": {
+    "score": 80.0,
+    "steps": 419,
+    "frames": 1675,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 80.0,
+    "steps": 419,
+    "frames": 1675,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1790887077__20260927T122931165Z",
+   "arm": "random__raw",
+   "seed": 1790887077,
+   "expected": {
+    "score": 110.0,
+    "steps": 379,
+    "frames": 1515,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 110.0,
+    "steps": 379,
+    "frames": 1515,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1883335757__20260927T122933356Z",
+   "arm": "random__raw",
+   "seed": 1883335757,
+   "expected": {
+    "score": 30.0,
+    "steps": 304,
+    "frames": 1213,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 30.0,
+    "steps": 304,
+    "frames": 1213,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1930414069__20260927T122936319Z",
+   "arm": "random__raw",
+   "seed": 1930414069,
+   "expected": {
+    "score": 80.0,
+    "steps": 480,
+    "frames": 1917,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 80.0,
+    "steps": 480,
+    "frames": 1917,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1980977145__20260927T122937576Z",
+   "arm": "random__raw",
+   "seed": 1980977145,
+   "expected": {
+    "score": 315.0,
+    "steps": 751,
+    "frames": 3003,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 315.0,
+    "steps": 751,
+    "frames": 3003,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed21372655__20260927T122844984Z",
+   "arm": "random__raw",
+   "seed": 21372655,
+   "expected": {
+    "score": 190.0,
+    "steps": 594,
+    "frames": 2375,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 190.0,
+    "steps": 594,
+    "frames": 2375,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed280983971__20260927T122853318Z",
+   "arm": "random__raw",
+   "seed": 280983971,
+   "expected": {
+    "score": 155.0,
+    "steps": 467,
+    "frames": 1865,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 155.0,
+    "steps": 467,
+    "frames": 1865,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed344943544__20260927T122856216Z",
+   "arm": "random__raw",
+   "seed": 344943544,
+   "expected": {
+    "score": 130.0,
+    "steps": 606,
+    "frames": 2423,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 130.0,
+    "steps": 606,
+    "frames": 2423,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed413596586__20260927T122859639Z",
+   "arm": "random__raw",
+   "seed": 413596586,
+   "expected": {
+    "score": 155.0,
+    "steps": 504,
+    "frames": 2015,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 155.0,
+    "steps": 504,
+    "frames": 2015,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed5233857__20260927T122842912Z",
+   "arm": "random__raw",
+   "seed": 5233857,
+   "expected": {
+    "score": 160.0,
+    "steps": 586,
+    "frames": 2343,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 160.0,
+    "steps": 586,
+    "frames": 2343,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed70418170__20260927T122845265Z",
+   "arm": "random__raw",
+   "seed": 70418170,
+   "expected": {
+    "score": 180.0,
+    "steps": 470,
+    "frames": 1879,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 470,
+    "frames": 1879,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed835205016__20260927T122905781Z",
+   "arm": "random__raw",
+   "seed": 835205016,
+   "expected": {
+    "score": 110.0,
+    "steps": 507,
+    "frames": 2027,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 110.0,
+    "steps": 507,
+    "frames": 2027,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed938847985__20260927T122908086Z",
+   "arm": "random__raw",
+   "seed": 938847985,
+   "expected": {
+    "score": 160.0,
+    "steps": 484,
+    "frames": 1935,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 160.0,
+    "steps": 484,
+    "frames": 1935,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1083803849__20260927T122910998Z",
+   "arm": "control_sweep",
+   "seed": 1083803849,
+   "expected": {
+    "score": 145.0,
+    "steps": 550,
+    "frames": 2197,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 145.0,
+    "steps": 550,
+    "frames": 2197,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1218778028__20260927T122913911Z",
+   "arm": "control_sweep",
+   "seed": 1218778028,
+   "expected": {
+    "score": 355.0,
+    "steps": 646,
+    "frames": 2583,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 355.0,
+    "steps": 646,
+    "frames": 2583,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1260441371__20260927T122916557Z",
+   "arm": "control_sweep",
+   "seed": 1260441371,
+   "expected": {
+    "score": 185.0,
+    "steps": 526,
+    "frames": 2103,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 185.0,
+    "steps": 526,
+    "frames": 2103,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1298533602__20260927T122920216Z",
+   "arm": "control_sweep",
+   "seed": 1298533602,
+   "expected": {
+    "score": 290.0,
+    "steps": 730,
+    "frames": 2920,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 290.0,
+    "steps": 730,
+    "frames": 2920,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed14115873__20260927T122842910Z",
+   "arm": "control_sweep",
+   "seed": 14115873,
+   "expected": {
+    "score": 150.0,
+    "steps": 609,
+    "frames": 2433,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 150.0,
+    "steps": 609,
+    "frames": 2433,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1503321365__20260927T122924115Z",
+   "arm": "control_sweep",
+   "seed": 1503321365,
+   "expected": {
+    "score": 195.0,
+    "steps": 547,
+    "frames": 2185,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 195.0,
+    "steps": 547,
+    "frames": 2185,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1583805087__20260927T122926589Z",
+   "arm": "control_sweep",
+   "seed": 1583805087,
+   "expected": {
+    "score": 415.0,
+    "steps": 766,
+    "frames": 3063,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 415.0,
+    "steps": 766,
+    "frames": 3063,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1675518424__20260927T122929264Z",
+   "arm": "control_sweep",
+   "seed": 1675518424,
+   "expected": {
+    "score": 180.0,
+    "steps": 429,
+    "frames": 1713,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 429,
+    "frames": 1713,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed180355266__20260927T122847985Z",
+   "arm": "control_sweep",
+   "seed": 180355266,
+   "expected": {
+    "score": 445.0,
+    "steps": 705,
+    "frames": 2817,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 445.0,
+    "steps": 705,
+    "frames": 2817,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1895794344__20260927T122933582Z",
+   "arm": "control_sweep",
+   "seed": 1895794344,
+   "expected": {
+    "score": 625.0,
+    "steps": 803,
+    "frames": 3209,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 625.0,
+    "steps": 803,
+    "frames": 3209,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1938200514__20260927T122936467Z",
+   "arm": "control_sweep",
+   "seed": 1938200514,
+   "expected": {
+    "score": 325.0,
+    "steps": 783,
+    "frames": 3132,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 325.0,
+    "steps": 783,
+    "frames": 3132,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed2014102879__20260927T122937601Z",
+   "arm": "control_sweep",
+   "seed": 2014102879,
+   "expected": {
+    "score": 170.0,
+    "steps": 525,
+    "frames": 2099,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 170.0,
+    "steps": 525,
+    "frames": 2099,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed218844066__20260927T122850911Z",
+   "arm": "control_sweep",
+   "seed": 218844066,
+   "expected": {
+    "score": 170.0,
+    "steps": 478,
+    "frames": 1911,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 170.0,
+    "steps": 478,
+    "frames": 1911,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed282775332__20260927T122853571Z",
+   "arm": "control_sweep",
+   "seed": 282775332,
+   "expected": {
+    "score": 190.0,
+    "steps": 691,
+    "frames": 2763,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 190.0,
+    "steps": 691,
+    "frames": 2763,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed351029699__20260927T122856825Z",
+   "arm": "control_sweep",
+   "seed": 351029699,
+   "expected": {
+    "score": 180.0,
+    "steps": 614,
+    "frames": 2453,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 614,
+    "frames": 2453,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed443287632__20260927T122859641Z",
+   "arm": "control_sweep",
+   "seed": 443287632,
+   "expected": {
+    "score": 140.0,
+    "steps": 494,
+    "frames": 1975,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 140.0,
+    "steps": 494,
+    "frames": 1975,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed584375249__20260927T122901642Z",
+   "arm": "control_sweep",
+   "seed": 584375249,
+   "expected": {
+    "score": 110.0,
+    "steps": 474,
+    "frames": 1893,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 110.0,
+    "steps": 474,
+    "frames": 1893,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed725398968__20260927T122903676Z",
+   "arm": "control_sweep",
+   "seed": 725398968,
+   "expected": {
+    "score": 400.0,
+    "steps": 772,
+    "frames": 3085,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 400.0,
+    "steps": 772,
+    "frames": 3085,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed83724546__20260927T122845303Z",
+   "arm": "control_sweep",
+   "seed": 83724546,
+   "expected": {
+    "score": 480.0,
+    "steps": 614,
+    "frames": 2455,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 480.0,
+    "steps": 614,
+    "frames": 2455,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed942304956__20260927T122908338Z",
+   "arm": "control_sweep",
+   "seed": 942304956,
+   "expected": {
+    "score": 245.0,
+    "steps": 703,
+    "frames": 2811,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 245.0,
+    "steps": 703,
+    "frames": 2811,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/haiku_final/seed1953174__20260927T123504481Z",
+   "arm": "haiku_final",
+   "seed": 1953174,
+   "expected": {
+    "score": 445.0,
+    "steps": 829,
+    "frames": 3313,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 445.0,
+    "steps": 829,
+    "frames": 3313,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1083803849__20260927T123817422Z",
+   "arm": "jev_final",
+   "seed": 1083803849,
+   "expected": {
+    "score": 495.0,
+    "steps": 1293,
+    "frames": 5169,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 495.0,
+    "steps": 1293,
+    "frames": 5169,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1218778028__20260927T123957982Z",
+   "arm": "jev_final",
+   "seed": 1218778028,
+   "expected": {
+    "score": 835.0,
+    "steps": 1121,
+    "frames": 4481,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 835.0,
+    "steps": 1121,
+    "frames": 4481,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1260441371__20260927T123504078Z",
+   "arm": "jev_final",
+   "seed": 1260441371,
+   "expected": {
+    "score": 805.0,
+    "steps": 1522,
+    "frames": 6085,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 805.0,
+    "steps": 1522,
+    "frames": 6085,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1298533602__20260927T123504078Z",
+   "arm": "jev_final",
+   "seed": 1298533602,
+   "expected": {
+    "score": 1810.0,
+    "steps": 2513,
+    "frames": 10050,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 1810.0,
+    "steps": 2513,
+    "frames": 10050,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed14115873__20260927T123509510Z",
+   "arm": "jev_final",
+   "seed": 14115873,
+   "expected": {
+    "score": 1210.0,
+    "steps": 1498,
+    "frames": 5989,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 1210.0,
+    "steps": 1498,
+    "frames": 5989,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1503321365__20260927T123743867Z",
+   "arm": "jev_final",
+   "seed": 1503321365,
+   "expected": {
+    "score": 425.0,
+    "steps": 1242,
+    "frames": 4966,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 425.0,
+    "steps": 1242,
+    "frames": 4966,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1583805087__20260927T123929021Z",
+   "arm": "jev_final",
+   "seed": 1583805087,
+   "expected": {
+    "score": 1220.0,
+    "steps": 2426,
+    "frames": 9701,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 1220.0,
+    "steps": 2426,
+    "frames": 9701,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1675518424__20260927T124039391Z",
+   "arm": "jev_final",
+   "seed": 1675518424,
+   "expected": {
+    "score": 525.0,
+    "steps": 1189,
+    "frames": 4753,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 525.0,
+    "steps": 1189,
+    "frames": 4753,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed180355266__20260927T123510275Z",
+   "arm": "jev_final",
+   "seed": 180355266,
+   "expected": {
+    "score": 615.0,
+    "steps": 1455,
+    "frames": 5819,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 615.0,
+    "steps": 1455,
+    "frames": 5819,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1895794344__20260927T124257255Z",
+   "arm": "jev_final",
+   "seed": 1895794344,
+   "expected": {
+    "score": 705.0,
+    "steps": 1209,
+    "frames": 4833,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 705.0,
+    "steps": 1209,
+    "frames": 4833,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1938200514__20260927T124409007Z",
+   "arm": "jev_final",
+   "seed": 1938200514,
+   "expected": {
+    "score": 845.0,
+    "steps": 1158,
+    "frames": 4631,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 845.0,
+    "steps": 1158,
+    "frames": 4631,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed2014102879__20260927T124510421Z",
+   "arm": "jev_final",
+   "seed": 2014102879,
+   "expected": {
+    "score": 760.0,
+    "steps": 1163,
+    "frames": 4651,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 760.0,
+    "steps": 1163,
+    "frames": 4651,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed218844066__20260927T123510277Z",
+   "arm": "jev_final",
+   "seed": 218844066,
+   "expected": {
+    "score": 450.0,
+    "steps": 1179,
+    "frames": 4716,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 450.0,
+    "steps": 1179,
+    "frames": 4716,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed282775332__20260927T123510272Z",
+   "arm": "jev_final",
+   "seed": 282775332,
+   "expected": {
+    "score": 1240.0,
+    "steps": 2358,
+    "frames": 9432,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 1240.0,
+    "steps": 2358,
+    "frames": 9432,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed351029699__20260927T123510270Z",
+   "arm": "jev_final",
+   "seed": 351029699,
+   "expected": {
+    "score": 605.0,
+    "steps": 1571,
+    "frames": 6281,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 605.0,
+    "steps": 1571,
+    "frames": 6281,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed443287632__20260927T123727902Z",
+   "arm": "jev_final",
+   "seed": 443287632,
+   "expected": {
+    "score": 605.0,
+    "steps": 1471,
+    "frames": 5881,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 605.0,
+    "steps": 1471,
+    "frames": 5881,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed584375249__20260927T123728987Z",
+   "arm": "jev_final",
+   "seed": 584375249,
+   "expected": {
+    "score": 495.0,
+    "steps": 1181,
+    "frames": 4721,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 495.0,
+    "steps": 1181,
+    "frames": 4721,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed725398968__20260927T123736126Z",
+   "arm": "jev_final",
+   "seed": 725398968,
+   "expected": {
+    "score": 610.0,
+    "steps": 1389,
+    "frames": 5553,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 610.0,
+    "steps": 1389,
+    "frames": 5553,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed83724546__20260927T123508770Z",
+   "arm": "jev_final",
+   "seed": 83724546,
+   "expected": {
+    "score": 530.0,
+    "steps": 1233,
+    "frames": 4929,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 530.0,
+    "steps": 1233,
+    "frames": 4929,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed942304956__20260927T123742059Z",
+   "arm": "jev_final",
+   "seed": 942304956,
+   "expected": {
+    "score": 725.0,
+    "steps": 1190,
+    "frames": 4759,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 725.0,
+    "steps": 1190,
+    "frames": 4759,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1083803849__20260927T122911019Z",
+   "arm": "random__raw",
+   "seed": 1083803849,
+   "expected": {
+    "score": 135.0,
+    "steps": 509,
+    "frames": 2035,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 135.0,
+    "steps": 509,
+    "frames": 2035,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1218778028__20260927T122914043Z",
+   "arm": "random__raw",
+   "seed": 1218778028,
+   "expected": {
+    "score": 110.0,
+    "steps": 389,
+    "frames": 1553,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 110.0,
+    "steps": 389,
+    "frames": 1553,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1260441371__20260927T122917202Z",
+   "arm": "random__raw",
+   "seed": 1260441371,
+   "expected": {
+    "score": 35.0,
+    "steps": 275,
+    "frames": 1097,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 35.0,
+    "steps": 275,
+    "frames": 1097,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1298533602__20260927T122920302Z",
+   "arm": "random__raw",
+   "seed": 1298533602,
+   "expected": {
+    "score": 210.0,
+    "steps": 502,
+    "frames": 2007,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 210.0,
+    "steps": 502,
+    "frames": 2007,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed14115873__20260927T122842915Z",
+   "arm": "random__raw",
+   "seed": 14115873,
+   "expected": {
+    "score": 145.0,
+    "steps": 476,
+    "frames": 1901,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 145.0,
+    "steps": 476,
+    "frames": 1901,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1503321365__20260927T122924177Z",
+   "arm": "random__raw",
+   "seed": 1503321365,
+   "expected": {
+    "score": 320.0,
+    "steps": 853,
+    "frames": 3409,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 320.0,
+    "steps": 853,
+    "frames": 3409,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1583805087__20260927T122927181Z",
+   "arm": "random__raw",
+   "seed": 1583805087,
+   "expected": {
+    "score": 135.0,
+    "steps": 513,
+    "frames": 2049,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 135.0,
+    "steps": 513,
+    "frames": 2049,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1675518424__20260927T122929320Z",
+   "arm": "random__raw",
+   "seed": 1675518424,
+   "expected": {
+    "score": 45.0,
+    "steps": 318,
+    "frames": 1269,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 45.0,
+    "steps": 318,
+    "frames": 1269,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed180355266__20260927T122848201Z",
+   "arm": "random__raw",
+   "seed": 180355266,
+   "expected": {
+    "score": 215.0,
+    "steps": 742,
+    "frames": 2965,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 215.0,
+    "steps": 742,
+    "frames": 2965,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1895794344__20260927T122933632Z",
+   "arm": "random__raw",
+   "seed": 1895794344,
+   "expected": {
+    "score": 210.0,
+    "steps": 596,
+    "frames": 2383,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 210.0,
+    "steps": 596,
+    "frames": 2383,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1938200514__20260927T122937162Z",
+   "arm": "random__raw",
+   "seed": 1938200514,
+   "expected": {
+    "score": 135.0,
+    "steps": 480,
+    "frames": 1917,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 135.0,
+    "steps": 480,
+    "frames": 1917,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed2014102879__20260927T122937776Z",
+   "arm": "random__raw",
+   "seed": 2014102879,
+   "expected": {
+    "score": 135.0,
+    "steps": 474,
+    "frames": 1895,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 135.0,
+    "steps": 474,
+    "frames": 1895,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed218844066__20260927T122851679Z",
+   "arm": "random__raw",
+   "seed": 218844066,
+   "expected": {
+    "score": 65.0,
+    "steps": 396,
+    "frames": 1581,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 65.0,
+    "steps": 396,
+    "frames": 1581,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed282775332__20260927T122853581Z",
+   "arm": "random__raw",
+   "seed": 282775332,
+   "expected": {
+    "score": 80.0,
+    "steps": 302,
+    "frames": 1205,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 80.0,
+    "steps": 302,
+    "frames": 1205,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed351029699__20260927T122857064Z",
+   "arm": "random__raw",
+   "seed": 351029699,
+   "expected": {
+    "score": 150.0,
+    "steps": 631,
+    "frames": 2523,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 150.0,
+    "steps": 631,
+    "frames": 2523,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed443287632__20260927T122859883Z",
+   "arm": "random__raw",
+   "seed": 443287632,
+   "expected": {
+    "score": 45.0,
+    "steps": 323,
+    "frames": 1291,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 45.0,
+    "steps": 323,
+    "frames": 1291,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed584375249__20260927T122901710Z",
+   "arm": "random__raw",
+   "seed": 584375249,
+   "expected": {
+    "score": 75.0,
+    "steps": 380,
+    "frames": 1519,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 75.0,
+    "steps": 380,
+    "frames": 1519,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed725398968__20260927T122903767Z",
+   "arm": "random__raw",
+   "seed": 725398968,
+   "expected": {
+    "score": 60.0,
+    "steps": 330,
+    "frames": 1319,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 60.0,
+    "steps": 330,
+    "frames": 1319,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed83724546__20260927T122845367Z",
+   "arm": "random__raw",
+   "seed": 83724546,
+   "expected": {
+    "score": 155.0,
+    "steps": 484,
+    "frames": 1935,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 155.0,
+    "steps": 484,
+    "frames": 1935,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed942304956__20260927T122909312Z",
+   "arm": "random__raw",
+   "seed": 942304956,
+   "expected": {
+    "score": 65.0,
+    "steps": 320,
+    "frames": 1279,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 65.0,
+    "steps": 320,
+    "frames": 1279,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1089515849__20260927T122911207Z",
+   "arm": "control_sweep",
+   "seed": 1089515849,
+   "expected": {
+    "score": 330.0,
+    "steps": 806,
+    "frames": 3222,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 330.0,
+    "steps": 806,
+    "frames": 3222,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1231647613__20260927T122914128Z",
+   "arm": "control_sweep",
+   "seed": 1231647613,
+   "expected": {
+    "score": 310.0,
+    "steps": 714,
+    "frames": 2855,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 310.0,
+    "steps": 714,
+    "frames": 2855,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1262595341__20260927T122917486Z",
+   "arm": "control_sweep",
+   "seed": 1262595341,
+   "expected": {
+    "score": 310.0,
+    "steps": 776,
+    "frames": 3101,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 310.0,
+    "steps": 776,
+    "frames": 3101,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed13396033__20260927T122842912Z",
+   "arm": "control_sweep",
+   "seed": 13396033,
+   "expected": {
+    "score": 240.0,
+    "steps": 541,
+    "frames": 2163,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 240.0,
+    "steps": 541,
+    "frames": 2163,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1424102047__20260927T122921223Z",
+   "arm": "control_sweep",
+   "seed": 1424102047,
+   "expected": {
+    "score": 440.0,
+    "steps": 802,
+    "frames": 3205,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 440.0,
+    "steps": 802,
+    "frames": 3205,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1515148984__20260927T122924238Z",
+   "arm": "control_sweep",
+   "seed": 1515148984,
+   "expected": {
+    "score": 545.0,
+    "steps": 658,
+    "frames": 2630,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 545.0,
+    "steps": 658,
+    "frames": 2630,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1612799002__20260927T122927549Z",
+   "arm": "control_sweep",
+   "seed": 1612799002,
+   "expected": {
+    "score": 660.0,
+    "steps": 657,
+    "frames": 2625,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 660.0,
+    "steps": 657,
+    "frames": 2625,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1687518671__20260927T122929863Z",
+   "arm": "control_sweep",
+   "seed": 1687518671,
+   "expected": {
+    "score": 230.0,
+    "steps": 590,
+    "frames": 2359,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 230.0,
+    "steps": 590,
+    "frames": 2359,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1810929414__20260927T122932128Z",
+   "arm": "control_sweep",
+   "seed": 1810929414,
+   "expected": {
+    "score": 310.0,
+    "steps": 820,
+    "frames": 3280,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 310.0,
+    "steps": 820,
+    "frames": 3280,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1896500127__20260927T122934947Z",
+   "arm": "control_sweep",
+   "seed": 1896500127,
+   "expected": {
+    "score": 555.0,
+    "steps": 724,
+    "frames": 2893,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 555.0,
+    "steps": 724,
+    "frames": 2893,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1953174__20260927T122842911Z",
+   "arm": "control_sweep",
+   "seed": 1953174,
+   "expected": {
+    "score": 210.0,
+    "steps": 639,
+    "frames": 2553,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 210.0,
+    "steps": 639,
+    "frames": 2553,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed2064452733__20260927T122938554Z",
+   "arm": "control_sweep",
+   "seed": 2064452733,
+   "expected": {
+    "score": 495.0,
+    "steps": 794,
+    "frames": 3175,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 495.0,
+    "steps": 794,
+    "frames": 3175,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed239264757__20260927T122851688Z",
+   "arm": "control_sweep",
+   "seed": 239264757,
+   "expected": {
+    "score": 165.0,
+    "steps": 486,
+    "frames": 1941,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 165.0,
+    "steps": 486,
+    "frames": 1941,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed286810532__20260927T122854720Z",
+   "arm": "control_sweep",
+   "seed": 286810532,
+   "expected": {
+    "score": 395.0,
+    "steps": 668,
+    "frames": 2670,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 395.0,
+    "steps": 668,
+    "frames": 2670,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed354854693__20260927T122857307Z",
+   "arm": "control_sweep",
+   "seed": 354854693,
+   "expected": {
+    "score": 335.0,
+    "steps": 729,
+    "frames": 2913,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 335.0,
+    "steps": 729,
+    "frames": 2913,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed464025107__20260927T122900212Z",
+   "arm": "control_sweep",
+   "seed": 464025107,
+   "expected": {
+    "score": 145.0,
+    "steps": 489,
+    "frames": 1953,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 145.0,
+    "steps": 489,
+    "frames": 1953,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed625166847__20260927T122901736Z",
+   "arm": "control_sweep",
+   "seed": 625166847,
+   "expected": {
+    "score": 390.0,
+    "steps": 647,
+    "frames": 2587,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 390.0,
+    "steps": 647,
+    "frames": 2587,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed726458619__20260927T122903914Z",
+   "arm": "control_sweep",
+   "seed": 726458619,
+   "expected": {
+    "score": 515.0,
+    "steps": 694,
+    "frames": 2775,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 515.0,
+    "steps": 694,
+    "frames": 2775,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed856113664__20260927T122906344Z",
+   "arm": "control_sweep",
+   "seed": 856113664,
+   "expected": {
+    "score": 220.0,
+    "steps": 788,
+    "frames": 3149,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 220.0,
+    "steps": 788,
+    "frames": 3149,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed951742880__20260927T122909315Z",
+   "arm": "control_sweep",
+   "seed": 951742880,
+   "expected": {
+    "score": 560.0,
+    "steps": 729,
+    "frames": 2915,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 560.0,
+    "steps": 729,
+    "frames": 2915,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/haiku_final/seed21372655__20260927T123504481Z",
+   "arm": "haiku_final",
+   "seed": 21372655,
+   "expected": {
+    "score": 420.0,
+    "steps": 831,
+    "frames": 3323,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 420.0,
+    "steps": 831,
+    "frames": 3323,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1089515849__20260927T123757675Z",
+   "arm": "jev_final",
+   "seed": 1089515849,
+   "expected": {
+    "score": 620.0,
+    "steps": 1238,
+    "frames": 4949,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 620.0,
+    "steps": 1238,
+    "frames": 4949,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1231647613__20260927T123758649Z",
+   "arm": "jev_final",
+   "seed": 1231647613,
+   "expected": {
+    "score": 470.0,
+    "steps": 1201,
+    "frames": 4801,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 470.0,
+    "steps": 1201,
+    "frames": 4801,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1262595341__20260927T123504101Z",
+   "arm": "jev_final",
+   "seed": 1262595341,
+   "expected": {
+    "score": 715.0,
+    "steps": 1033,
+    "frames": 4129,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 715.0,
+    "steps": 1033,
+    "frames": 4129,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed13396033__20260927T123508775Z",
+   "arm": "jev_final",
+   "seed": 13396033,
+   "expected": {
+    "score": 440.0,
+    "steps": 1250,
+    "frames": 4997,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 440.0,
+    "steps": 1250,
+    "frames": 4997,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1424102047__20260927T123504086Z",
+   "arm": "jev_final",
+   "seed": 1424102047,
+   "expected": {
+    "score": 1050.0,
+    "steps": 2296,
+    "frames": 9183,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 1050.0,
+    "steps": 2296,
+    "frames": 9183,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1515148984__20260927T123744221Z",
+   "arm": "jev_final",
+   "seed": 1515148984,
+   "expected": {
+    "score": 1355.0,
+    "steps": 2514,
+    "frames": 10053,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 1355.0,
+    "steps": 2514,
+    "frames": 10053,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1612799002__20260927T123953116Z",
+   "arm": "jev_final",
+   "seed": 1612799002,
+   "expected": {
+    "score": 545.0,
+    "steps": 1176,
+    "frames": 4703,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 545.0,
+    "steps": 1176,
+    "frames": 4703,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1687518671__20260927T124102668Z",
+   "arm": "jev_final",
+   "seed": 1687518671,
+   "expected": {
+    "score": 635.0,
+    "steps": 1201,
+    "frames": 4801,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 635.0,
+    "steps": 1201,
+    "frames": 4801,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1810929414__20260927T124212913Z",
+   "arm": "jev_final",
+   "seed": 1810929414,
+   "expected": {
+    "score": 775.0,
+    "steps": 1382,
+    "frames": 5527,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 775.0,
+    "steps": 1382,
+    "frames": 5527,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1896500127__20260927T124317735Z",
+   "arm": "jev_final",
+   "seed": 1896500127,
+   "expected": {
+    "score": 600.0,
+    "steps": 1237,
+    "frames": 4948,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 600.0,
+    "steps": 1237,
+    "frames": 4948,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1953174__20260927T123508632Z",
+   "arm": "jev_final",
+   "seed": 1953174,
+   "expected": {
+    "score": 805.0,
+    "steps": 1436,
+    "frames": 5741,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 805.0,
+    "steps": 1436,
+    "frames": 5741,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed2064452733__20260927T124522846Z",
+   "arm": "jev_final",
+   "seed": 2064452733,
+   "expected": {
+    "score": 680.0,
+    "steps": 1169,
+    "frames": 4673,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 680.0,
+    "steps": 1169,
+    "frames": 4673,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed239264757__20260927T123508773Z",
+   "arm": "jev_final",
+   "seed": 239264757,
+   "expected": {
+    "score": 800.0,
+    "steps": 1451,
+    "frames": 5801,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 800.0,
+    "steps": 1451,
+    "frames": 5801,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed286810532__20260927T123508779Z",
+   "arm": "jev_final",
+   "seed": 286810532,
+   "expected": {
+    "score": 600.0,
+    "steps": 1437,
+    "frames": 5745,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 600.0,
+    "steps": 1437,
+    "frames": 5745,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed354854693__20260927T123508776Z",
+   "arm": "jev_final",
+   "seed": 354854693,
+   "expected": {
+    "score": 945.0,
+    "steps": 1241,
+    "frames": 4961,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 945.0,
+    "steps": 1241,
+    "frames": 4961,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed464025107__20260927T123723557Z",
+   "arm": "jev_final",
+   "seed": 464025107,
+   "expected": {
+    "score": 725.0,
+    "steps": 1061,
+    "frames": 4241,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 725.0,
+    "steps": 1061,
+    "frames": 4241,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed625166847__20260927T123739173Z",
+   "arm": "jev_final",
+   "seed": 625166847,
+   "expected": {
+    "score": 580.0,
+    "steps": 1160,
+    "frames": 4637,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 580.0,
+    "steps": 1160,
+    "frames": 4637,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed726458619__20260927T123734274Z",
+   "arm": "jev_final",
+   "seed": 726458619,
+   "expected": {
+    "score": 1130.0,
+    "steps": 2532,
+    "frames": 10127,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 1130.0,
+    "steps": 2532,
+    "frames": 10127,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed856113664__20260927T123738560Z",
+   "arm": "jev_final",
+   "seed": 856113664,
+   "expected": {
+    "score": 595.0,
+    "steps": 1304,
+    "frames": 5214,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 595.0,
+    "steps": 1304,
+    "frames": 5214,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed951742880__20260927T123806336Z",
+   "arm": "jev_final",
+   "seed": 951742880,
+   "expected": {
+    "score": 500.0,
+    "steps": 1389,
+    "frames": 5553,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 500.0,
+    "steps": 1389,
+    "frames": 5553,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1089515849__20260927T122911873Z",
+   "arm": "random__raw",
+   "seed": 1089515849,
+   "expected": {
+    "score": 280.0,
+    "steps": 497,
+    "frames": 1985,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 280.0,
+    "steps": 497,
+    "frames": 1985,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1231647613__20260927T122914867Z",
+   "arm": "random__raw",
+   "seed": 1231647613,
+   "expected": {
+    "score": 165.0,
+    "steps": 534,
+    "frames": 2133,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 165.0,
+    "steps": 534,
+    "frames": 2133,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1262595341__20260927T122917831Z",
+   "arm": "random__raw",
+   "seed": 1262595341,
+   "expected": {
+    "score": 370.0,
+    "steps": 670,
+    "frames": 2677,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 370.0,
+    "steps": 670,
+    "frames": 2677,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed13396033__20260927T122842910Z",
+   "arm": "random__raw",
+   "seed": 13396033,
+   "expected": {
+    "score": 100.0,
+    "steps": 333,
+    "frames": 1331,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 100.0,
+    "steps": 333,
+    "frames": 1331,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1424102047__20260927T122921588Z",
+   "arm": "random__raw",
+   "seed": 1424102047,
+   "expected": {
+    "score": 315.0,
+    "steps": 718,
+    "frames": 2869,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 315.0,
+    "steps": 718,
+    "frames": 2869,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1515148984__20260927T122924737Z",
+   "arm": "random__raw",
+   "seed": 1515148984,
+   "expected": {
+    "score": 65.0,
+    "steps": 412,
+    "frames": 1647,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 65.0,
+    "steps": 412,
+    "frames": 1647,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1612799002__20260927T122927708Z",
+   "arm": "random__raw",
+   "seed": 1612799002,
+   "expected": {
+    "score": 460.0,
+    "steps": 682,
+    "frames": 2727,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 460.0,
+    "steps": 682,
+    "frames": 2727,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1687518671__20260927T122930374Z",
+   "arm": "random__raw",
+   "seed": 1687518671,
+   "expected": {
+    "score": 415.0,
+    "steps": 702,
+    "frames": 2807,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 415.0,
+    "steps": 702,
+    "frames": 2807,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1810929414__20260927T122932507Z",
+   "arm": "random__raw",
+   "seed": 1810929414,
+   "expected": {
+    "score": 80.0,
+    "steps": 583,
+    "frames": 2331,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 80.0,
+    "steps": 583,
+    "frames": 2331,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1896500127__20260927T122934980Z",
+   "arm": "random__raw",
+   "seed": 1896500127,
+   "expected": {
+    "score": 60.0,
+    "steps": 280,
+    "frames": 1119,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 60.0,
+    "steps": 280,
+    "frames": 1119,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1953174__20260927T122842911Z",
+   "arm": "random__raw",
+   "seed": 1953174,
+   "expected": {
+    "score": 170.0,
+    "steps": 570,
+    "frames": 2277,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 170.0,
+    "steps": 570,
+    "frames": 2277,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed2064452733__20260927T122938577Z",
+   "arm": "random__raw",
+   "seed": 2064452733,
+   "expected": {
+    "score": 210.0,
+    "steps": 501,
+    "frames": 2001,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 210.0,
+    "steps": 501,
+    "frames": 2001,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed239264757__20260927T122851742Z",
+   "arm": "random__raw",
+   "seed": 239264757,
+   "expected": {
+    "score": 55.0,
+    "steps": 297,
+    "frames": 1185,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 55.0,
+    "steps": 297,
+    "frames": 1185,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed286810532__20260927T122854836Z",
+   "arm": "random__raw",
+   "seed": 286810532,
+   "expected": {
+    "score": 105.0,
+    "steps": 441,
+    "frames": 1761,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 105.0,
+    "steps": 441,
+    "frames": 1761,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed354854693__20260927T122857490Z",
+   "arm": "random__raw",
+   "seed": 354854693,
+   "expected": {
+    "score": 105.0,
+    "steps": 485,
+    "frames": 1939,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 105.0,
+    "steps": 485,
+    "frames": 1939,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed464025107__20260927T122900210Z",
+   "arm": "random__raw",
+   "seed": 464025107,
+   "expected": {
+    "score": 215.0,
+    "steps": 1076,
+    "frames": 4301,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 215.0,
+    "steps": 1076,
+    "frames": 4301,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed625166847__20260927T122901834Z",
+   "arm": "random__raw",
+   "seed": 625166847,
+   "expected": {
+    "score": 10.0,
+    "steps": 398,
+    "frames": 1589,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 10.0,
+    "steps": 398,
+    "frames": 1589,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed726458619__20260927T122904127Z",
+   "arm": "random__raw",
+   "seed": 726458619,
+   "expected": {
+    "score": 135.0,
+    "steps": 331,
+    "frames": 1321,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 135.0,
+    "steps": 331,
+    "frames": 1321,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed856113664__20260927T122906452Z",
+   "arm": "random__raw",
+   "seed": 856113664,
+   "expected": {
+    "score": 105.0,
+    "steps": 403,
+    "frames": 1609,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 105.0,
+    "steps": 403,
+    "frames": 1609,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed951742880__20260927T122909362Z",
+   "arm": "random__raw",
+   "seed": 951742880,
+   "expected": {
+    "score": 135.0,
+    "steps": 384,
+    "frames": 1533,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 135.0,
+    "steps": 384,
+    "frames": 1533,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1159609039__20260927T122912325Z",
+   "arm": "control_sweep",
+   "seed": 1159609039,
+   "expected": {
+    "score": 580.0,
+    "steps": 726,
+    "frames": 2901,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 580.0,
+    "steps": 726,
+    "frames": 2901,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1235345279__20260927T122915174Z",
+   "arm": "control_sweep",
+   "seed": 1235345279,
+   "expected": {
+    "score": 235.0,
+    "steps": 783,
+    "frames": 3131,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 235.0,
+    "steps": 783,
+    "frames": 3131,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1269325250__20260927T122918054Z",
+   "arm": "control_sweep",
+   "seed": 1269325250,
+   "expected": {
+    "score": 300.0,
+    "steps": 652,
+    "frames": 2605,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 300.0,
+    "steps": 652,
+    "frames": 2605,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1349517929__20260927T122920301Z",
+   "arm": "control_sweep",
+   "seed": 1349517929,
+   "expected": {
+    "score": 335.0,
+    "steps": 611,
+    "frames": 2441,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 335.0,
+    "steps": 611,
+    "frames": 2441,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1444932735__20260927T122922438Z",
+   "arm": "control_sweep",
+   "seed": 1444932735,
+   "expected": {
+    "score": 520.0,
+    "steps": 773,
+    "frames": 3089,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 520.0,
+    "steps": 773,
+    "frames": 3089,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1561341863__20260927T122925016Z",
+   "arm": "control_sweep",
+   "seed": 1561341863,
+   "expected": {
+    "score": 305.0,
+    "steps": 811,
+    "frames": 3241,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 305.0,
+    "steps": 811,
+    "frames": 3241,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1656396605__20260927T122927977Z",
+   "arm": "control_sweep",
+   "seed": 1656396605,
+   "expected": {
+    "score": 325.0,
+    "steps": 662,
+    "frames": 2645,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 325.0,
+    "steps": 662,
+    "frames": 2645,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1716274698__20260927T122930463Z",
+   "arm": "control_sweep",
+   "seed": 1716274698,
+   "expected": {
+    "score": 150.0,
+    "steps": 521,
+    "frames": 2083,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 150.0,
+    "steps": 521,
+    "frames": 2083,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1824117060__20260927T122932625Z",
+   "arm": "control_sweep",
+   "seed": 1824117060,
+   "expected": {
+    "score": 145.0,
+    "steps": 687,
+    "frames": 2747,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 145.0,
+    "steps": 687,
+    "frames": 2747,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed1905778775__20260927T122935095Z",
+   "arm": "control_sweep",
+   "seed": 1905778775,
+   "expected": {
+    "score": 225.0,
+    "steps": 690,
+    "frames": 2759,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 225.0,
+    "steps": 690,
+    "frames": 2759,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed196211320__20260927T122849360Z",
+   "arm": "control_sweep",
+   "seed": 196211320,
+   "expected": {
+    "score": 320.0,
+    "steps": 701,
+    "frames": 2802,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 320.0,
+    "steps": 701,
+    "frames": 2802,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed206676257__20260927T122850429Z",
+   "arm": "control_sweep",
+   "seed": 206676257,
+   "expected": {
+    "score": 475.0,
+    "steps": 768,
+    "frames": 3069,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 475.0,
+    "steps": 768,
+    "frames": 3069,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed248691201__20260927T122852308Z",
+   "arm": "control_sweep",
+   "seed": 248691201,
+   "expected": {
+    "score": 380.0,
+    "steps": 724,
+    "frames": 2893,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 380.0,
+    "steps": 724,
+    "frames": 2893,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed322608597__20260927T122854975Z",
+   "arm": "control_sweep",
+   "seed": 322608597,
+   "expected": {
+    "score": 320.0,
+    "steps": 661,
+    "frames": 2643,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 320.0,
+    "steps": 661,
+    "frames": 2643,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed357254604__20260927T122857528Z",
+   "arm": "control_sweep",
+   "seed": 357254604,
+   "expected": {
+    "score": 490.0,
+    "steps": 751,
+    "frames": 3003,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 490.0,
+    "steps": 751,
+    "frames": 3003,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed478211246__20260927T122900500Z",
+   "arm": "control_sweep",
+   "seed": 478211246,
+   "expected": {
+    "score": 530.0,
+    "steps": 813,
+    "frames": 3249,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 530.0,
+    "steps": 813,
+    "frames": 3249,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed646833172__20260927T122902227Z",
+   "arm": "control_sweep",
+   "seed": 646833172,
+   "expected": {
+    "score": 260.0,
+    "steps": 682,
+    "frames": 2725,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 260.0,
+    "steps": 682,
+    "frames": 2725,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed760792379__20260927T122904642Z",
+   "arm": "control_sweep",
+   "seed": 760792379,
+   "expected": {
+    "score": 370.0,
+    "steps": 679,
+    "frames": 2715,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 370.0,
+    "steps": 679,
+    "frames": 2715,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed868822638__20260927T122906975Z",
+   "arm": "control_sweep",
+   "seed": 868822638,
+   "expected": {
+    "score": 320.0,
+    "steps": 660,
+    "frames": 2639,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 320.0,
+    "steps": 660,
+    "frames": 2639,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/control_sweep/seed967211883__20260927T122909905Z",
+   "arm": "control_sweep",
+   "seed": 967211883,
+   "expected": {
+    "score": 285.0,
+    "steps": 678,
+    "frames": 2709,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 285.0,
+    "steps": 678,
+    "frames": 2709,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/haiku_final/seed5233857__20260927T123504459Z",
+   "arm": "haiku_final",
+   "seed": 5233857,
+   "expected": {
+    "score": 435.0,
+    "steps": 612,
+    "frames": 2447,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 435.0,
+    "steps": 612,
+    "frames": 2447,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1159609039__20260927T123827207Z",
+   "arm": "jev_final",
+   "seed": 1159609039,
+   "expected": {
+    "score": 455.0,
+    "steps": 1282,
+    "frames": 5126,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 455.0,
+    "steps": 1282,
+    "frames": 5126,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1235345279__20260927T123937020Z",
+   "arm": "jev_final",
+   "seed": 1235345279,
+   "expected": {
+    "score": 715.0,
+    "steps": 1121,
+    "frames": 4481,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 715.0,
+    "steps": 1121,
+    "frames": 4481,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1269325250__20260927T123504064Z",
+   "arm": "jev_final",
+   "seed": 1269325250,
+   "expected": {
+    "score": 560.0,
+    "steps": 1277,
+    "frames": 5107,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 560.0,
+    "steps": 1277,
+    "frames": 5107,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1349517929__20260927T123504101Z",
+   "arm": "jev_final",
+   "seed": 1349517929,
+   "expected": {
+    "score": 1005.0,
+    "steps": 1291,
+    "frames": 5161,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 1005.0,
+    "steps": 1291,
+    "frames": 5161,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1444932735__20260927T123714497Z",
+   "arm": "jev_final",
+   "seed": 1444932735,
+   "expected": {
+    "score": 775.0,
+    "steps": 1798,
+    "frames": 7189,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 775.0,
+    "steps": 1798,
+    "frames": 7189,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1561341863__20260927T123816201Z",
+   "arm": "jev_final",
+   "seed": 1561341863,
+   "expected": {
+    "score": 580.0,
+    "steps": 1384,
+    "frames": 5534,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 580.0,
+    "steps": 1384,
+    "frames": 5534,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1656396605__20260927T124018884Z",
+   "arm": "jev_final",
+   "seed": 1656396605,
+   "expected": {
+    "score": 985.0,
+    "steps": 1571,
+    "frames": 6281,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 985.0,
+    "steps": 1571,
+    "frames": 6281,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1716274698__20260927T124102917Z",
+   "arm": "jev_final",
+   "seed": 1716274698,
+   "expected": {
+    "score": 1005.0,
+    "steps": 1433,
+    "frames": 5731,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 1005.0,
+    "steps": 1433,
+    "frames": 5731,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1824117060__20260927T124243999Z",
+   "arm": "jev_final",
+   "seed": 1824117060,
+   "expected": {
+    "score": 605.0,
+    "steps": 1442,
+    "frames": 5767,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 605.0,
+    "steps": 1442,
+    "frames": 5767,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed1905778775__20260927T124320102Z",
+   "arm": "jev_final",
+   "seed": 1905778775,
+   "expected": {
+    "score": 605.0,
+    "steps": 1479,
+    "frames": 5913,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 605.0,
+    "steps": 1479,
+    "frames": 5913,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed196211320__20260927T123509603Z",
+   "arm": "jev_final",
+   "seed": 196211320,
+   "expected": {
+    "score": 450.0,
+    "steps": 1248,
+    "frames": 4991,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 450.0,
+    "steps": 1248,
+    "frames": 4991,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed206676257__20260927T123508560Z",
+   "arm": "jev_final",
+   "seed": 206676257,
+   "expected": {
+    "score": 540.0,
+    "steps": 1149,
+    "frames": 4593,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 540.0,
+    "steps": 1149,
+    "frames": 4593,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed248691201__20260927T123509601Z",
+   "arm": "jev_final",
+   "seed": 248691201,
+   "expected": {
+    "score": 520.0,
+    "steps": 1153,
+    "frames": 4609,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 520.0,
+    "steps": 1153,
+    "frames": 4609,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed322608597__20260927T123509600Z",
+   "arm": "jev_final",
+   "seed": 322608597,
+   "expected": {
+    "score": 330.0,
+    "steps": 1190,
+    "frames": 4759,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 330.0,
+    "steps": 1190,
+    "frames": 4759,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed357254604__20260927T123509570Z",
+   "arm": "jev_final",
+   "seed": 357254604,
+   "expected": {
+    "score": 605.0,
+    "steps": 1671,
+    "frames": 6683,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 605.0,
+    "steps": 1671,
+    "frames": 6683,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed478211246__20260927T123726821Z",
+   "arm": "jev_final",
+   "seed": 478211246,
+   "expected": {
+    "score": 340.0,
+    "steps": 1057,
+    "frames": 4225,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 340.0,
+    "steps": 1057,
+    "frames": 4225,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed646833172__20260927T123734157Z",
+   "arm": "jev_final",
+   "seed": 646833172,
+   "expected": {
+    "score": 640.0,
+    "steps": 1245,
+    "frames": 4979,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 640.0,
+    "steps": 1245,
+    "frames": 4979,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed760792379__20260927T123741403Z",
+   "arm": "jev_final",
+   "seed": 760792379,
+   "expected": {
+    "score": 1250.0,
+    "steps": 2293,
+    "frames": 9171,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 1250.0,
+    "steps": 2293,
+    "frames": 9171,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed868822638__20260927T123736342Z",
+   "arm": "jev_final",
+   "seed": 868822638,
+   "expected": {
+    "score": 805.0,
+    "steps": 1245,
+    "frames": 4978,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 805.0,
+    "steps": 1245,
+    "frames": 4978,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/jev_final/seed967211883__20260927T123743265Z",
+   "arm": "jev_final",
+   "seed": 967211883,
+   "expected": {
+    "score": 605.0,
+    "steps": 1336,
+    "frames": 5341,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 605.0,
+    "steps": 1336,
+    "frames": 5341,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1159609039__20260927T122912342Z",
+   "arm": "random__raw",
+   "seed": 1159609039,
+   "expected": {
+    "score": 155.0,
+    "steps": 716,
+    "frames": 2861,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 155.0,
+    "steps": 716,
+    "frames": 2861,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1235345279__20260927T122915293Z",
+   "arm": "random__raw",
+   "seed": 1235345279,
+   "expected": {
+    "score": 105.0,
+    "steps": 478,
+    "frames": 1909,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 105.0,
+    "steps": 478,
+    "frames": 1909,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1269325250__20260927T122918252Z",
+   "arm": "random__raw",
+   "seed": 1269325250,
+   "expected": {
+    "score": 415.0,
+    "steps": 934,
+    "frames": 3733,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 415.0,
+    "steps": 934,
+    "frames": 3733,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1349517929__20260927T122920690Z",
+   "arm": "random__raw",
+   "seed": 1349517929,
+   "expected": {
+    "score": 210.0,
+    "steps": 489,
+    "frames": 1953,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 210.0,
+    "steps": 489,
+    "frames": 1953,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1444932735__20260927T122922545Z",
+   "arm": "random__raw",
+   "seed": 1444932735,
+   "expected": {
+    "score": 60.0,
+    "steps": 344,
+    "frames": 1373,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 60.0,
+    "steps": 344,
+    "frames": 1373,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1561341863__20260927T122925227Z",
+   "arm": "random__raw",
+   "seed": 1561341863,
+   "expected": {
+    "score": 180.0,
+    "steps": 587,
+    "frames": 2347,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 587,
+    "frames": 2347,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1656396605__20260927T122928305Z",
+   "arm": "random__raw",
+   "seed": 1656396605,
+   "expected": {
+    "score": 110.0,
+    "steps": 499,
+    "frames": 1993,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 110.0,
+    "steps": 499,
+    "frames": 1993,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1716274698__20260927T122930513Z",
+   "arm": "random__raw",
+   "seed": 1716274698,
+   "expected": {
+    "score": 80.0,
+    "steps": 424,
+    "frames": 1693,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 80.0,
+    "steps": 424,
+    "frames": 1693,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1824117060__20260927T122933022Z",
+   "arm": "random__raw",
+   "seed": 1824117060,
+   "expected": {
+    "score": 155.0,
+    "steps": 417,
+    "frames": 1665,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 155.0,
+    "steps": 417,
+    "frames": 1665,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed1905778775__20260927T122935150Z",
+   "arm": "random__raw",
+   "seed": 1905778775,
+   "expected": {
+    "score": 210.0,
+    "steps": 599,
+    "frames": 2395,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 210.0,
+    "steps": 599,
+    "frames": 2395,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed196211320__20260927T122849683Z",
+   "arm": "random__raw",
+   "seed": 196211320,
+   "expected": {
+    "score": 135.0,
+    "steps": 490,
+    "frames": 1957,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 135.0,
+    "steps": 490,
+    "frames": 1957,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed206676257__20260927T122850903Z",
+   "arm": "random__raw",
+   "seed": 206676257,
+   "expected": {
+    "score": 105.0,
+    "steps": 458,
+    "frames": 1829,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 105.0,
+    "steps": 458,
+    "frames": 1829,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed248691201__20260927T122852335Z",
+   "arm": "random__raw",
+   "seed": 248691201,
+   "expected": {
+    "score": 335.0,
+    "steps": 798,
+    "frames": 3189,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 335.0,
+    "steps": 798,
+    "frames": 3189,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed322608597__20260927T122855114Z",
+   "arm": "random__raw",
+   "seed": 322608597,
+   "expected": {
+    "score": 205.0,
+    "steps": 580,
+    "frames": 2319,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 205.0,
+    "steps": 580,
+    "frames": 2319,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed357254604__20260927T122858063Z",
+   "arm": "random__raw",
+   "seed": 357254604,
+   "expected": {
+    "score": 135.0,
+    "steps": 498,
+    "frames": 1989,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 135.0,
+    "steps": 498,
+    "frames": 1989,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed478211246__20260927T122900752Z",
+   "arm": "random__raw",
+   "seed": 478211246,
+   "expected": {
+    "score": 110.0,
+    "steps": 461,
+    "frames": 1841,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 110.0,
+    "steps": 461,
+    "frames": 1841,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed646833172__20260927T122902877Z",
+   "arm": "random__raw",
+   "seed": 646833172,
+   "expected": {
+    "score": 80.0,
+    "steps": 458,
+    "frames": 1829,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 80.0,
+    "steps": 458,
+    "frames": 1829,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed760792379__20260927T122904932Z",
+   "arm": "random__raw",
+   "seed": 760792379,
+   "expected": {
+    "score": 55.0,
+    "steps": 455,
+    "frames": 1817,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 55.0,
+    "steps": 455,
+    "frames": 1817,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed868822638__20260927T122907089Z",
+   "arm": "random__raw",
+   "seed": 868822638,
+   "expected": {
+    "score": 145.0,
+    "steps": 497,
+    "frames": 1985,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 145.0,
+    "steps": 497,
+    "frames": 1985,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "exp008_holdout/random__raw/seed967211883__20260927T122910157Z",
+   "arm": "random__raw",
+   "seed": 967211883,
+   "expected": {
+    "score": 80.0,
+    "steps": 481,
+    "frames": 1923,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 80.0,
+    "steps": 481,
+    "frames": 1923,
+    "lives_lost": 3
+   }
+  }
+ ]
+}

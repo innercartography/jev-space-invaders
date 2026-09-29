@@ -1,0 +1,48 @@
+name: Tenki replay check
+
+# Re-derive every game in results.json from its seed and action log in fresh Tenki sandboxes
+# (no model and no model key involved), then check results.json against the replays and post the score.
+# Needs one repository secret, TENKI_API_KEY. Without it (e.g. on forks) the same replay runs on this runner.
+# Cost control: runs on manual dispatch, or on a push to main that changes the results, replays or game code.
+# One run is about 305 games on 5 sandboxes (~$0.01). Overlapping runs are cancelled.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - results.json
+      - replays/**
+      - ufa/**
+      - requirements.txt
+      - .github/workflows/tenki-replay.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tenki-replay
+  cancel-in-progress: true
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TENKI_API_KEY: ${{ secrets.TENKI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Replay in Tenki sandboxes
+        if: ${{ env.TENKI_API_KEY != '' }}
+        run: |
+          python -m ufa.tenki.verify --replays replays/holdout.json --shards 5 --out ci_out
+          cp "$(ls -t ci_out/verify_*.json | head -1)" verify_report.json
+      - name: Replay on this runner (no Tenki key)
+        if: ${{ env.TENKI_API_KEY == '' }}
+        run: python -m ufa.verify_replay check replays/holdout.json --out verify_report.json
+      - name: Check results.json against the replays
+        run: python -m ufa.ci_check --results results.json --replays replays/holdout.json --report verify_report.json | tee -a "$GITHUB_STEP_SUMMARY"

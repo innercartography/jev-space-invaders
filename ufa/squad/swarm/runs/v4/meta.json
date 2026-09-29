@@ -1,0 +1,2251 @@
+{
+ "run": "v4",
+ "conds": [
+  "D",
+  "E"
+ ],
+ "trials": 10,
+ "first_trial": 500,
+ "W": 4,
+ "R": 15,
+ "L": 5,
+ "commit": "8175db5",
+ "validation_seeds": "7000:7040,7000:7040",
+ "landscape_truth_from": {
+  "0": {
+   "name": "A",
+   "regime": {
+    "mode": 0,
+    "difficulty": 0
+   },
+   "file": "ufa/squad/swarm/landscape/A.json",
+   "sha256": "8927fd87dc0f3d58",
+   "best": 672.625
+  },
+  "1": {
+   "name": "B",
+   "regime": {
+    "mode": 1,
+    "difficulty": 0
+   },
+   "file": "ufa/squad/swarm/landscape/B.json",
+   "sha256": "7db4e6d309bfa030",
+   "best": 484.125
+  }
+ },
+ "wall_s": 1968.6,
+ "errors": [],
+ "coordinator": {
+  "python": "3.12.3",
+  "host": "ufa-swarm-v-coordinator",
+  "env_names_seen": [
+   "MITOSIS_API_KEY",
+   "MITOSIS_OFFICE_ID",
+   "TENKI_API_KEY",
+   "TYPESAFE_API_KEY"
+  ]
+ },
+ "cortex_calls": 657,
+ "cortex_http_errors": 0,
+ "tenki": {
+  "worker_sandboxes_created": 30,
+  "generations_per_slot": {
+   "0": 6,
+   "1": 8,
+   "2": 8,
+   "3": 8
+  },
+  "planned_replacements": 26,
+  "games": 2400,
+  "retries": 1,
+  "failures": [
+   {
+    "slot": 3,
+    "sandbox_id": "01a0eac5-f7b4-78e6-90b2-de8d4dba4beb",
+    "attempt": 1,
+    "stage": [
+     1,
+     11
+    ],
+    "error": "SandboxError: Stream removed (RST_STREAM (Received RST_STREAM with error code 2))"
+   }
+  ],
+  "worker_cost_usd_estimate": 0.288307,
+  "events": [
+   {
+    "t": 6.2,
+    "event": "replaced",
+    "phase": 1,
+    "round": 0,
+    "slots": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "why": "first population",
+    "sandboxes": [
+     "01a0eabe-e995-7666-88a0-fee2e8c12681",
+     "01a0eabe-e996-7e11-a81e-5f66f93b9343",
+     "01a0eabe-e9a3-72d7-b9a3-d230ecb35000",
+     "01a0eabe-e995-796d-9c6f-e25aa82809da"
+    ]
+   },
+   {
+    "t": 144.0,
+    "event": "replaced",
+    "phase": 1,
+    "round": 2,
+    "slots": [
+     3
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0eac1-02e1-786d-9950-ef05834ad811"
+    ]
+   },
+   {
+    "t": 214.0,
+    "event": "replaced",
+    "phase": 1,
+    "round": 3,
+    "slots": [
+     2
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0eac2-157c-7d04-97fe-89aec930449f"
+    ]
+   },
+   {
+    "t": 274.9,
+    "event": "replaced",
+    "phase": 1,
+    "round": 4,
+    "slots": [
+     1
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0eac3-04c3-7472-8505-72c85f652c05"
+    ]
+   },
+   {
+    "t": 337.8,
+    "event": "replaced",
+    "phase": 1,
+    "round": 5,
+    "slots": [
+     0
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0eac3-f96b-78f6-9f5b-8b20a3400e6d"
+    ]
+   },
+   {
+    "t": 468.5,
+    "event": "replaced",
+    "phase": 1,
+    "round": 7,
+    "slots": [
+     3
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0eac5-f7b4-78e6-90b2-de8d4dba4beb"
+    ]
+   },
+   {
+    "t": 537.5,
+    "event": "replaced",
+    "phase": 1,
+    "round": 8,
+    "slots": [
+     2
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0eac7-050b-7151-b968-e100e5a7c0ea"
+    ]
+   },
+   {
+    "t": 602.8,
+    "event": "replaced",
+    "phase": 1,
+    "round": 9,
+    "slots": [
+     1
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0eac8-04a6-78c8-bd43-3585af2618b4"
+    ]
+   },
+   {
+    "t": 671.1,
+    "event": "replaced",
+    "phase": 1,
+    "round": 10,
+    "slots": [
+     0
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0eac9-0ed8-7eb4-8778-767e520508b1"
+    ]
+   },
+   {
+    "t": 805.1,
+    "event": "replaced",
+    "phase": 1,
+    "round": 12,
+    "slots": [
+     3
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0eacb-19b9-7761-86c1-3fef8a03ccbf"
+    ]
+   },
+   {
+    "t": 878.2,
+    "event": "replaced",
+    "phase": 1,
+    "round": 13,
+    "slots": [
+     2
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0eacc-380d-7a80-9732-c5db8409257f"
+    ]
+   },
+   {
+    "t": 944.3,
+    "event": "replaced",
+    "phase": 1,
+    "round": 14,
+    "slots": [
+     1
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0eacd-3a82-7b8f-8fcc-ca97b7968d73"
+    ]
+   },
+   {
+    "t": 1011.0,
+    "event": "replaced",
+    "phase": 2,
+    "round": 0,
+    "slots": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "why": "game changed: whole population replaced",
+    "sandboxes": [
+     "01a0eace-3c31-7850-9599-6c5c3d1b65fa",
+     "01a0eace-3c31-7851-a112-807bfd3ea317",
+     "01a0eace-3cdc-7b95-bede-1bd18f86f966",
+     "01a0eace-3cdc-7b94-baff-72539fb8059b"
+    ]
+   },
+   {
+    "t": 1134.3,
+    "event": "replaced",
+    "phase": 2,
+    "round": 2,
+    "slots": [
+     3
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0ead0-20cd-7eed-b546-8cf89bd9e309"
+    ]
+   },
+   {
+    "t": 1200.7,
+    "event": "replaced",
+    "phase": 2,
+    "round": 3,
+    "slots": [
+     2
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0ead1-237b-75ec-ae48-4472692ab403"
+    ]
+   },
+   {
+    "t": 1267.5,
+    "event": "replaced",
+    "phase": 2,
+    "round": 4,
+    "slots": [
+     1
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0ead2-28c6-720d-bfef-e1a9d696c0c3"
+    ]
+   },
+   {
+    "t": 1331.5,
+    "event": "replaced",
+    "phase": 2,
+    "round": 5,
+    "slots": [
+     0
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0ead3-1f5a-79b4-b640-dd43c5483376"
+    ]
+   },
+   {
+    "t": 1455.8,
+    "event": "replaced",
+    "phase": 2,
+    "round": 7,
+    "slots": [
+     3
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0ead5-0a36-7380-a8f7-0bc9ad8d1a27"
+    ]
+   },
+   {
+    "t": 1519.9,
+    "event": "replaced",
+    "phase": 2,
+    "round": 8,
+    "slots": [
+     2
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0ead6-041f-7969-8818-54b7ed0f7503"
+    ]
+   },
+   {
+    "t": 1586.2,
+    "event": "replaced",
+    "phase": 2,
+    "round": 9,
+    "slots": [
+     1
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0ead7-06dd-77b7-85fa-7a4fbba477df"
+    ]
+   },
+   {
+    "t": 1654.3,
+    "event": "replaced",
+    "phase": 2,
+    "round": 10,
+    "slots": [
+     0
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0ead8-0e66-7b4a-92c6-52f48cc56093"
+    ]
+   },
+   {
+    "t": 1781.8,
+    "event": "replaced",
+    "phase": 2,
+    "round": 12,
+    "slots": [
+     3
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0eada-0395-7895-ae8b-65bb0c4c13fa"
+    ]
+   },
+   {
+    "t": 1844.8,
+    "event": "replaced",
+    "phase": 2,
+    "round": 13,
+    "slots": [
+     2
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0eada-f66a-7807-956f-d2294fbe8dbe"
+    ]
+   },
+   {
+    "t": 1906.6,
+    "event": "replaced",
+    "phase": 2,
+    "round": 14,
+    "slots": [
+     1
+    ],
+    "why": "lifetime over",
+    "sandboxes": [
+     "01a0eadb-ea2f-7c5d-b4e7-578812e24c21"
+    ]
+   }
+  ],
+  "workers": [
+   {
+    "slot": 2,
+    "generation": 1,
+    "born": [
+     1,
+     0
+    ],
+    "why": "first population",
+    "games": 60,
+    "jobs_ok": 3,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.59,
+     "setup": 2.17
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eabe-e9a3-72d7-b9a3-d230ecb35000",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     47.3,
+     50.5,
+     50.1
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     1,
+     3
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 205.3,
+    "cost_usd_estimate": 0.007596
+   },
+   {
+    "slot": 1,
+    "generation": 1,
+    "born": [
+     1,
+     0
+    ],
+    "why": "first population",
+    "games": 80,
+    "jobs_ok": 4,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.57,
+     "setup": 2.24
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eabe-e996-7e11-a81e-5f66f93b9343",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     59.1,
+     64.0,
+     62.9,
+     49.1
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     1,
+     4
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 266.5,
+    "cost_usd_estimate": 0.00986
+   },
+   {
+    "slot": 3,
+    "generation": 1,
+    "born": [
+     1,
+     0
+    ],
+    "why": "first population",
+    "games": 40,
+    "jobs_ok": 2,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.61,
+     "setup": 2.42
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eabe-e995-796d-9c6f-e25aa82809da",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     54.6,
+     50.7
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     1,
+     2
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 135.0,
+    "cost_usd_estimate": 0.004995
+   },
+   {
+    "slot": 0,
+    "generation": 1,
+    "born": [
+     1,
+     0
+    ],
+    "why": "first population",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.61,
+     "setup": 2.49
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eabe-e995-7666-88a0-fee2e8c12681",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     63.9,
+     48.9,
+     45.9,
+     54.2,
+     49.6
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     1,
+     5
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 329.1,
+    "cost_usd_estimate": 0.012177
+   },
+   {
+    "slot": 3,
+    "generation": 2,
+    "born": [
+     1,
+     2
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.37,
+     "setup": 2.89
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eac1-02e1-786d-9950-ef05834ad811",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     53.3,
+     49.4,
+     53.1,
+     64.4,
+     56.7
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     1,
+     7
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 322.3,
+    "cost_usd_estimate": 0.011925
+   },
+   {
+    "slot": 2,
+    "generation": 2,
+    "born": [
+     1,
+     3
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.47,
+     "setup": 2.58
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eac2-157c-7d04-97fe-89aec930449f",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     50.6,
+     50.1,
+     49.3,
+     53.4,
+     61.1
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     1,
+     8
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 320.8,
+    "cost_usd_estimate": 0.01187
+   },
+   {
+    "slot": 1,
+    "generation": 2,
+    "born": [
+     1,
+     4
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.33,
+     "setup": 2.38
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eac3-04c3-7472-8505-72c85f652c05",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     55.5,
+     54.7,
+     54.2,
+     54.4,
+     45.3
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     1,
+     9
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 324.7,
+    "cost_usd_estimate": 0.012014
+   },
+   {
+    "slot": 0,
+    "generation": 2,
+    "born": [
+     1,
+     5
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.45,
+     "setup": 2.55
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eac3-f96b-78f6-9f5b-8b20a3400e6d",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     55.7,
+     49.7,
+     49.7,
+     56.6,
+     53.0
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     1,
+     10
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 330.7,
+    "cost_usd_estimate": 0.012236
+   },
+   {
+    "slot": 3,
+    "generation": 3,
+    "born": [
+     1,
+     7
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.46,
+     "setup": 2.63
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eac5-f7b4-78e6-90b2-de8d4dba4beb",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     50.4,
+     57.6,
+     57.4,
+     57.3,
+     66.5
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     1,
+     12
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 333.9,
+    "cost_usd_estimate": 0.012354
+   },
+   {
+    "slot": 2,
+    "generation": 3,
+    "born": [
+     1,
+     8
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.47,
+     "setup": 2.74
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eac7-050b-7151-b968-e100e5a7c0ea",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     57.5,
+     61.3,
+     53.2,
+     59.2,
+     54.5
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     1,
+     13
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 338.4,
+    "cost_usd_estimate": 0.012521
+   },
+   {
+    "slot": 1,
+    "generation": 3,
+    "born": [
+     1,
+     9
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.94,
+     "setup": 2.56
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eac8-04a6-78c8-bd43-3585af2618b4",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     50.2,
+     49.9,
+     57.0,
+     60.5,
+     58.9
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     1,
+     14
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 339.0,
+    "cost_usd_estimate": 0.012543
+   },
+   {
+    "slot": 0,
+    "generation": 3,
+    "born": [
+     1,
+     10
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.37,
+     "setup": 2.67
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eac9-0ed8-7eb4-8778-767e520508b1",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     46.5,
+     50.2,
+     53.2,
+     53.1,
+     54.0
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     0
+    ],
+    "retire_why": "game changed: whole population replaced",
+    "alive_s": 336.6,
+    "cost_usd_estimate": 0.012454
+   },
+   {
+    "slot": 3,
+    "generation": 4,
+    "born": [
+     1,
+     12
+    ],
+    "why": "lifetime over",
+    "games": 60,
+    "jobs_ok": 3,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.33,
+     "setup": 2.89
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eacb-19b9-7761-86c1-3fef8a03ccbf",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     65.8,
+     57.8,
+     57.7
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     0
+    ],
+    "retire_why": "game changed: whole population replaced",
+    "alive_s": 203.0,
+    "cost_usd_estimate": 0.007511
+   },
+   {
+    "slot": 2,
+    "generation": 4,
+    "born": [
+     1,
+     13
+    ],
+    "why": "lifetime over",
+    "games": 40,
+    "jobs_ok": 2,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.34,
+     "setup": 2.66
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eacc-380d-7a80-9732-c5db8409257f",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     55.5,
+     58.1
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     0
+    ],
+    "retire_why": "game changed: whole population replaced",
+    "alive_s": 129.6,
+    "cost_usd_estimate": 0.004795
+   },
+   {
+    "slot": 1,
+    "generation": 4,
+    "born": [
+     1,
+     14
+    ],
+    "why": "lifetime over",
+    "games": 20,
+    "jobs_ok": 1,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.38,
+     "setup": 2.68
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eacd-3a82-7b8f-8fcc-ca97b7968d73",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     58.6
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     0
+    ],
+    "retire_why": "game changed: whole population replaced",
+    "alive_s": 63.4,
+    "cost_usd_estimate": 0.002346
+   },
+   {
+    "slot": 1,
+    "generation": 5,
+    "born": [
+     2,
+     0
+    ],
+    "why": "game changed: whole population replaced",
+    "games": 80,
+    "jobs_ok": 4,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.43,
+     "setup": 2.18
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eace-3c31-7851-a112-807bfd3ea317",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     49.2,
+     57.2,
+     53.5,
+     57.3
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     4
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 254.6,
+    "cost_usd_estimate": 0.00942
+   },
+   {
+    "slot": 0,
+    "generation": 4,
+    "born": [
+     2,
+     0
+    ],
+    "why": "game changed: whole population replaced",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.42,
+     "setup": 2.22
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eace-3c31-7850-9599-6c5c3d1b65fa",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     56.4,
+     55.3,
+     51.1,
+     59.0,
+     55.4
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     5
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 317.9,
+    "cost_usd_estimate": 0.011762
+   },
+   {
+    "slot": 3,
+    "generation": 5,
+    "born": [
+     2,
+     0
+    ],
+    "why": "game changed: whole population replaced",
+    "games": 40,
+    "jobs_ok": 2,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.63,
+     "setup": 2.96
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eace-3cdc-7b94-baff-72539fb8059b",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     54.1,
+     54.3
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     2
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 121.5,
+    "cost_usd_estimate": 0.004495
+   },
+   {
+    "slot": 2,
+    "generation": 5,
+    "born": [
+     2,
+     0
+    ],
+    "why": "game changed: whole population replaced",
+    "games": 60,
+    "jobs_ok": 3,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.64,
+     "setup": 3.17
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eace-3cdc-7b95-bede-1bd18f86f966",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     52.1,
+     54.8,
+     58.2
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     3
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 187.4,
+    "cost_usd_estimate": 0.006934
+   },
+   {
+    "slot": 3,
+    "generation": 6,
+    "born": [
+     2,
+     2
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.47,
+     "setup": 2.44
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0ead0-20cd-7eed-b546-8cf89bd9e309",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     57.4,
+     57.2,
+     53.3,
+     54.4,
+     52.7
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     7
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 319.3,
+    "cost_usd_estimate": 0.011814
+   },
+   {
+    "slot": 2,
+    "generation": 6,
+    "born": [
+     2,
+     3
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.67,
+     "setup": 2.72
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0ead1-237b-75ec-ae48-4472692ab403",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     55.9,
+     53.6,
+     53.2,
+     60.2,
+     57.1
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     8
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 317.2,
+    "cost_usd_estimate": 0.011736
+   },
+   {
+    "slot": 1,
+    "generation": 6,
+    "born": [
+     2,
+     4
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.58,
+     "setup": 2.67
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0ead2-28c6-720d-bfef-e1a9d696c0c3",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     54.1,
+     52.8,
+     53.2,
+     54.9,
+     55.2
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     9
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 316.1,
+    "cost_usd_estimate": 0.011696
+   },
+   {
+    "slot": 0,
+    "generation": 5,
+    "born": [
+     2,
+     5
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.39,
+     "setup": 3.57
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0ead3-1f5a-79b4-b640-dd43c5483376",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     53.6,
+     59.9,
+     52.9,
+     52.6,
+     59.7
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     10
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 320.8,
+    "cost_usd_estimate": 0.01187
+   },
+   {
+    "slot": 3,
+    "generation": 7,
+    "born": [
+     2,
+     7
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.35,
+     "setup": 2.2
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0ead5-0a36-7380-a8f7-0bc9ad8d1a27",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     54.3,
+     57.1,
+     54.0,
+     53.4,
+     57.7
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     12
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 322.6,
+    "cost_usd_estimate": 0.011936
+   },
+   {
+    "slot": 2,
+    "generation": 7,
+    "born": [
+     2,
+     8
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.4,
+     "setup": 2.31
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0ead6-041f-7969-8818-54b7ed0f7503",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     58.7,
+     53.6,
+     59.0,
+     53.4,
+     53.4
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     13
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 321.6,
+    "cost_usd_estimate": 0.011899
+   },
+   {
+    "slot": 1,
+    "generation": 7,
+    "born": [
+     2,
+     9
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.89,
+     "setup": 2.31
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0ead7-06dd-77b7-85fa-7a4fbba477df",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     55.2,
+     57.6,
+     55.2,
+     54.9,
+     53.9
+    ],
+    "teardown": "close() returned",
+    "retired": [
+     2,
+     14
+    ],
+    "retire_why": "lifetime over",
+    "alive_s": 317.8,
+    "cost_usd_estimate": 0.011759
+   },
+   {
+    "slot": 0,
+    "generation": 6,
+    "born": [
+     2,
+     10
+    ],
+    "why": "lifetime over",
+    "games": 100,
+    "jobs_ok": 5,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.68,
+     "setup": 2.76
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0ead8-0e66-7b4a-92c6-52f48cc56093",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     54.6,
+     57.5,
+     52.9,
+     49.7,
+     58.6
+    ],
+    "teardown": "close() returned",
+    "retired": "end",
+    "retire_why": "end",
+    "alive_s": 316.9,
+    "cost_usd_estimate": 0.011725
+   },
+   {
+    "slot": 3,
+    "generation": 8,
+    "born": [
+     2,
+     12
+    ],
+    "why": "lifetime over",
+    "games": 60,
+    "jobs_ok": 3,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 3.32,
+     "setup": 2.21
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eada-0395-7895-ae8b-65bb0c4c13fa",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     54.5,
+     53.9,
+     49.5
+    ],
+    "teardown": "close() returned",
+    "retired": "end",
+    "retire_why": "end",
+    "alive_s": 189.0,
+    "cost_usd_estimate": 0.006993
+   },
+   {
+    "slot": 2,
+    "generation": 8,
+    "born": [
+     2,
+     13
+    ],
+    "why": "lifetime over",
+    "games": 40,
+    "jobs_ok": 2,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.39,
+     "setup": 3.08
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eada-f66a-7807-956f-d2294fbe8dbe",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     54.5,
+     54.5
+    ],
+    "teardown": "close() returned",
+    "retired": "end",
+    "retire_why": "end",
+    "alive_s": 126.8,
+    "cost_usd_estimate": 0.004692
+   },
+   {
+    "slot": 1,
+    "generation": 8,
+    "born": [
+     2,
+     14
+    ],
+    "why": "lifetime over",
+    "games": 20,
+    "jobs_ok": 1,
+    "jobs_failed": 0,
+    "timings_s": {
+     "create": 2.38,
+     "setup": 2.41
+    },
+    "egress_allowlist": null,
+    "egress_allowlist_error": "QuotaExceededError: sandbox capacity unavailable: the session's network policy requires a mesh-connected host and none is live",
+    "sandbox_id": "01a0eadb-ea2f-7c5d-b4e7-578812e24c21",
+    "birth_audit": {
+     "files": [
+      ".venv",
+      "requirements.txt",
+      "ufa",
+      "worker.py"
+     ],
+     "local_knowledge": {},
+     "env_names": [
+      "HOME",
+      "INVOCATION_ID",
+      "JOURNAL_STREAM",
+      "LANG",
+      "NODE_PATH",
+      "NVM_BIN",
+      "NVM_CD_FLAGS",
+      "NVM_DIR",
+      "NVM_INC",
+      "OLDPWD",
+      "PATH",
+      "PWD",
+      "SHLVL",
+      "SYSTEMD_EXEC_PID",
+      "USER",
+      "VIRTUAL_ENV",
+      "XDG_CONFIG_HOME",
+      "_"
+     ]
+    },
+    "play_s": [
+     50.8
+    ],
+    "teardown": "close() returned",
+    "retired": "end",
+    "retire_why": "end",
+    "alive_s": 64.3,
+    "cost_usd_estimate": 0.002379
+   }
+  ]
+ }
+}

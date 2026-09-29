@@ -1,0 +1,600 @@
+{
+ "run": "v4",
+ "trials": {
+  "D": 10,
+  "E": 10
+ },
+ "conditions": {
+  "D": {
+   "trials": 10,
+   "ph1_regret_auc": [
+    95.0,
+    [
+     67.8,
+     125.6
+    ]
+   ],
+   "ph1_regret_auc_s1": 55.9,
+   "ph2_regret_auc": [
+    78.8,
+    [
+     61.4,
+     97.0
+    ]
+   ],
+   "ph2_regret_auc_s1": 49.3,
+   "total_regret_auc": [
+    86.9,
+    [
+     71.5,
+     101.3
+    ]
+   ],
+   "total_regret_auc_s1": 52.6,
+   "ph2_regret_first5": [
+    128.1,
+    [
+     102.4,
+     152.8
+    ]
+   ],
+   "ph2_regret_first5_s1": 103.5,
+   "ph2_found_best": [
+    0.5,
+    [
+     0.2,
+     0.8
+    ]
+   ],
+   "ph2_found_best_s1": 0.6,
+   "ph1_rediscovery_games": [
+    31.1,
+    [
+     28.7,
+     33.2
+    ]
+   ],
+   "ph1_rediscovery_games_s1": 18.6,
+   "ph2_stale_led_games": [
+    41.9,
+    [
+     34.4,
+     49.2
+    ]
+   ],
+   "ph2_stale_led_games_s1": 13.7,
+   "ph1_coordinate_share": [
+    0.0,
+    [
+     0.0,
+     0.1
+    ]
+   ],
+   "ph1_coordinate_share_s1": 0.3,
+   "ph2_coordinate_share": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_coordinate_share_s1": 0.1,
+   "challenges": [
+    3.0,
+    [
+     2.2,
+     3.9
+    ]
+   ],
+   "challenges_s1": 4.3,
+   "challenges_of_stale": [
+    1.1,
+    [
+     0.7,
+     1.5
+    ]
+   ],
+   "challenges_of_stale_s1": 2.9,
+   "challenges_of_valid": [
+    1.9,
+    [
+     1.1,
+     2.7
+    ]
+   ],
+   "challenges_of_valid_s1": 1.4,
+   "first_stale_challenge_round": [
+    8.5,
+    [
+     5.6,
+     11.4
+    ]
+   ],
+   "first_stale_challenge_round_s1": 2.5,
+   "jev_calls": [
+    67.7,
+    [
+     66.1,
+     69.0
+    ]
+   ],
+   "jev_calls_s1": 70.9,
+   "jev_cost_usd": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "jev_cost_usd_s1": 0.0
+  },
+  "E": {
+   "trials": 10,
+   "ph1_regret_auc": [
+    128.0,
+    [
+     106.2,
+     149.6
+    ]
+   ],
+   "ph1_regret_auc_s1": 122.7,
+   "ph2_regret_auc": [
+    44.2,
+    [
+     34.9,
+     53.3
+    ]
+   ],
+   "ph2_regret_auc_s1": 48.2,
+   "total_regret_auc": [
+    86.1,
+    [
+     74.2,
+     97.7
+    ]
+   ],
+   "total_regret_auc_s1": 85.5,
+   "ph2_regret_first5": [
+    55.9,
+    [
+     37.5,
+     75.8
+    ]
+   ],
+   "ph2_regret_first5_s1": 55.7,
+   "ph2_found_best": [
+    0.6,
+    [
+     0.3,
+     0.9
+    ]
+   ],
+   "ph2_found_best_s1": 0.3,
+   "ph1_rediscovery_games": [
+    32.4,
+    [
+     30.9,
+     34.0
+    ]
+   ],
+   "ph1_rediscovery_games_s1": 32.4,
+   "ph2_stale_led_games": [
+    8.9,
+    [
+     7.7,
+     10.1
+    ]
+   ],
+   "ph2_stale_led_games_s1": 9.3,
+   "ph1_coordinate_share": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_coordinate_share_s1": 0.0,
+   "ph2_coordinate_share": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_coordinate_share_s1": 0.0,
+   "jev_calls": [
+    58.0,
+    [
+     58.0,
+     58.0
+    ]
+   ],
+   "jev_calls_s1": 58.0,
+   "jev_cost_usd": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "jev_cost_usd_s1": 0.0
+  }
+ },
+ "paired": {
+  "D-E ph1_regret_auc": {
+   "diff": [
+    -33.0,
+    [
+     -50.6,
+     -14.8
+    ]
+   ],
+   "x_better": 9,
+   "y_better": 1,
+   "n": 10
+  },
+  "D-E ph2_regret_auc": {
+   "diff": [
+    34.5,
+    [
+     16.9,
+     51.6
+    ]
+   ],
+   "x_better": 2,
+   "y_better": 8,
+   "n": 10
+  },
+  "D-E total_regret_auc": {
+   "diff": [
+    0.8,
+    [
+     -10.0,
+     12.4
+    ]
+   ],
+   "x_better": 5,
+   "y_better": 5,
+   "n": 10
+  },
+  "D-E ph2_regret_first5": {
+   "diff": [
+    72.2,
+    [
+     36.1,
+     105.0
+    ]
+   ],
+   "x_better": 2,
+   "y_better": 8,
+   "n": 10
+  }
+ },
+ "tenki": {
+  "coordinator_sandbox": "01a0eabe-c925-737e-b08a-efb116e6d04b",
+  "worker_sandboxes_created": 30,
+  "sandboxes_total": 31,
+  "generations_per_slot": {
+   "0": 6,
+   "1": 8,
+   "2": 8,
+   "3": 8
+  },
+  "planned_replacements": 26,
+  "unplanned_replacements": 0,
+  "games": 2400,
+  "games_per_worker_sandbox": {
+   "min": 20,
+   "max": 100,
+   "mean": 80.0
+  },
+  "worker_jobs_ok": 120,
+  "retries": 1,
+  "failures": 1,
+  "max_concurrent_sandboxes": 5,
+  "wall_s": 1968.6,
+  "coordinator_alive_s": 1986.3,
+  "worker_play_exec_s_p50": 54.45,
+  "games_per_sandbox_second": 0.308,
+  "cost_usd_estimate": {
+   "workers": 0.288307,
+   "coordinator": 0.073493,
+   "total": 0.3618
+  },
+  "birth_audit_all_empty": true,
+  "worker_env_secret_names": [],
+  "egress_allowlist_applied": 0
+ },
+ "mitosis": {
+  "reads_with_acked_findings": 300,
+  "reads_behind": 277,
+  "stale_read_rate": 0.923,
+  "stale_findings": 791,
+  "versions_behind_median": 3,
+  "versions_behind_max": 15,
+  "staleness_s_median": 332.71,
+  "staleness_s_p95": 1118.97,
+  "staleness_s_max": 1894.95,
+  "unknown_versions": 0,
+  "stale_rounds_allocation_would_differ": {
+   "B": [
+    0,
+    0
+   ],
+   "D": [
+    241,
+    267
+   ]
+  },
+  "stale_rounds_jev_judgment_would_differ": {
+   "mode": [
+    21,
+    267
+   ],
+   "stop": [
+    23,
+    256
+   ],
+   "challenge": [
+    126,
+    137
+   ]
+  },
+  "note": "staleness_s = read start minus the ack time of the first acknowledged write the read did not reflect; counterfactuals re-ask JEV / re-draw the allocation (same rng state) on the current surface and are never acted on; JEV answers also vary request to request, so a differing judgment is an upper bound"
+ },
+ "jev": {
+  "confidence_field_vs_formula_max_abs_diff": 0.015,
+  "confidence_field_note": "confidence = (p_max - 1/K)/(1 - 1/K): a spread summary of the distribution, not a probability of being right; all analysis below uses the probabilities",
+  "memory_question": {
+   "all_phase2": {
+    "n": 121,
+    "accuracy_argmax": 0.471,
+    "base_rate_any_stale": 0.694,
+    "mean_q_contradicted": 0.43,
+    "brier_q": 0.2504,
+    "false_challenges": 8,
+    "missed_stale": 56,
+    "mean_stale_mass_share_when_stale_present": 0.773,
+    "mean_p_choice": 0.666,
+    "ece_10bin_q": 0.2646,
+    "reliability_bins_q": [
+     {
+      "bin": "0.0-0.1",
+      "n": 3,
+      "mean_p": 0.077,
+      "freq": 0.333
+     },
+     {
+      "bin": "0.1-0.2",
+      "n": 14,
+      "mean_p": 0.164,
+      "freq": 0.357
+     },
+     {
+      "bin": "0.2-0.3",
+      "n": 26,
+      "mean_p": 0.252,
+      "freq": 0.423
+     },
+     {
+      "bin": "0.3-0.4",
+      "n": 25,
+      "mean_p": 0.333,
+      "freq": 0.84
+     },
+     {
+      "bin": "0.4-0.5",
+      "n": 8,
+      "mean_p": 0.431,
+      "freq": 0.75
+     },
+     {
+      "bin": "0.5-0.6",
+      "n": 15,
+      "mean_p": 0.545,
+      "freq": 0.8
+     },
+     {
+      "bin": "0.6-0.7",
+      "n": 9,
+      "mean_p": 0.614,
+      "freq": 1.0
+     },
+     {
+      "bin": "0.7-0.8",
+      "n": 9,
+      "mean_p": 0.753,
+      "freq": 0.778
+     },
+     {
+      "bin": "0.8-0.9",
+      "n": 6,
+      "mean_p": 0.857,
+      "freq": 1.0
+     },
+     {
+      "bin": "0.9-1.0",
+      "n": 6,
+      "mean_p": 0.918,
+      "freq": 1.0
+     }
+    ]
+   },
+   "rounds_0_4": {
+    "n": 25,
+    "accuracy_argmax": 0.48,
+    "base_rate_any_stale": 0.84,
+    "mean_q_contradicted": 0.621,
+    "brier_q": 0.2017,
+    "false_challenges": 4,
+    "missed_stale": 9,
+    "mean_stale_mass_share_when_stale_present": 0.839,
+    "mean_p_choice": 0.603
+   },
+   "rounds_10_14": {
+    "n": 49,
+    "accuracy_argmax": 0.429,
+    "base_rate_any_stale": 0.653,
+    "mean_q_contradicted": 0.379,
+    "brier_q": 0.2666,
+    "false_challenges": 4,
+    "missed_stale": 24,
+    "mean_stale_mass_share_when_stale_present": 0.682,
+    "mean_p_choice": 0.692
+   },
+   "note": "asked only after the game changes (no inherited findings exist before), so the pre-vs-post comparison is early vs late after the change"
+  },
+  "stop_question_phase1": {
+   "n": 280,
+   "said_yes": 0,
+   "mean_p_yes": 0.0244,
+   "max_p_yes": 0.11,
+   "leader_near_best_rate": 0.296,
+   "mean_p_yes_when_leader_near_best": 0.0249,
+   "mean_p_yes_when_not": 0.0242,
+   "brier": 0.2825,
+   "ece_10bin": 0.2742,
+   "bins": [
+    {
+     "bin": "0.0-0.1",
+     "n": 277,
+     "mean_p": 0.024,
+     "freq": 0.3
+    },
+    {
+     "bin": "0.1-0.2",
+     "n": 3,
+     "mean_p": 0.107,
+     "freq": 0.0
+    }
+   ]
+  },
+  "stop_question_phase2": {
+   "n": 256,
+   "said_yes": 0,
+   "mean_p_yes": 0.0204,
+   "max_p_yes": 0.1,
+   "leader_near_best_rate": 0.199,
+   "mean_p_yes_when_leader_near_best": 0.0235,
+   "mean_p_yes_when_not": 0.0196,
+   "brier": 0.1904,
+   "ece_10bin": 0.1788,
+   "bins": [
+    {
+     "bin": "0.0-0.1",
+     "n": 255,
+     "mean_p": 0.02,
+     "freq": 0.196
+    },
+    {
+     "bin": "0.1-0.2",
+     "n": 1,
+     "mean_p": 0.1,
+     "freq": 1.0
+    }
+   ]
+  },
+  "mode_question_descriptive": {
+   "D_phase1": {
+    "n": 150,
+    "mean_p_coordinate": 0.207,
+    "share_p_between_0.3_0.7": 0.22
+   },
+   "D_phase2": {
+    "n": 150,
+    "mean_p_coordinate": 0.231,
+    "share_p_between_0.3_0.7": 0.2
+   },
+   "E_phase1": {
+    "n": 150,
+    "mean_p_coordinate": 0.128,
+    "share_p_between_0.3_0.7": 0.053
+   },
+   "E_phase2": {
+    "n": 150,
+    "mean_p_coordinate": 0.146,
+    "share_p_between_0.3_0.7": 0.053
+   }
+  }
+ },
+ "jev_totals": {
+  "calls": 1257,
+  "counterfactual_calls": 660,
+  "cost_usd": 0.0571,
+  "latency_ms_p50": 114.18,
+  "errors": 0
+ },
+ "mean_regret_curves": {
+  "D": [
+   143.9,
+   88.3,
+   87.3,
+   110.3,
+   132.4,
+   111.6,
+   75.7,
+   104.6,
+   82.9,
+   82.9,
+   55.1,
+   109.3,
+   97.7,
+   53.0,
+   89.8,
+   103.9,
+   154.3,
+   139.3,
+   125.6,
+   117.1,
+   113.6,
+   78.7,
+   63.3,
+   49.6,
+   51.6,
+   46.5,
+   50.6,
+   32.8,
+   29.6,
+   24.6
+  ],
+  "E": [
+   143.9,
+   100.9,
+   115.1,
+   127.7,
+   108.1,
+   164.5,
+   164.5,
+   110.3,
+   78.2,
+   147.2,
+   124.2,
+   119.8,
+   140.5,
+   125.5,
+   149.7,
+   61.2,
+   35.2,
+   42.4,
+   69.9,
+   70.6,
+   19.4,
+   15.3,
+   21.4,
+   51.6,
+   54.2,
+   67.4,
+   31.6,
+   34.2,
+   40.5,
+   49.1
+  ]
+ },
+ "replay": {
+  "games_in_run": 2400,
+  "sampled": 150,
+  "matched": 150,
+  "sandboxes_covered": 30,
+  "mismatched": []
+ }
+}

@@ -1,0 +1,53 @@
+{
+  "experiment_id": "exp006_tournament",
+  "description": "Development tournament on the frozen DEVELOPMENT seeds (seeds_dev.json), successive halving. Every JEV candidate differs from the reference (jev_basic__threat, identical to exp003/exp005) in ONE named dimension. Controls are $0 and run on all 300 dev seeds. The HOLDOUT seeds are never used here. Env, clock and extractor identical to exp003-exp005.",
+  "env": {
+    "env_id": "ALE/SpaceInvaders-v5",
+    "obs_type": "ram",
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "full_action_space": false,
+    "max_num_frames_per_episode": 108000
+  },
+  "clock": "turn_based",
+  "low_conf_threshold": 0.5,
+  "seeds_file": "ufa/experiments/seeds_dev.json",
+  "seeds": [],
+  "arms": [
+    {"name": "control_sweep", "policy": "scripted", "control": "sweep", "representation": "threat"},
+    {"name": "control_right", "policy": "scripted", "control": "right", "representation": "threat"},
+    {"name": "random__raw", "policy": "random", "representation": "raw"},
+
+    {"name": "ref", "policy": "jev_basic", "representation": "threat", "question_set": "move_v1", "model": "jev-latest",
+     "dimension": "reference (exp003/exp005 JEV THREAT)"},
+    {"name": "momentum", "policy": "jev_basic", "representation": "threat_momentum", "question_set": "move_v1", "model": "jev-latest",
+     "dimension": "temporal: + previous move direction"},
+    {"name": "safe", "policy": "jev_basic", "representation": "threat_safe", "question_set": "move_v1", "model": "jev-latest",
+     "dimension": "affordance: lane_danger -> projected move_is_safe"},
+    {"name": "minimal", "policy": "jev_basic", "representation": "threat_minimal", "question_set": "move_v1", "model": "jev-latest",
+     "dimension": "compression: drop incoming list and lives"},
+    {"name": "split", "policy": "jev_basic", "representation": "threat", "question_set": "split_v1", "model": "jev-latest",
+     "dimension": "question: move + fire as two typed answers in one call"},
+    {"name": "hold17", "policy": "jev_basic", "representation": "threat", "question_set": "move_v1", "model": "jev-latest",
+     "hold_below_conf": 0.17, "dimension": "confidence rule: keep last action when confidence < 0.17 (exp005 median)"},
+    {"name": "k2", "policy": "jev_basic", "representation": "threat", "question_set": "move_v1", "model": "jev-latest",
+     "decision_interval": 2, "dimension": "cadence: decide every 2 steps"},
+    {"name": "k4", "policy": "jev_basic", "representation": "threat", "question_set": "move_v1", "model": "jev-latest",
+     "decision_interval": 4, "dimension": "cadence: decide every 4 steps"},
+    {"name": "sweepwords", "policy": "jev_basic", "representation": "threat", "question_set": "sweep_words_v1", "model": "jev-latest",
+     "dimension": "question wording: steady-sweep strategy in the instructions"},
+
+    {"name": "safe_sweepwords", "policy": "jev_basic", "representation": "threat_safe", "question_set": "sweep_words_v1", "model": "jev-latest",
+     "dimension": "stage B: safe + sweep wording"},
+    {"name": "safe_min", "policy": "jev_basic", "representation": "threat_safe_min", "question_set": "move_v1", "model": "jev-latest",
+     "dimension": "stage B: safe without incoming list and lives (is the affordance sufficient?)"},
+    {"name": "safe_k2", "policy": "jev_basic", "representation": "threat_safe", "question_set": "move_v1", "model": "jev-latest",
+     "decision_interval": 2, "dimension": "stage B: safe, decide every 2 steps"},
+    {"name": "safe_k4", "policy": "jev_basic", "representation": "threat_safe", "question_set": "move_v1", "model": "jev-latest",
+     "decision_interval": 4, "dimension": "stage B: safe, decide every 4 steps"},
+    {"name": "safe_hold17", "policy": "jev_basic", "representation": "threat_safe", "question_set": "move_v1", "model": "jev-latest",
+     "hold_below_conf": 0.17, "dimension": "lab-manager pool: safe + keep last action when confidence < 0.17"},
+    {"name": "safe_split", "policy": "jev_basic", "representation": "threat_safe", "question_set": "split_v1", "model": "jev-latest",
+     "dimension": "lab-manager pool: safe + move and fire as two typed answers"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+ "started_utc": "2026-09-29T01:19:26.923961+00:00",
+ "commit": "8175db5",
+ "timings_s": {
+  "create": 0.33
+ },
+ "coordinator_sandbox_id": "01a0eabe-c925-737e-b08a-efb116e6d04b",
+ "teardown": "close() returned",
+ "coordinator_alive_s": 1986.3,
+ "coordinator_cost_usd_estimate": 0.073493
+}

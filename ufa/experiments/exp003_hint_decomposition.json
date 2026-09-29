@@ -1,0 +1,20 @@
+{
+  "experiment_id": "exp003_hint_decomposition",
+  "description": "Separate hints from compression. RAW (no hints) vs RAW+HINTS (unchanged raw view + the exact hints of THREAT, same function) vs THREAT (compressed + hints). Same 5 seeds x 3 reps, all arms fresh and interleaved on Tenki. Policy, questions, extractor, env, cadence frozen.",
+  "env": {
+    "env_id": "ALE/SpaceInvaders-v5",
+    "obs_type": "ram",
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "full_action_space": false,
+    "max_num_frames_per_episode": 108000
+  },
+  "clock": "turn_based",
+  "low_conf_threshold": 0.5,
+  "seeds": [1, 2, 3, 4, 5],
+  "arms": [
+    {"name": "jev_basic__raw", "policy": "jev_basic", "representation": "raw", "question_set": "move_v1", "model": "jev-latest"},
+    {"name": "jev_basic__raw_hints", "policy": "jev_basic", "representation": "raw_hints", "question_set": "move_v1", "model": "jev-latest"},
+    {"name": "jev_basic__threat", "policy": "jev_basic", "representation": "threat", "question_set": "move_v1", "model": "jev-latest"}
+  ]
+}

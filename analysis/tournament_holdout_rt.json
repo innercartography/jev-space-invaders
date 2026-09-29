@@ -1,0 +1,260 @@
+{
+ "tag": "holdout_rt",
+ "exp": [
+  "ufa/traces/exp009_holdout_realtime"
+ ],
+ "arms": {
+  "control_sweep_rt": {
+   "n_games": 20,
+   "performance": {
+    "score_mean": 334.5,
+    "score_median": 335.0,
+    "score_sd": 133.9,
+    "score_q10_q25_q75_q90": [
+     169.5,
+     205.0,
+     470.0,
+     483.5
+    ],
+    "score_min": 150.0,
+    "score_max": 520.0,
+    "score_ex_bonus_mean": 304.5,
+    "score_ex_bonus_median": 292.5,
+    "bonus_pts_per_game": 30.0,
+    "games_with_bonus": 3,
+    "steps_per_game": 681.85,
+    "steps_per_life": 267.4,
+    "points_per_100_steps": 47.911,
+    "kills_per_100_steps": 3.123,
+    "top_row_kills_per_game": 1.7
+   },
+   "behavior": {
+    "reversal_rate": 0.0224,
+    "run_length": 42.492,
+    "move_rate": 1.0,
+    "fire_occupancy": 0.2553,
+    "fire_while_shot_active": 0.0,
+    "fire_immediately_when_ready": 1.0,
+    "left_wall_share": 0.0831,
+    "right_wall_share": 0.0418,
+    "lane_threat_evasion_rate": 0.6345,
+    "projected_threat_share": 0.0877,
+    "projected_threat_safe_pick_rate": 0.8803,
+    "deaths_by_region": {
+     "middle": 49,
+     "left_wall": 1,
+     "right_wall": 1
+    }
+   },
+   "system": {
+    "model_calls_per_game": 0.0,
+    "calls_per_step": 0.0,
+    "latency_p50_ms_median_of_games": 0.0,
+    "latency_p95_ms_median_of_games": 0.0,
+    "input_chars_per_decision": 207.32,
+    "input_tokens_per_call": null,
+    "cost_per_decision_usd": null,
+    "cost_per_game_usd": 0.0,
+    "cost_total_usd": 0.0,
+    "fallbacks_total": 0,
+    "errors_by_status": {},
+    "retries_total": 0,
+    "mean_confidence": null,
+    "served_models": [
+     "scripted-sweep"
+    ]
+   }
+  },
+  "haiku_final_rt": {
+   "n_games": 20,
+   "performance": {
+    "score_mean": 110.0,
+    "score_median": 105.0,
+    "score_sd": 79.5,
+    "score_q10_q25_q75_q90": [
+     44.5,
+     48.8,
+     135.0,
+     165.5
+    ],
+    "score_min": 35.0,
+    "score_max": 390.0,
+    "score_ex_bonus_mean": 100.0,
+    "score_ex_bonus_median": 105.0,
+    "bonus_pts_per_game": 10.0,
+    "games_with_bonus": 1,
+    "steps_per_game": 33.25,
+    "steps_per_life": 11.1,
+    "points_per_100_steps": 320.4065,
+    "kills_per_100_steps": 19.642,
+    "top_row_kills_per_game": 0.45
+   },
+   "behavior": {
+    "reversal_rate": 0.0921,
+    "run_length": 2.626,
+    "move_rate": 0.6581,
+    "fire_occupancy": 0.3837,
+    "fire_while_shot_active": 0.0479,
+    "fire_immediately_when_ready": 0.642,
+    "left_wall_share": 0.1853,
+    "right_wall_share": 0.5517,
+    "lane_threat_evasion_rate": 0.5198,
+    "projected_threat_share": 0.0679,
+    "projected_threat_safe_pick_rate": 1.0,
+    "deaths_by_region": {
+     "unknown": 53,
+     "left_wall": 3,
+     "middle": 1,
+     "right_wall": 3
+    }
+   },
+   "system": {
+    "model_calls_per_game": 33.2,
+    "calls_per_step": 1.0,
+    "latency_p50_ms_median_of_games": 961.7,
+    "latency_p95_ms_median_of_games": 1600.0,
+    "input_chars_per_decision": 197.605,
+    "input_tokens_per_call": 874.0,
+    "cost_per_decision_usd": 0.0011478,
+    "cost_per_game_usd": 0.03816,
+    "cost_total_usd": 0.7633,
+    "fallbacks_total": 0,
+    "errors_by_status": {},
+    "retries_total": 0,
+    "mean_confidence": 0.2544,
+    "served_models": [
+     "claude-haiku-4-5"
+    ]
+   },
+   "vs_ref": {
+    "score": {
+     "n": 20,
+     "mean": -224.5,
+     "median": -192.5,
+     "sd": 115.1,
+     "ci95_bootstrap": [
+      -274.5,
+      -176.5
+     ],
+     "effect_size_dz": -1.95,
+     "jev_wins": 0,
+     "ties": 0,
+     "jev_losses": 20,
+     "sign_flip_p": 0.0,
+     "sign_test_p": 0.0
+    },
+    "score_ex_bonus": {
+     "n": 20,
+     "mean": -204.5,
+     "median": -155.0,
+     "sd": 108.9,
+     "ci95_bootstrap": [
+      -253.0,
+      -160.5
+     ],
+     "effect_size_dz": -1.88,
+     "jev_wins": 0,
+     "ties": 0,
+     "jev_losses": 20,
+     "sign_flip_p": 0.0,
+     "sign_test_p": 0.0
+    }
+   }
+  },
+  "jev_final_rt": {
+   "n_games": 20,
+   "performance": {
+    "score_mean": 441.2,
+    "score_median": 440.0,
+    "score_sd": 182.5,
+    "score_q10_q25_q75_q90": [
+     225.5,
+     348.8,
+     530.0,
+     632.5
+    ],
+    "score_min": 65.0,
+    "score_max": 845.0,
+    "score_ex_bonus_mean": 381.2,
+    "score_ex_bonus_median": 377.5,
+    "bonus_pts_per_game": 60.0,
+    "games_with_bonus": 5,
+    "steps_per_game": 530.8,
+    "steps_per_life": 204.2,
+    "points_per_100_steps": 81.4325,
+    "kills_per_100_steps": 4.2915,
+    "top_row_kills_per_game": 3.4
+   },
+   "behavior": {
+    "reversal_rate": 0.3667,
+    "run_length": 2.1825,
+    "move_rate": 0.6841,
+    "fire_occupancy": 0.2338,
+    "fire_while_shot_active": 0.0,
+    "fire_immediately_when_ready": 1.0,
+    "left_wall_share": 0.3347,
+    "right_wall_share": 0.0054,
+    "lane_threat_evasion_rate": 0.7304,
+    "projected_threat_share": 0.1,
+    "projected_threat_safe_pick_rate": 1.0,
+    "deaths_by_region": {
+     "left_wall": 20,
+     "middle": 31,
+     "right_wall": 1
+    }
+   },
+   "system": {
+    "model_calls_per_game": 530.8,
+    "calls_per_step": 1.0,
+    "latency_p50_ms_median_of_games": 105.0,
+    "latency_p95_ms_median_of_games": 176.5,
+    "input_chars_per_decision": 205.69,
+    "input_tokens_per_call": 577.2,
+    "cost_per_decision_usd": 2.424e-05,
+    "cost_per_game_usd": 0.01287,
+    "cost_total_usd": 0.2573,
+    "fallbacks_total": 0,
+    "errors_by_status": {},
+    "retries_total": 0,
+    "mean_confidence": 0.4504,
+    "served_models": [
+     "jev-1.13.0"
+    ]
+   },
+   "vs_ref": {
+    "score": {
+     "n": 20,
+     "mean": 106.8,
+     "median": 140.0,
+     "sd": 259.8,
+     "ci95_bootstrap": [
+      -3.2,
+      217.8
+     ],
+     "effect_size_dz": 0.41,
+     "jev_wins": 13,
+     "ties": 0,
+     "jev_losses": 7,
+     "sign_flip_p": 0.0815,
+     "sign_test_p": 0.2632
+    },
+    "score_ex_bonus": {
+     "n": 20,
+     "mean": 76.8,
+     "median": 55.0,
+     "sd": 233.3,
+     "ci95_bootstrap": [
+      -19.8,
+      178.5
+     ],
+     "effect_size_dz": 0.33,
+     "jev_wins": 12,
+     "ties": 0,
+     "jev_losses": 8,
+     "sign_flip_p": 0.1595,
+     "sign_test_p": 0.5034
+    }
+   }
+  }
+ }
+}

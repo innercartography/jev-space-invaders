@@ -1,0 +1,25 @@
+{"frozen_at_utc": "2026-09-29T00:07:48Z", "commit": "8175db52589b24bd83958992bcad3d7b4e0221b4", "worktree_clean_for_swarm": true, "note": "all hashed files identical to the commit; only this validation folder is new", "sha256": {
+"ufa/squad/swarm.py": "eaec421c00ef122f9bba1dcd3c160554144c8b1147954c89e55e219500e6cfaa"
+,
+"ufa/squad/landscape.py": "656411c20d971ed16b13e429fd1e18afc589684718cf814659420f6ceacfafc3"
+,
+"ufa/squad/swarm_analysis.py": "df52c1b37632d0ac04edb3afc4594d647e0f1c380d13951d26cec46b0463b116"
+,
+"ufa/squad/swarm/PREREG.md": "e2d0add5b57caa75002faa9935ea14224d21a83a5336efd048153258bc56d55e"
+,
+"ufa/squad/swarm/landscape/A.json": "8927fd87dc0f3d58aab16c9ee65a5347dec0d31a24103ae9f84998b557c1ae61"
+,
+"ufa/squad/swarm/landscape/B.json": "7db4e6d309bfa0301dba740e8b3516be0ec721282b95cdbf74772a2dd96a1338"
+,
+"ufa/arena/env.py": "0f15875b1edea9f7a61840f0407b83f68a043d5c7ae0634408cbefb301c8e559"
+,
+"ufa/arena/extract.py": "d819791c0f1c7f4501d66806b651ca032e33593b011417a1f570725cfc7ee551"
+,
+"ufa/arena/representations.py": "3f040e2aca9052cee182526006061ff42b761ace8bf09ca498686aeb84191376"
+,
+"ufa/arena/deciders.py": "036f6115143de90cce13e6a18c0c6745c553c45a2c4fce16c47dcd1ee1c2b6dc"
+,
+"ufa/arena/questions.py": "600ef079eaa4beb7829766785942b8de1e13c8a190c15a9f9a119fa85fa4e428"
+,
+"ufa/mitosis/cortex.py": "7b4ab3e4a11c2c8abf503197b886c632084092b704df49e28914150eb661fd50"
+}}

@@ -1,0 +1,52 @@
+[
+ {
+  "belief": "The view barely matters; JEV is the model",
+  "status": "FALSIFIED",
+  "evidence": "exp002: RAW 110 vs THREAT 331, same model"
+ },
+ {
+  "belief": "THREAT wins because of its hints",
+  "status": "FALSIFIED",
+  "evidence": "exp003: RAW+hints 163 < RAW 190 < THREAT 299"
+ },
+ {
+  "belief": "It wins by hiding at the left wall",
+  "status": "FALSIFIED",
+  "evidence": "exp004: left-wall bot = 180 on all 205 seeds"
+ },
+ {
+  "belief": "JEV THREAT beats a dumb sweep bot",
+  "status": "FALSIFIED",
+  "evidence": "exp005: -3 [-39,+34] without bonus, 50 new seeds"
+ },
+ {
+  "belief": "JEV can't judge incoming bullets itself",
+  "status": "SURVIVED",
+  "evidence": "261 critical moments: 64% (chance 63%)"
+ },
+ {
+  "belief": "Tell it which moves are safe, not where bullets are",
+  "status": "SURVIVED",
+  "evidence": "95% on critical moments; +116 [+88,+143] on 50 dev seeds"
+ },
+ {
+  "belief": "Wording doesn't matter once the view is right",
+  "status": "FALSIFIED",
+  "evidence": "sweep wording: +48 n.s. on THREAT, +156 [+107,+211] on SAFE (50 dev seeds)"
+ },
+ {
+  "belief": "It holds on seeds we never looked at",
+  "status": "SURVIVED",
+  "evidence": "100-seed holdout, run once: 709 (dev 711); +285 [+247,+326] vs sweep ex-bonus"
+ },
+ {
+  "belief": "Memory makes the lab manager better",
+  "status": "DEPENDS",
+  "evidence": "same Mitosis memory: JEV 92% -> 98% (n.s.); Haiku 95% -> 40% (p=0.003)"
+ },
+ {
+  "belief": "Similar past moments help JEV decide",
+  "status": "FALSIFIED",
+  "evidence": "76% -> 77% on 500 unseen moments; +3.7 s per decision"
+ }
+]

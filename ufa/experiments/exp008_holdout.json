@@ -1,0 +1,44 @@
+{
+  "experiment_id": "exp008_holdout",
+  "description": "FROZEN final configuration (exp006 winner safe_sweepwords, unchanged) on the 100 HOLDOUT seeds, run once. Controls: scripted sweep and random. Nothing was tuned on these seeds. LLM baseline: the identical question through Claude Haiku 4.5 on the first 5 holdout seeds (cost-limited).",
+  "env": {
+    "env_id": "ALE/SpaceInvaders-v5",
+    "obs_type": "ram",
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "full_action_space": false,
+    "max_num_frames_per_episode": 108000
+  },
+  "clock": "turn_based",
+  "low_conf_threshold": 0.5,
+  "seeds_file": "ufa/experiments/seeds_holdout.json",
+  "seeds": [],
+  "arms": [
+    {
+      "name": "jev_final",
+      "policy": "jev_basic",
+      "representation": "threat_safe",
+      "question_set": "sweep_words_v1",
+      "model": "jev-latest"
+    },
+    {
+      "name": "haiku_final",
+      "policy": "baseline_llm",
+      "representation": "threat_safe",
+      "question_set": "sweep_words_v1",
+      "model": "claude-haiku-4-5",
+      "provider": "anthropic"
+    },
+    {
+      "name": "control_sweep",
+      "policy": "scripted",
+      "control": "sweep",
+      "representation": "threat"
+    },
+    {
+      "name": "random__raw",
+      "policy": "random",
+      "representation": "raw"
+    }
+  ]
+}

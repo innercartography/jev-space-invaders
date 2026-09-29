@@ -1,0 +1,155 @@
+{
+ "fig1": {
+  "RAW view": {
+   "n": 15,
+   "score": 190.333,
+   "direction_flip_rate_per_move": 0.707,
+   "p_fire_shot_in_flight": 0.936
+  },
+  "THREAT view": {
+   "n": 15,
+   "score": 299.333,
+   "direction_flip_rate_per_move": 0.32,
+   "p_fire_shot_in_flight": 0.236
+  },
+  "SAFE view": {
+   "n": 50,
+   "score": 542.2,
+   "direction_flip_rate_per_move": 0.181,
+   "p_fire_shot_in_flight": 0.498
+  },
+  "FINAL": {
+   "n": 50,
+   "score": 710.6,
+   "direction_flip_rate_per_move": 0.297,
+   "p_fire_shot_in_flight": 0.0
+  }
+ },
+ "fig3": {
+  "JEV, THREAT view": {
+   "n": 500,
+   "accuracy": 0.76,
+   "random_accuracy": 0.6533,
+   "confidence_auc_right_vs_wrong": 0.6884,
+   "latency_ms_p50": 110.92,
+   "latency_ms_p95": 228.56,
+   "cost_per_decision_usd": 2.397e-05,
+   "served_model": "jev-1.13.0"
+  },
+  "JEV, SAFE view": {
+   "n": 500,
+   "accuracy": 0.978,
+   "random_accuracy": 0.6533,
+   "confidence_auc_right_vs_wrong": 0.6618,
+   "latency_ms_p50": 102.2,
+   "latency_ms_p95": 158.4,
+   "cost_per_decision_usd": 2.397e-05,
+   "served_model": "jev-1.13.0"
+  },
+  "Haiku, THREAT view": {
+   "n": 500,
+   "accuracy": 0.972,
+   "random_accuracy": 0.6533,
+   "confidence_auc_right_vs_wrong": 0.7859,
+   "latency_ms_p50": 944.43,
+   "latency_ms_p95": 1587.0,
+   "cost_per_decision_usd": 0.00114122,
+   "served_model": "claude-haiku-4-5"
+  },
+  "Haiku, SAFE view": {
+   "n": 500,
+   "accuracy": 0.958,
+   "random_accuracy": 0.6533,
+   "confidence_auc_right_vs_wrong": 0.6111,
+   "latency_ms_p50": 951.26,
+   "latency_ms_p95": 1599.8,
+   "cost_per_decision_usd": 0.00114389,
+   "served_model": "claude-haiku-4-5"
+  }
+ },
+ "fig4": {
+  "JEV": {
+   "n": 20,
+   "score_mean": 441.2,
+   "decisions_mean": 530.8
+  },
+  "Haiku 4.5": {
+   "n": 20,
+   "score_mean": 110.0,
+   "decisions_mean": 33.2
+  },
+  "sweep (no model)": {
+   "n": 20,
+   "score_mean": 334.5,
+   "decisions_mean": 681.9
+  }
+ },
+ "fig6": {
+  "control_sweep": {
+   "n": 100,
+   "mean": 325.8
+  },
+  "haiku_final": {
+   "n": 5,
+   "mean": 364.0
+  },
+  "jev_final": {
+   "n": 100,
+   "mean": 709.0
+  },
+  "random__raw": {
+   "n": 100,
+   "mean": 143.3
+  }
+ },
+ "fig7": {
+  "halving rule (no model)": {
+   "trials": 200,
+   "accuracy": 0.94,
+   "regret_mean": 7.9,
+   "games_used_mean": 31.0,
+   "latency_ms_p50": null,
+   "orchestration_cost_usd_per_trial": null
+  },
+  "equal games (no model)": {
+   "trials": 200,
+   "accuracy": 0.875,
+   "regret_mean": 15.7,
+   "games_used_mean": 36.0,
+   "latency_ms_p50": null,
+   "orchestration_cost_usd_per_trial": null
+  },
+  "Haiku 4.5": {
+   "trials": 20,
+   "accuracy": 0.95,
+   "regret_mean": 6.2,
+   "games_used_mean": 35.1,
+   "latency_ms_p50": 1258.14,
+   "orchestration_cost_usd_per_trial": 0.021947
+  },
+  "Haiku 4.5 + Mitosis memory": {
+   "trials": 20,
+   "accuracy": 0.4,
+   "regret_mean": 121.7,
+   "games_used_mean": 11.2,
+   "latency_ms_p50": 1549.73,
+   "orchestration_cost_usd_per_trial": 0.013951
+  },
+  "JEV": {
+   "trials": 40,
+   "accuracy": 0.925,
+   "regret_mean": 10.6,
+   "games_used_mean": 28.4,
+   "latency_ms_p50": 108.45,
+   "orchestration_cost_usd_per_trial": 0.000491
+  },
+  "JEV + Mitosis memory": {
+   "trials": 40,
+   "accuracy": 0.975,
+   "regret_mean": 3.1,
+   "games_used_mean": 31.1,
+   "latency_ms_p50": 107.72,
+   "orchestration_cost_usd_per_trial": 0.001072
+  }
+ }
+}

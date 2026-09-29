@@ -1,0 +1,39 @@
+{
+  "experiment_id": "exp009_holdout_realtime",
+  "description": "Real-time clock (exp007 loop) on HOLDOUT seeds: the frozen final JEV configuration vs the identical question through Claude Haiku 4.5, plus the scripted sweep. Run once.",
+  "env": {
+    "env_id": "ALE/SpaceInvaders-v5",
+    "obs_type": "ram",
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "full_action_space": false,
+    "max_num_frames_per_episode": 108000
+  },
+  "clock": "realtime",
+  "low_conf_threshold": 0.5,
+  "seeds_file": "ufa/experiments/seeds_holdout.json",
+  "seeds": [],
+  "arms": [
+    {
+      "name": "jev_final_rt",
+      "policy": "jev_basic",
+      "representation": "threat_safe",
+      "question_set": "sweep_words_v1",
+      "model": "jev-latest"
+    },
+    {
+      "name": "haiku_final_rt",
+      "policy": "baseline_llm",
+      "representation": "threat_safe",
+      "question_set": "sweep_words_v1",
+      "model": "claude-haiku-4-5",
+      "provider": "anthropic"
+    },
+    {
+      "name": "control_sweep_rt",
+      "policy": "scripted",
+      "control": "sweep",
+      "representation": "threat"
+    }
+  ]
+}

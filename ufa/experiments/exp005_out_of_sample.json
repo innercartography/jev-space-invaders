@@ -1,0 +1,20 @@
+{
+  "experiment_id": "exp005_out_of_sample",
+  "description": "Out-of-sample check: JEV THREAT (arm identical to exp003) once on each of seeds 6-55, compared seed by seed with the recorded deterministic sweep control (exp004). Policy, questions, representation, hints, extractor, env, cadence unchanged. Run on the PC, not Tenki.",
+  "env": {
+    "env_id": "ALE/SpaceInvaders-v5",
+    "obs_type": "ram",
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "full_action_space": false,
+    "max_num_frames_per_episode": 108000
+  },
+  "clock": "turn_based",
+  "low_conf_threshold": 0.5,
+  "seeds": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
+            26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45,
+            46, 47, 48, 49, 50, 51, 52, 53, 54, 55],
+  "arms": [
+    {"name": "jev_basic__threat", "policy": "jev_basic", "representation": "threat", "question_set": "move_v1", "model": "jev-latest"}
+  ]
+}

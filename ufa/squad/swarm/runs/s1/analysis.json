@@ -1,0 +1,2569 @@
+{
+ "run": "s1",
+ "conditions": {
+  "A": {
+   "name": "No shared memory (decentralized)",
+   "trials": 40,
+   "coordinate_share": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_coordinate_share": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_dominated_games": [
+    54.2,
+    [
+     53.4,
+     55.0
+    ]
+   ],
+   "ph1_duplicate_games": [
+    7.3,
+    [
+     6.6,
+     8.1
+    ]
+   ],
+   "ph1_entropy_bits": [
+    3.5,
+    [
+     3.5,
+     3.5
+    ]
+   ],
+   "ph1_final_regret": [
+    134.9,
+    [
+     98.3,
+     172.9
+    ]
+   ],
+   "ph1_found_best": [
+    0.3,
+    [
+     0.2,
+     0.5
+    ]
+   ],
+   "ph1_premature_stop": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_rediscovery_games": [
+    32.4,
+    [
+     31.6,
+     33.2
+    ]
+   ],
+   "ph1_regret_auc": [
+    123.2,
+    [
+     111.1,
+     135.2
+    ]
+   ],
+   "ph1_rounds_to_best": [
+    15.0,
+    [
+     14.4,
+     15.5
+    ]
+   ],
+   "ph1_rule_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_unique_configs": [
+    12.0,
+    [
+     11.9,
+     12.0
+    ]
+   ],
+   "ph2_coordinate_share": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_dominated_games": [
+    39.1,
+    [
+     38.0,
+     40.2
+    ]
+   ],
+   "ph2_duplicate_games": [
+    6.8,
+    [
+     6.2,
+     7.3
+    ]
+   ],
+   "ph2_entropy_bits": [
+    3.5,
+    [
+     3.5,
+     3.5
+    ]
+   ],
+   "ph2_final_regret": [
+    42.8,
+    [
+     28.4,
+     60.1
+    ]
+   ],
+   "ph2_found_best": [
+    0.3,
+    [
+     0.2,
+     0.5
+    ]
+   ],
+   "ph2_premature_stop": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_rediscovery_games": [
+    23.4,
+    [
+     22.4,
+     24.5
+    ]
+   ],
+   "ph2_regret_auc": [
+    47.7,
+    [
+     41.7,
+     53.8
+    ]
+   ],
+   "ph2_regret_first5": [
+    55.5,
+    [
+     42.9,
+     69.0
+    ]
+   ],
+   "ph2_rounds_to_best": [
+    15.1,
+    [
+     14.7,
+     15.5
+    ]
+   ],
+   "ph2_rounds_to_within_50": [
+    13.6,
+    [
+     12.7,
+     14.4
+    ]
+   ],
+   "ph2_rule_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_stale_led_games": [
+    9.4,
+    [
+     8.6,
+     10.3
+    ]
+   ],
+   "ph2_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_unique_configs": [
+    11.9,
+    [
+     11.9,
+     12.0
+    ]
+   ],
+   "total_regret_auc": [
+    85.5,
+    [
+     78.7,
+     91.8
+    ]
+   ],
+   "transitions": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ]
+  },
+  "B": {
+   "name": "Shared Mitosis memory (decentralized)",
+   "trials": 40,
+   "challenges": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "challenges_of_stale": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "challenges_of_valid": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "coordinate_share": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "final_status_ACTIVE": [
+    6.8,
+    [
+     6.4,
+     7.2
+    ]
+   ],
+   "final_status_CHALLENGED": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "final_status_FALSIFIED": [
+    2.2,
+    [
+     1.9,
+     2.6
+    ]
+   ],
+   "final_status_SUPERSEDED": [
+    1.6,
+    [
+     1.2,
+     2.0
+    ]
+   ],
+   "first_stale_challenge_round": [
+    15.0,
+    [
+     15.0,
+     15.0
+    ]
+   ],
+   "mitosis_fail": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "mitosis_ops": [
+    64.8,
+    [
+     64.3,
+     65.2
+    ]
+   ],
+   "mitosis_read_mismatch": [
+    12.5,
+    [
+     9.4,
+     15.4
+    ]
+   ],
+   "mitosis_read_ms_p50": [
+    223.8,
+    [
+     215.6,
+     232.5
+    ]
+   ],
+   "ph1_coordinate_share": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_dominated_games": [
+    32.4,
+    [
+     30.1,
+     34.8
+    ]
+   ],
+   "ph1_duplicate_games": [
+    24.6,
+    [
+     23.1,
+     26.0
+    ]
+   ],
+   "ph1_entropy_bits": [
+    2.5,
+    [
+     2.4,
+     2.6
+    ]
+   ],
+   "ph1_final_regret": [
+    25.0,
+    [
+     9.5,
+     43.4
+    ]
+   ],
+   "ph1_found_best": [
+    0.8,
+    [
+     0.7,
+     0.9
+    ]
+   ],
+   "ph1_premature_stop": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_rediscovery_games": [
+    14.3,
+    [
+     12.3,
+     16.4
+    ]
+   ],
+   "ph1_regret_auc": [
+    56.1,
+    [
+     48.1,
+     64.9
+    ]
+   ],
+   "ph1_rounds_to_best": [
+    10.1,
+    [
+     8.7,
+     11.4
+    ]
+   ],
+   "ph1_rule_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_unique_configs": [
+    12.0,
+    [
+     12.0,
+     12.0
+    ]
+   ],
+   "ph2_coordinate_share": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_dominated_games": [
+    27.9,
+    [
+     23.6,
+     32.2
+    ]
+   ],
+   "ph2_duplicate_games": [
+    22.3,
+    [
+     20.9,
+     23.6
+    ]
+   ],
+   "ph2_entropy_bits": [
+    2.4,
+    [
+     2.3,
+     2.5
+    ]
+   ],
+   "ph2_final_regret": [
+    69.4,
+    [
+     46.0,
+     94.0
+    ]
+   ],
+   "ph2_found_best": [
+    0.4,
+    [
+     0.2,
+     0.5
+    ]
+   ],
+   "ph2_premature_stop": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_rediscovery_games": [
+    19.6,
+    [
+     15.3,
+     24.1
+    ]
+   ],
+   "ph2_regret_auc": [
+    95.8,
+    [
+     76.3,
+     115.7
+    ]
+   ],
+   "ph2_regret_first5": [
+    129.7,
+    [
+     109.2,
+     149.3
+    ]
+   ],
+   "ph2_rounds_to_best": [
+    14.1,
+    [
+     13.2,
+     15.0
+    ]
+   ],
+   "ph2_rounds_to_within_50": [
+    11.3,
+    [
+     9.6,
+     13.0
+    ]
+   ],
+   "ph2_rule_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_stale_led_games": [
+    22.8,
+    [
+     18.3,
+     27.4
+    ]
+   ],
+   "ph2_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_unique_configs": [
+    9.2,
+    [
+     8.7,
+     9.6
+    ]
+   ],
+   "retrieved_findings": [
+    11.2,
+    [
+     11.0,
+     11.4
+    ]
+   ],
+   "retrieved_stale": [
+    5.9,
+    [
+     5.4,
+     6.4
+    ]
+   ],
+   "total_regret_auc": [
+    75.9,
+    [
+     66.5,
+     85.4
+    ]
+   ],
+   "transitions": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ]
+  },
+  "C": {
+   "name": "Fixed hierarchy + Mitosis",
+   "trials": 40,
+   "challenges": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "challenges_of_stale": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "challenges_of_valid": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "coordinate_share": [
+    1.0,
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "final_status_ACTIVE": [
+    9.8,
+    [
+     9.6,
+     10.1
+    ]
+   ],
+   "final_status_CHALLENGED": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "final_status_FALSIFIED": [
+    1.6,
+    [
+     1.3,
+     1.9
+    ]
+   ],
+   "final_status_SUPERSEDED": [
+    0.3,
+    [
+     0.1,
+     0.4
+    ]
+   ],
+   "first_stale_challenge_round": [
+    15.0,
+    [
+     15.0,
+     15.0
+    ]
+   ],
+   "mitosis_fail": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "mitosis_ops": [
+    62.9,
+    [
+     62.5,
+     63.2
+    ]
+   ],
+   "mitosis_read_mismatch": [
+    5.4,
+    [
+     3.3,
+     7.7
+    ]
+   ],
+   "mitosis_read_ms_p50": [
+    221.7,
+    [
+     212.4,
+     232.2
+    ]
+   ],
+   "ph1_coordinate_share": [
+    1.0,
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "ph1_dominated_games": [
+    40.3,
+    [
+     40.0,
+     40.7
+    ]
+   ],
+   "ph1_duplicate_games": [
+    18.0,
+    [
+     18.0,
+     18.0
+    ]
+   ],
+   "ph1_entropy_bits": [
+    2.7,
+    [
+     2.7,
+     2.7
+    ]
+   ],
+   "ph1_final_regret": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_found_best": [
+    1.0,
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "ph1_premature_stop": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_rediscovery_games": [
+    18.3,
+    [
+     18.0,
+     18.7
+    ]
+   ],
+   "ph1_regret_auc": [
+    49.2,
+    [
+     39.2,
+     59.6
+    ]
+   ],
+   "ph1_rounds_to_best": [
+    6.5,
+    [
+     5.5,
+     7.6
+    ]
+   ],
+   "ph1_rule_stopped": [
+    0.1,
+    [
+     0.0,
+     0.2
+    ]
+   ],
+   "ph1_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_unique_configs": [
+    12.0,
+    [
+     12.0,
+     12.0
+    ]
+   ],
+   "ph2_coordinate_share": [
+    1.0,
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "ph2_dominated_games": [
+    46.3,
+    [
+     41.8,
+     50.5
+    ]
+   ],
+   "ph2_duplicate_games": [
+    30.5,
+    [
+     30.1,
+     31.1
+    ]
+   ],
+   "ph2_entropy_bits": [
+    1.3,
+    [
+     1.3,
+     1.4
+    ]
+   ],
+   "ph2_final_regret": [
+    120.6,
+    [
+     95.6,
+     144.5
+    ]
+   ],
+   "ph2_found_best": [
+    0.1,
+    [
+     0.1,
+     0.3
+    ]
+   ],
+   "ph2_premature_stop": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_rediscovery_games": [
+    42.0,
+    [
+     37.4,
+     46.2
+    ]
+   ],
+   "ph2_regret_auc": [
+    151.9,
+    [
+     135.6,
+     166.1
+    ]
+   ],
+   "ph2_regret_first5": [
+    169.5,
+    [
+     155.6,
+     180.2
+    ]
+   ],
+   "ph2_rounds_to_best": [
+    15.1,
+    [
+     14.2,
+     15.8
+    ]
+   ],
+   "ph2_rounds_to_within_50": [
+    14.1,
+    [
+     12.8,
+     15.2
+    ]
+   ],
+   "ph2_rule_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_stale_led_games": [
+    45.8,
+    [
+     41.3,
+     50.1
+    ]
+   ],
+   "ph2_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_unique_configs": [
+    3.1,
+    [
+     2.9,
+     3.4
+    ]
+   ],
+   "retrieved_findings": [
+    11.7,
+    [
+     11.5,
+     11.8
+    ]
+   ],
+   "retrieved_stale": [
+    6.1,
+    [
+     5.6,
+     6.6
+    ]
+   ],
+   "total_regret_auc": [
+    100.6,
+    [
+     91.4,
+     109.0
+    ]
+   ],
+   "transitions": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ]
+  },
+  "D": {
+   "name": "Adaptive JEV governance + Mitosis",
+   "trials": 40,
+   "challenges": [
+    4.3,
+    [
+     3.9,
+     4.8
+    ]
+   ],
+   "challenges_of_stale": [
+    2.9,
+    [
+     2.5,
+     3.3
+    ]
+   ],
+   "challenges_of_valid": [
+    1.4,
+    [
+     1.1,
+     1.8
+    ]
+   ],
+   "coordinate_share": [
+    0.2,
+    [
+     0.2,
+     0.2
+    ]
+   ],
+   "final_status_ACTIVE": [
+    4.7,
+    [
+     4.2,
+     5.2
+    ]
+   ],
+   "final_status_CHALLENGED": [
+    1.7,
+    [
+     1.3,
+     2.0
+    ]
+   ],
+   "final_status_FALSIFIED": [
+    2.4,
+    [
+     1.8,
+     3.0
+    ]
+   ],
+   "final_status_SUPERSEDED": [
+    2.0,
+    [
+     1.6,
+     2.4
+    ]
+   ],
+   "first_stale_challenge_round": [
+    2.5,
+    [
+     1.9,
+     3.3
+    ]
+   ],
+   "jev_calls": [
+    70.9,
+    [
+     70.0,
+     71.4
+    ]
+   ],
+   "jev_cost_usd": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "jev_errors": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "mitosis_fail": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "mitosis_ops": [
+    69.7,
+    [
+     68.8,
+     70.5
+    ]
+   ],
+   "mitosis_read_mismatch": [
+    9.9,
+    [
+     7.3,
+     12.4
+    ]
+   ],
+   "mitosis_read_ms_p50": [
+    237.4,
+    [
+     225.8,
+     250.3
+    ]
+   ],
+   "ph1_coordinate_share": [
+    0.3,
+    [
+     0.3,
+     0.3
+    ]
+   ],
+   "ph1_dominated_games": [
+    35.7,
+    [
+     34.1,
+     37.3
+    ]
+   ],
+   "ph1_duplicate_games": [
+    24.2,
+    [
+     23.4,
+     25.1
+    ]
+   ],
+   "ph1_entropy_bits": [
+    2.5,
+    [
+     2.4,
+     2.6
+    ]
+   ],
+   "ph1_final_regret": [
+    31.9,
+    [
+     12.6,
+     55.2
+    ]
+   ],
+   "ph1_found_best": [
+    0.8,
+    [
+     0.7,
+     0.9
+    ]
+   ],
+   "ph1_premature_stop": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_rediscovery_games": [
+    18.6,
+    [
+     17.2,
+     19.9
+    ]
+   ],
+   "ph1_regret_auc": [
+    55.9,
+    [
+     47.7,
+     64.6
+    ]
+   ],
+   "ph1_rounds_to_best": [
+    9.0,
+    [
+     7.6,
+     10.4
+    ]
+   ],
+   "ph1_rule_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_unique_configs": [
+    12.0,
+    [
+     11.9,
+     12.0
+    ]
+   ],
+   "ph2_coordinate_share": [
+    0.1,
+    [
+     0.0,
+     0.1
+    ]
+   ],
+   "ph2_dominated_games": [
+    20.8,
+    [
+     18.3,
+     23.8
+    ]
+   ],
+   "ph2_duplicate_games": [
+    22.0,
+    [
+     20.6,
+     23.6
+    ]
+   ],
+   "ph2_entropy_bits": [
+    2.6,
+    [
+     2.5,
+     2.7
+    ]
+   ],
+   "ph2_final_regret": [
+    19.8,
+    [
+     11.0,
+     30.5
+    ]
+   ],
+   "ph2_found_best": [
+    0.6,
+    [
+     0.4,
+     0.7
+    ]
+   ],
+   "ph2_premature_stop": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_rediscovery_games": [
+    11.5,
+    [
+     9.0,
+     14.7
+    ]
+   ],
+   "ph2_regret_auc": [
+    49.3,
+    [
+     41.7,
+     58.3
+    ]
+   ],
+   "ph2_regret_first5": [
+    103.5,
+    [
+     88.6,
+     118.3
+    ]
+   ],
+   "ph2_rounds_to_best": [
+    12.1,
+    [
+     10.8,
+     13.3
+    ]
+   ],
+   "ph2_rounds_to_within_50": [
+    9.4,
+    [
+     8.0,
+     10.8
+    ]
+   ],
+   "ph2_rule_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_stale_led_games": [
+    13.7,
+    [
+     11.3,
+     16.8
+    ]
+   ],
+   "ph2_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_unique_configs": [
+    9.7,
+    [
+     9.2,
+     10.2
+    ]
+   ],
+   "retrieved_findings": [
+    11.5,
+    [
+     11.3,
+     11.7
+    ]
+   ],
+   "retrieved_stale": [
+    6.2,
+    [
+     5.8,
+     6.7
+    ]
+   ],
+   "total_regret_auc": [
+    52.6,
+    [
+     48.5,
+     57.2
+    ]
+   ],
+   "transitions": [
+    2.5,
+    [
+     2.2,
+     3.0
+    ]
+   ]
+  },
+  "E": {
+   "name": "Adaptive JEV, no Mitosis",
+   "trials": 40,
+   "coordinate_share": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "jev_calls": [
+    58.0,
+    [
+     58.0,
+     58.0
+    ]
+   ],
+   "jev_cost_usd": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "jev_errors": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_coordinate_share": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_dominated_games": [
+    54.2,
+    [
+     53.4,
+     55.0
+    ]
+   ],
+   "ph1_duplicate_games": [
+    7.3,
+    [
+     6.6,
+     8.1
+    ]
+   ],
+   "ph1_entropy_bits": [
+    3.5,
+    [
+     3.5,
+     3.5
+    ]
+   ],
+   "ph1_final_regret": [
+    128.0,
+    [
+     91.0,
+     166.0
+    ]
+   ],
+   "ph1_found_best": [
+    0.4,
+    [
+     0.2,
+     0.5
+    ]
+   ],
+   "ph1_premature_stop": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_rediscovery_games": [
+    32.4,
+    [
+     31.5,
+     33.2
+    ]
+   ],
+   "ph1_regret_auc": [
+    122.7,
+    [
+     110.7,
+     134.7
+    ]
+   ],
+   "ph1_rounds_to_best": [
+    15.0,
+    [
+     14.4,
+     15.5
+    ]
+   ],
+   "ph1_rule_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_unique_configs": [
+    12.0,
+    [
+     11.9,
+     12.0
+    ]
+   ],
+   "ph2_coordinate_share": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_dominated_games": [
+    39.1,
+    [
+     38.0,
+     40.2
+    ]
+   ],
+   "ph2_duplicate_games": [
+    6.7,
+    [
+     6.2,
+     7.3
+    ]
+   ],
+   "ph2_entropy_bits": [
+    3.5,
+    [
+     3.5,
+     3.5
+    ]
+   ],
+   "ph2_final_regret": [
+    44.9,
+    [
+     30.4,
+     62.1
+    ]
+   ],
+   "ph2_found_best": [
+    0.3,
+    [
+     0.2,
+     0.5
+    ]
+   ],
+   "ph2_premature_stop": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_rediscovery_games": [
+    23.4,
+    [
+     22.4,
+     24.5
+    ]
+   ],
+   "ph2_regret_auc": [
+    48.2,
+    [
+     42.2,
+     54.2
+    ]
+   ],
+   "ph2_regret_first5": [
+    55.7,
+    [
+     43.2,
+     69.1
+    ]
+   ],
+   "ph2_rounds_to_best": [
+    15.2,
+    [
+     14.7,
+     15.6
+    ]
+   ],
+   "ph2_rounds_to_within_50": [
+    13.7,
+    [
+     12.8,
+     14.5
+    ]
+   ],
+   "ph2_rule_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_stale_led_games": [
+    9.3,
+    [
+     8.5,
+     10.2
+    ]
+   ],
+   "ph2_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_unique_configs": [
+    11.9,
+    [
+     11.9,
+     12.0
+    ]
+   ],
+   "total_regret_auc": [
+    85.5,
+    [
+     78.7,
+     91.8
+    ]
+   ],
+   "transitions": [
+    0.0,
+    [
+     0.0,
+     0.1
+    ]
+   ]
+  },
+  "F": {
+   "name": "Adaptive rule (no model) + Mitosis",
+   "trials": 40,
+   "challenges": [
+    2.3,
+    [
+     2.0,
+     2.6
+    ]
+   ],
+   "challenges_of_stale": [
+    2.2,
+    [
+     1.9,
+     2.5
+    ]
+   ],
+   "challenges_of_valid": [
+    0.1,
+    [
+     0.1,
+     0.3
+    ]
+   ],
+   "coordinate_share": [
+    0.2,
+    [
+     0.2,
+     0.3
+    ]
+   ],
+   "final_status_ACTIVE": [
+    5.9,
+    [
+     5.6,
+     6.2
+    ]
+   ],
+   "final_status_CHALLENGED": [
+    0.2,
+    [
+     0.1,
+     0.4
+    ]
+   ],
+   "final_status_FALSIFIED": [
+    2.7,
+    [
+     2.2,
+     3.2
+    ]
+   ],
+   "final_status_SUPERSEDED": [
+    2.1,
+    [
+     1.8,
+     2.5
+    ]
+   ],
+   "first_stale_challenge_round": [
+    2.3,
+    [
+     1.3,
+     3.5
+    ]
+   ],
+   "mitosis_fail": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "mitosis_ops": [
+    68.2,
+    [
+     67.5,
+     68.8
+    ]
+   ],
+   "mitosis_read_mismatch": [
+    9.7,
+    [
+     7.1,
+     12.1
+    ]
+   ],
+   "mitosis_read_ms_p50": [
+    232.4,
+    [
+     220.1,
+     244.9
+    ]
+   ],
+   "ph1_coordinate_share": [
+    0.5,
+    [
+     0.4,
+     0.5
+    ]
+   ],
+   "ph1_dominated_games": [
+    36.5,
+    [
+     35.3,
+     37.5
+    ]
+   ],
+   "ph1_duplicate_games": [
+    24.1,
+    [
+     23.4,
+     24.8
+    ]
+   ],
+   "ph1_entropy_bits": [
+    2.4,
+    [
+     2.4,
+     2.5
+    ]
+   ],
+   "ph1_final_regret": [
+    6.3,
+    [
+     0.0,
+     15.8
+    ]
+   ],
+   "ph1_found_best": [
+    0.9,
+    [
+     0.9,
+     1.0
+    ]
+   ],
+   "ph1_premature_stop": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_rediscovery_games": [
+    20.1,
+    [
+     19.2,
+     21.0
+    ]
+   ],
+   "ph1_regret_auc": [
+    50.6,
+    [
+     42.9,
+     59.1
+    ]
+   ],
+   "ph1_rounds_to_best": [
+    7.4,
+    [
+     6.2,
+     8.7
+    ]
+   ],
+   "ph1_rule_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph1_unique_configs": [
+    12.0,
+    [
+     12.0,
+     12.0
+    ]
+   ],
+   "ph2_coordinate_share": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_dominated_games": [
+    16.2,
+    [
+     15.0,
+     17.8
+    ]
+   ],
+   "ph2_duplicate_games": [
+    21.6,
+    [
+     20.4,
+     22.7
+    ]
+   ],
+   "ph2_entropy_bits": [
+    2.7,
+    [
+     2.6,
+     2.7
+    ]
+   ],
+   "ph2_final_regret": [
+    8.7,
+    [
+     4.1,
+     13.8
+    ]
+   ],
+   "ph2_found_best": [
+    0.8,
+    [
+     0.6,
+     0.9
+    ]
+   ],
+   "ph2_premature_stop": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_rediscovery_games": [
+    6.7,
+    [
+     5.5,
+     8.1
+    ]
+   ],
+   "ph2_regret_auc": [
+    39.8,
+    [
+     35.4,
+     44.1
+    ]
+   ],
+   "ph2_regret_first5": [
+    81.1,
+    [
+     72.4,
+     89.2
+    ]
+   ],
+   "ph2_rounds_to_best": [
+    11.7,
+    [
+     10.3,
+     13.0
+    ]
+   ],
+   "ph2_rounds_to_within_50": [
+    7.8,
+    [
+     6.3,
+     9.3
+    ]
+   ],
+   "ph2_rule_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_stale_led_games": [
+    9.1,
+    [
+     8.2,
+     10.4
+    ]
+   ],
+   "ph2_stopped": [
+    0.0,
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "ph2_unique_configs": [
+    10.1,
+    [
+     9.8,
+     10.3
+    ]
+   ],
+   "retrieved_findings": [
+    11.6,
+    [
+     11.4,
+     11.8
+    ]
+   ],
+   "retrieved_stale": [
+    6.4,
+    [
+     6.0,
+     6.9
+    ]
+   ],
+   "total_regret_auc": [
+    45.2,
+    [
+     41.2,
+     49.3
+    ]
+   ],
+   "transitions": [
+    2.3,
+    [
+     2.0,
+     2.7
+    ]
+   ]
+  }
+ },
+ "paired": {
+  "D-B ph1_regret_auc": {
+   "diff": [
+    -0.3,
+    [
+     -2.8,
+     2.5
+    ]
+   ],
+   "x_better_trials": 10,
+   "y_better_trials": 5,
+   "n": 40
+  },
+  "D-B ph2_regret_auc": {
+   "diff": [
+    -46.4,
+    [
+     -65.0,
+     -27.9
+    ]
+   ],
+   "x_better_trials": 29,
+   "y_better_trials": 11,
+   "n": 40
+  },
+  "D-B total_regret_auc": {
+   "diff": [
+    -23.3,
+    [
+     -32.6,
+     -14.1
+    ]
+   ],
+   "x_better_trials": 30,
+   "y_better_trials": 10,
+   "n": 40
+  },
+  "D-B ph2_stale_led_games": {
+   "diff": [
+    -9.1,
+    [
+     -14.6,
+     -3.4
+    ]
+   ],
+   "x_better_trials": 26,
+   "y_better_trials": 9,
+   "n": 40
+  },
+  "D-B ph1_dominated_games": {
+   "diff": [
+    3.3,
+    [
+     1.8,
+     4.7
+    ]
+   ],
+   "x_better_trials": 10,
+   "y_better_trials": 26,
+   "n": 40
+  },
+  "D-B ph2_dominated_games": {
+   "diff": [
+    -7.1,
+    [
+     -12.2,
+     -1.9
+    ]
+   ],
+   "x_better_trials": 23,
+   "y_better_trials": 14,
+   "n": 40
+  },
+  "D-B ph2_regret_first5": {
+   "diff": [
+    -26.2,
+    [
+     -40.7,
+     -11.5
+    ]
+   ],
+   "x_better_trials": 27,
+   "y_better_trials": 9,
+   "n": 40
+  },
+  "D-C ph1_regret_auc": {
+   "diff": [
+    6.6,
+    [
+     -1.5,
+     14.8
+    ]
+   ],
+   "x_better_trials": 16,
+   "y_better_trials": 24,
+   "n": 40
+  },
+  "D-C ph2_regret_auc": {
+   "diff": [
+    -102.6,
+    [
+     -116.2,
+     -88.3
+    ]
+   ],
+   "x_better_trials": 38,
+   "y_better_trials": 1,
+   "n": 40
+  },
+  "D-C total_regret_auc": {
+   "diff": [
+    -48.0,
+    [
+     -55.7,
+     -40.2
+    ]
+   ],
+   "x_better_trials": 38,
+   "y_better_trials": 2,
+   "n": 40
+  },
+  "D-C ph2_stale_led_games": {
+   "diff": [
+    -32.1,
+    [
+     -37.1,
+     -26.9
+    ]
+   ],
+   "x_better_trials": 38,
+   "y_better_trials": 2,
+   "n": 40
+  },
+  "D-C ph1_dominated_games": {
+   "diff": [
+    -4.6,
+    [
+     -6.2,
+     -3.1
+    ]
+   ],
+   "x_better_trials": 30,
+   "y_better_trials": 4,
+   "n": 40
+  },
+  "D-C ph2_dominated_games": {
+   "diff": [
+    -25.5,
+    [
+     -30.4,
+     -20.3
+    ]
+   ],
+   "x_better_trials": 36,
+   "y_better_trials": 4,
+   "n": 40
+  },
+  "D-C ph2_regret_first5": {
+   "diff": [
+    -66.0,
+    [
+     -80.2,
+     -52.3
+    ]
+   ],
+   "x_better_trials": 35,
+   "y_better_trials": 1,
+   "n": 40
+  },
+  "D-F ph1_regret_auc": {
+   "diff": [
+    5.2,
+    [
+     2.6,
+     8.1
+    ]
+   ],
+   "x_better_trials": 2,
+   "y_better_trials": 16,
+   "n": 40
+  },
+  "D-F ph2_regret_auc": {
+   "diff": [
+    9.6,
+    [
+     3.0,
+     17.0
+    ]
+   ],
+   "x_better_trials": 13,
+   "y_better_trials": 26,
+   "n": 40
+  },
+  "D-F total_regret_auc": {
+   "diff": [
+    7.4,
+    [
+     4.4,
+     10.8
+    ]
+   ],
+   "x_better_trials": 6,
+   "y_better_trials": 33,
+   "n": 40
+  },
+  "D-F ph2_stale_led_games": {
+   "diff": [
+    4.6,
+    [
+     2.5,
+     7.4
+    ]
+   ],
+   "x_better_trials": 5,
+   "y_better_trials": 29,
+   "n": 40
+  },
+  "D-F ph1_dominated_games": {
+   "diff": [
+    -0.8,
+    [
+     -1.8,
+     0.2
+    ]
+   ],
+   "x_better_trials": 22,
+   "y_better_trials": 14,
+   "n": 40
+  },
+  "D-F ph2_dominated_games": {
+   "diff": [
+    4.6,
+    [
+     2.6,
+     7.2
+    ]
+   ],
+   "x_better_trials": 5,
+   "y_better_trials": 30,
+   "n": 40
+  },
+  "D-F ph2_regret_first5": {
+   "diff": [
+    22.4,
+    [
+     9.6,
+     35.4
+    ]
+   ],
+   "x_better_trials": 12,
+   "y_better_trials": 26,
+   "n": 40
+  },
+  "B-A ph1_regret_auc": {
+   "diff": [
+    -67.1,
+    [
+     -77.4,
+     -56.9
+    ]
+   ],
+   "x_better_trials": 39,
+   "y_better_trials": 1,
+   "n": 40
+  },
+  "B-A ph2_regret_auc": {
+   "diff": [
+    48.0,
+    [
+     26.6,
+     70.1
+    ]
+   ],
+   "x_better_trials": 13,
+   "y_better_trials": 27,
+   "n": 40
+  },
+  "B-A total_regret_auc": {
+   "diff": [
+    -9.5,
+    [
+     -21.2,
+     2.6
+    ]
+   ],
+   "x_better_trials": 22,
+   "y_better_trials": 18,
+   "n": 40
+  },
+  "B-A ph2_stale_led_games": {
+   "diff": [
+    13.3,
+    [
+     8.6,
+     18.2
+    ]
+   ],
+   "x_better_trials": 12,
+   "y_better_trials": 26,
+   "n": 40
+  },
+  "B-A ph1_dominated_games": {
+   "diff": [
+    -21.8,
+    [
+     -24.1,
+     -19.4
+    ]
+   ],
+   "x_better_trials": 40,
+   "y_better_trials": 0,
+   "n": 40
+  },
+  "B-A ph2_dominated_games": {
+   "diff": [
+    -11.2,
+    [
+     -15.5,
+     -6.9
+    ]
+   ],
+   "x_better_trials": 27,
+   "y_better_trials": 12,
+   "n": 40
+  },
+  "B-A ph2_regret_first5": {
+   "diff": [
+    74.2,
+    [
+     50.7,
+     97.2
+    ]
+   ],
+   "x_better_trials": 7,
+   "y_better_trials": 32,
+   "n": 40
+  },
+  "D-E ph1_regret_auc": {
+   "diff": [
+    -66.9,
+    [
+     -77.2,
+     -56.6
+    ]
+   ],
+   "x_better_trials": 39,
+   "y_better_trials": 1,
+   "n": 40
+  },
+  "D-E ph2_regret_auc": {
+   "diff": [
+    1.1,
+    [
+     -7.7,
+     10.7
+    ]
+   ],
+   "x_better_trials": 18,
+   "y_better_trials": 22,
+   "n": 40
+  },
+  "D-E total_regret_auc": {
+   "diff": [
+    -32.9,
+    [
+     -38.8,
+     -26.8
+    ]
+   ],
+   "x_better_trials": 38,
+   "y_better_trials": 2,
+   "n": 40
+  },
+  "D-E ph2_stale_led_games": {
+   "diff": [
+    4.3,
+    [
+     1.9,
+     7.5
+    ]
+   ],
+   "x_better_trials": 13,
+   "y_better_trials": 25,
+   "n": 40
+  },
+  "D-E ph1_dominated_games": {
+   "diff": [
+    -18.5,
+    [
+     -20.2,
+     -16.8
+    ]
+   ],
+   "x_better_trials": 40,
+   "y_better_trials": 0,
+   "n": 40
+  },
+  "D-E ph2_dominated_games": {
+   "diff": [
+    -18.3,
+    [
+     -21.1,
+     -15.2
+    ]
+   ],
+   "x_better_trials": 38,
+   "y_better_trials": 2,
+   "n": 40
+  },
+  "D-E ph2_regret_first5": {
+   "diff": [
+    47.7,
+    [
+     29.4,
+     66.7
+    ]
+   ],
+   "x_better_trials": 10,
+   "y_better_trials": 29,
+   "n": 40
+  },
+  "C-B ph1_regret_auc": {
+   "diff": [
+    -6.9,
+    [
+     -15.5,
+     1.8
+    ]
+   ],
+   "x_better_trials": 26,
+   "y_better_trials": 13,
+   "n": 40
+  },
+  "C-B ph2_regret_auc": {
+   "diff": [
+    56.2,
+    [
+     36.2,
+     76.3
+    ]
+   ],
+   "x_better_trials": 4,
+   "y_better_trials": 29,
+   "n": 40
+  },
+  "C-B total_regret_auc": {
+   "diff": [
+    24.6,
+    [
+     14.2,
+     35.3
+    ]
+   ],
+   "x_better_trials": 11,
+   "y_better_trials": 29,
+   "n": 40
+  },
+  "C-B ph2_stale_led_games": {
+   "diff": [
+    23.1,
+    [
+     19.0,
+     27.1
+    ]
+   ],
+   "x_better_trials": 1,
+   "y_better_trials": 39,
+   "n": 40
+  },
+  "C-B ph1_dominated_games": {
+   "diff": [
+    7.9,
+    [
+     5.6,
+     10.1
+    ]
+   ],
+   "x_better_trials": 6,
+   "y_better_trials": 32,
+   "n": 40
+  },
+  "C-B ph2_dominated_games": {
+   "diff": [
+    18.4,
+    [
+     14.5,
+     22.3
+    ]
+   ],
+   "x_better_trials": 3,
+   "y_better_trials": 36,
+   "n": 40
+  },
+  "C-B ph2_regret_first5": {
+   "diff": [
+    39.8,
+    [
+     23.2,
+     58.0
+    ]
+   ],
+   "x_better_trials": 1,
+   "y_better_trials": 24,
+   "n": 40
+  }
+ },
+ "memory": {
+  "decentralized": {
+   "memory_benefit_ph1_auc": [
+    67.1,
+    [
+     56.9,
+     77.4
+    ]
+   ],
+   "memory_drag_ph2_auc": [
+    48.0,
+    [
+     26.6,
+     70.1
+    ]
+   ],
+   "memory_drag_ph2_first5": [
+    74.2,
+    [
+     50.7,
+     97.2
+    ]
+   ],
+   "rediscovery_avoided_ph1": [
+    18.1,
+    [
+     15.9,
+     20.1
+    ]
+   ]
+  },
+  "adaptive JEV": {
+   "memory_benefit_ph1_auc": [
+    66.9,
+    [
+     56.6,
+     77.2
+    ]
+   ],
+   "memory_drag_ph2_auc": [
+    1.1,
+    [
+     -7.7,
+     10.7
+    ]
+   ],
+   "memory_drag_ph2_first5": [
+    47.7,
+    [
+     29.4,
+     66.7
+    ]
+   ],
+   "rediscovery_avoided_ph1": [
+    13.8,
+    [
+     12.2,
+     15.3
+    ]
+   ]
+  }
+ },
+ "mean_regret_curves": {
+  "A": [
+   190.8,
+   146.8,
+   132.0,
+   114.4,
+   106.4,
+   93.1,
+   90.0,
+   119.3,
+   159.1,
+   140.1,
+   133.1,
+   84.9,
+   95.4,
+   107.6,
+   134.9,
+   79.7,
+   53.1,
+   47.0,
+   48.6,
+   49.3,
+   46.6,
+   41.2,
+   35.1,
+   55.6,
+   50.7,
+   51.9,
+   45.0,
+   33.5,
+   35.5,
+   42.8
+  ],
+  "B": [
+   190.8,
+   141.6,
+   103.8,
+   81.1,
+   76.5,
+   56.3,
+   47.0,
+   31.0,
+   26.5,
+   12.6,
+   6.3,
+   6.3,
+   9.5,
+   27.9,
+   25.0,
+   137.3,
+   133.1,
+   134.8,
+   128.9,
+   114.4,
+   98.8,
+   96.3,
+   93.4,
+   81.7,
+   77.5,
+   66.1,
+   70.2,
+   70.4,
+   63.8,
+   69.4
+  ],
+  "C": [
+   170.2,
+   143.6,
+   91.2,
+   75.5,
+   76.8,
+   65.2,
+   43.7,
+   25.2,
+   18.9,
+   12.6,
+   9.5,
+   6.3,
+   0.0,
+   0.0,
+   0.0,
+   175.4,
+   170.7,
+   170.7,
+   167.3,
+   163.4,
+   160.5,
+   159.7,
+   157.1,
+   153.4,
+   141.6,
+   136.5,
+   129.7,
+   140.3,
+   131.9,
+   120.6
+  ],
+  "D": [
+   190.8,
+   141.6,
+   103.8,
+   81.1,
+   76.5,
+   59.4,
+   43.9,
+   34.2,
+   18.9,
+   9.5,
+   18.7,
+   12.6,
+   0.0,
+   15.5,
+   31.9,
+   159.5,
+   139.9,
+   108.7,
+   66.8,
+   42.6,
+   35.7,
+   27.0,
+   26.9,
+   20.8,
+   24.4,
+   17.7,
+   19.3,
+   15.7,
+   14.9,
+   19.8
+  ],
+  "E": [
+   190.8,
+   146.8,
+   132.0,
+   114.4,
+   106.4,
+   93.1,
+   90.0,
+   119.3,
+   159.1,
+   140.1,
+   133.1,
+   84.9,
+   95.4,
+   107.6,
+   128.0,
+   79.7,
+   53.1,
+   47.5,
+   49.9,
+   48.6,
+   46.6,
+   42.5,
+   33.8,
+   54.3,
+   49.9,
+   54.0,
+   47.1,
+   33.5,
+   37.6,
+   44.9
+  ],
+  "F": [
+   190.8,
+   141.6,
+   103.8,
+   81.1,
+   76.5,
+   56.3,
+   31.3,
+   18.7,
+   15.8,
+   6.3,
+   9.5,
+   0.0,
+   6.3,
+   15.5,
+   6.3,
+   167.9,
+   121.6,
+   46.5,
+   33.1,
+   36.5,
+   34.8,
+   25.3,
+   21.0,
+   16.9,
+   16.1,
+   21.7,
+   17.4,
+   15.8,
+   13.0,
+   8.7
+  ]
+ }
+}

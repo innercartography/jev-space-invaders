@@ -1,0 +1,22 @@
+{
+  "experiment_id": "exp004_scripted_controls",
+  "description": "Falsification: can dumb deterministic controls reproduce JEV THREAT (exp003)? Left wall, right wall, sweep (reverse only at limits), stationary; all fire when shot_ready (from hints()). Random as a floor. No model calls. Env identical to exp003. Seeds 1-5 = the exp003 seeds; 6+ are extra.",
+  "env": {
+    "env_id": "ALE/SpaceInvaders-v5",
+    "obs_type": "ram",
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "full_action_space": false,
+    "max_num_frames_per_episode": 108000
+  },
+  "clock": "turn_based",
+  "low_conf_threshold": 0.5,
+  "seeds": [1, 2, 3, 4, 5],
+  "arms": [
+    {"name": "control_left", "policy": "scripted", "control": "left", "representation": "threat"},
+    {"name": "control_right", "policy": "scripted", "control": "right", "representation": "threat"},
+    {"name": "control_sweep", "policy": "scripted", "control": "sweep", "representation": "threat"},
+    {"name": "control_still", "policy": "scripted", "control": "still", "representation": "threat"},
+    {"name": "random__raw", "policy": "random", "representation": "raw"}
+  ]
+}

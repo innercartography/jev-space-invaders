@@ -1,0 +1,21 @@
+{
+  "experiment_id": "exp001_first_light",
+  "description": "Instrument check. Same seed through random (harness only), JEV on RAW, JEV on THREAT (reduced), and the Haiku baseline on RAW. Not a performance claim: one seed.",
+  "env": {
+    "env_id": "ALE/SpaceInvaders-v5",
+    "obs_type": "ram",
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "full_action_space": false,
+    "max_num_frames_per_episode": 108000
+  },
+  "clock": "turn_based",
+  "low_conf_threshold": 0.5,
+  "seeds": [1],
+  "arms": [
+    {"name": "random__raw", "policy": "random", "representation": "raw", "notes": "harness check, not a JEV run"},
+    {"name": "jev_basic__raw", "policy": "jev_basic", "representation": "raw", "question_set": "move_v1", "model": "jev-latest"},
+    {"name": "jev_basic__threat", "policy": "jev_basic", "representation": "threat", "question_set": "move_v1", "model": "jev-latest"},
+    {"name": "baseline_llm__raw", "policy": "baseline_llm", "representation": "raw", "question_set": "move_v1", "provider": "anthropic", "model": "claude-haiku-4-5"}
+  ]
+}

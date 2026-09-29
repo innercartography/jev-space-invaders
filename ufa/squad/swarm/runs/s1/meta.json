@@ -1,0 +1,39 @@
+{
+ "run": "s1",
+ "conds": [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F"
+ ],
+ "trials": 40,
+ "W": 4,
+ "R": 15,
+ "L": 5,
+ "commit": "9176843",
+ "landscape": {
+  "0": {
+   "name": "A",
+   "regime": {
+    "mode": 0,
+    "difficulty": 0
+   },
+   "file": "ufa/squad/swarm/landscape/A.json",
+   "sha256": "8927fd87dc0f3d58",
+   "best": 672.625
+  },
+  "1": {
+   "name": "B",
+   "regime": {
+    "mode": 1,
+    "difficulty": 0
+   },
+   "file": "ufa/squad/swarm/landscape/B.json",
+   "sha256": "7db4e6d309bfa030",
+   "best": 484.125
+  }
+ },
+ "wall_s": 587.9
+}

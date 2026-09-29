@@ -1,0 +1,36 @@
+{
+ "pilot": {
+  "source": "ufa/replays/holdout.json",
+  "episode_id": "exp008_holdout/jev_final/seed1895794344__20260927T124257255Z",
+  "seed": 1895794344,
+  "recorded_score": 705.0,
+  "replayed_score": 705.0,
+  "steps_total": 1209,
+  "steps_shown": 750,
+  "matched": true
+ },
+ "regime_A": {
+  "source": "ufa/squad/swarm/landscape/A.json",
+  "config": "still-on-ready",
+  "seed": 100,
+  "regime": {
+   "mode": 0,
+   "difficulty": 0
+  },
+  "recorded_score": 585.0,
+  "replayed_score": 585.0,
+  "matched": true
+ },
+ "regime_B": {
+  "source": "ufa/squad/swarm/landscape/B.json",
+  "config": "still-on-ready",
+  "seed": 100,
+  "regime": {
+   "mode": 1,
+   "difficulty": 0
+  },
+  "recorded_score": 535.0,
+  "replayed_score": 535.0,
+  "matched": true
+ }
+}

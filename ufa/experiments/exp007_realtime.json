@@ -1,0 +1,20 @@
+{
+  "experiment_id": "exp007_realtime",
+  "description": "Real-time clock: the game does not wait for the decider. While a decision is being computed, the previous action keeps playing (run.py 'realtime': lag steps = decision time / 66.7 ms). Same env, extractor and representation as the exp006 finalist; JEV vs the Haiku baseline through the identical loop. Development seeds only.",
+  "env": {
+    "env_id": "ALE/SpaceInvaders-v5",
+    "obs_type": "ram",
+    "frameskip": 4,
+    "repeat_action_probability": 0.25,
+    "full_action_space": false,
+    "max_num_frames_per_episode": 108000
+  },
+  "clock": "realtime",
+  "low_conf_threshold": 0.5,
+  "seeds": [],
+  "arms": [
+    {"name": "jev_safe_rt", "policy": "jev_basic", "representation": "threat_safe", "question_set": "move_v1", "model": "jev-latest"},
+    {"name": "haiku_safe_rt", "policy": "baseline_llm", "representation": "threat_safe", "question_set": "move_v1", "model": "claude-haiku-4-5", "provider": "anthropic"},
+    {"name": "control_sweep_rt", "policy": "scripted", "control": "sweep", "representation": "threat"}
+  ]
+}

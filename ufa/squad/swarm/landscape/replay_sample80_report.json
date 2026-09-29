@@ -1,0 +1,1454 @@
+{
+ "input_sha256": "07f852ab26fa5e48bb11033e4be801355f2dbb8ee9184b2a6d6d20dabf39624c",
+ "games": 80,
+ "matched": 80,
+ "mismatched": [],
+ "wall_s": 16.2,
+ "host": "lambda",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "python": "3.13.11",
+ "ale_py": "0.12.1",
+ "gymnasium": "1.3.0",
+ "results": [
+  {
+   "episode_id": "swarm-A-sweep-off-aimed-105",
+   "arm": "sweep-off-aimed",
+   "seed": 105,
+   "expected": {
+    "score": 310.0,
+    "steps": 549,
+    "frames": 2193,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 310.0,
+    "steps": 549,
+    "frames": 2193,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-off-ready-137",
+   "arm": "still-off-ready",
+   "seed": 137,
+   "expected": {
+    "score": 180.0,
+    "steps": 665,
+    "frames": 2657,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 665,
+    "frames": 2657,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-sweep-off-ready-102",
+   "arm": "sweep-off-ready",
+   "seed": 102,
+   "expected": {
+    "score": 140.0,
+    "steps": 470,
+    "frames": 1877,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 140.0,
+    "steps": 470,
+    "frames": 1877,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-track-off-aimed-113",
+   "arm": "track-off-aimed",
+   "seed": 113,
+   "expected": {
+    "score": 155.0,
+    "steps": 353,
+    "frames": 1411,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 155.0,
+    "steps": 353,
+    "frames": 1411,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-off-aimed-124",
+   "arm": "still-off-aimed",
+   "seed": 124,
+   "expected": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-off-aimed-137",
+   "arm": "still-off-aimed",
+   "seed": 137,
+   "expected": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-track-on-aimed-120",
+   "arm": "track-on-aimed",
+   "seed": 120,
+   "expected": {
+    "score": 560.0,
+    "steps": 934,
+    "frames": 3735,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 560.0,
+    "steps": 934,
+    "frames": 3735,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-sweep-on-aimed-134",
+   "arm": "sweep-on-aimed",
+   "seed": 134,
+   "expected": {
+    "score": 600.0,
+    "steps": 996,
+    "frames": 3981,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 600.0,
+    "steps": 996,
+    "frames": 3981,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-off-ready-108",
+   "arm": "still-off-ready",
+   "seed": 108,
+   "expected": {
+    "score": 180.0,
+    "steps": 665,
+    "frames": 2657,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 665,
+    "frames": 2657,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-sweep-off-aimed-127",
+   "arm": "sweep-off-aimed",
+   "seed": 127,
+   "expected": {
+    "score": 300.0,
+    "steps": 501,
+    "frames": 2001,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 300.0,
+    "steps": 501,
+    "frames": 2001,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-sweep-on-ready-118",
+   "arm": "sweep-on-ready",
+   "seed": 118,
+   "expected": {
+    "score": 450.0,
+    "steps": 721,
+    "frames": 2881,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 450.0,
+    "steps": 721,
+    "frames": 2881,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-off-aimed-129",
+   "arm": "still-off-aimed",
+   "seed": 129,
+   "expected": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-track-on-ready-125",
+   "arm": "track-on-ready",
+   "seed": 125,
+   "expected": {
+    "score": 350.0,
+    "steps": 704,
+    "frames": 2813,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 350.0,
+    "steps": 704,
+    "frames": 2813,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-sweep-on-aimed-119",
+   "arm": "sweep-on-aimed",
+   "seed": 119,
+   "expected": {
+    "score": 350.0,
+    "steps": 550,
+    "frames": 2199,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 350.0,
+    "steps": 550,
+    "frames": 2199,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-on-aimed-129",
+   "arm": "still-on-aimed",
+   "seed": 129,
+   "expected": {
+    "score": 470.0,
+    "steps": 1003,
+    "frames": 4012,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 470.0,
+    "steps": 1003,
+    "frames": 4012,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-off-aimed-119",
+   "arm": "still-off-aimed",
+   "seed": 119,
+   "expected": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-off-ready-104",
+   "arm": "still-off-ready",
+   "seed": 104,
+   "expected": {
+    "score": 180.0,
+    "steps": 665,
+    "frames": 2657,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 665,
+    "frames": 2657,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-sweep-off-ready-122",
+   "arm": "sweep-off-ready",
+   "seed": 122,
+   "expected": {
+    "score": 420.0,
+    "steps": 787,
+    "frames": 3147,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 420.0,
+    "steps": 787,
+    "frames": 3147,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-sweep-off-ready-114",
+   "arm": "sweep-off-ready",
+   "seed": 114,
+   "expected": {
+    "score": 280.0,
+    "steps": 758,
+    "frames": 3031,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 280.0,
+    "steps": 758,
+    "frames": 3031,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-off-aimed-135",
+   "arm": "still-off-aimed",
+   "seed": 135,
+   "expected": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-on-ready-103",
+   "arm": "still-on-ready",
+   "seed": 103,
+   "expected": {
+    "score": 745.0,
+    "steps": 1562,
+    "frames": 6245,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 745.0,
+    "steps": 1562,
+    "frames": 6245,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-off-ready-106",
+   "arm": "still-off-ready",
+   "seed": 106,
+   "expected": {
+    "score": 180.0,
+    "steps": 665,
+    "frames": 2657,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 665,
+    "frames": 2657,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-sweep-on-ready-102",
+   "arm": "sweep-on-ready",
+   "seed": 102,
+   "expected": {
+    "score": 1065.0,
+    "steps": 1519,
+    "frames": 6076,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 1065.0,
+    "steps": 1519,
+    "frames": 6076,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-sweep-off-ready-117",
+   "arm": "sweep-off-ready",
+   "seed": 117,
+   "expected": {
+    "score": 330.0,
+    "steps": 668,
+    "frames": 2670,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 330.0,
+    "steps": 668,
+    "frames": 2670,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-off-aimed-130",
+   "arm": "still-off-aimed",
+   "seed": 130,
+   "expected": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-track-on-aimed-123",
+   "arm": "track-on-aimed",
+   "seed": 123,
+   "expected": {
+    "score": 365.0,
+    "steps": 614,
+    "frames": 2455,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 365.0,
+    "steps": 614,
+    "frames": 2455,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-sweep-on-ready-109",
+   "arm": "sweep-on-ready",
+   "seed": 109,
+   "expected": {
+    "score": 585.0,
+    "steps": 801,
+    "frames": 3201,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 585.0,
+    "steps": 801,
+    "frames": 3201,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-off-ready-123",
+   "arm": "still-off-ready",
+   "seed": 123,
+   "expected": {
+    "score": 180.0,
+    "steps": 665,
+    "frames": 2657,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 665,
+    "frames": 2657,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-on-aimed-134",
+   "arm": "still-on-aimed",
+   "seed": 134,
+   "expected": {
+    "score": 600.0,
+    "steps": 1416,
+    "frames": 5661,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 600.0,
+    "steps": 1416,
+    "frames": 5661,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-track-off-aimed-102",
+   "arm": "track-off-aimed",
+   "seed": 102,
+   "expected": {
+    "score": 210.0,
+    "steps": 377,
+    "frames": 1507,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 210.0,
+    "steps": 377,
+    "frames": 1507,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-track-off-aimed-101",
+   "arm": "track-off-aimed",
+   "seed": 101,
+   "expected": {
+    "score": 180.0,
+    "steps": 365,
+    "frames": 1459,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 365,
+    "frames": 1459,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-off-aimed-131",
+   "arm": "still-off-aimed",
+   "seed": 131,
+   "expected": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-sweep-on-ready-115",
+   "arm": "sweep-on-ready",
+   "seed": 115,
+   "expected": {
+    "score": 305.0,
+    "steps": 742,
+    "frames": 2967,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 305.0,
+    "steps": 742,
+    "frames": 2967,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-sweep-on-ready-119",
+   "arm": "sweep-on-ready",
+   "seed": 119,
+   "expected": {
+    "score": 305.0,
+    "steps": 614,
+    "frames": 2455,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 305.0,
+    "steps": 614,
+    "frames": 2455,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-sweep-off-ready-103",
+   "arm": "sweep-off-ready",
+   "seed": 103,
+   "expected": {
+    "score": 385.0,
+    "steps": 726,
+    "frames": 2903,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 385.0,
+    "steps": 726,
+    "frames": 2903,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-off-aimed-125",
+   "arm": "still-off-aimed",
+   "seed": 125,
+   "expected": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-on-aimed-133",
+   "arm": "still-on-aimed",
+   "seed": 133,
+   "expected": {
+    "score": 800.0,
+    "steps": 1255,
+    "frames": 5017,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 800.0,
+    "steps": 1255,
+    "frames": 5017,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-still-off-aimed-123",
+   "arm": "still-off-aimed",
+   "seed": 123,
+   "expected": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 180.0,
+    "steps": 659,
+    "frames": 2635,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-sweep-on-ready-105",
+   "arm": "sweep-on-ready",
+   "seed": 105,
+   "expected": {
+    "score": 335.0,
+    "steps": 657,
+    "frames": 2625,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 335.0,
+    "steps": 657,
+    "frames": 2625,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-A-track-on-aimed-139",
+   "arm": "track-on-aimed",
+   "seed": 139,
+   "expected": {
+    "score": 565.0,
+    "steps": 673,
+    "frames": 2689,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 565.0,
+    "steps": 673,
+    "frames": 2689,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-still-off-ready-128",
+   "arm": "still-off-ready",
+   "seed": 128,
+   "expected": {
+    "score": 245.0,
+    "steps": 814,
+    "frames": 3255,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 245.0,
+    "steps": 814,
+    "frames": 3255,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-still-on-ready-128",
+   "arm": "still-on-ready",
+   "seed": 128,
+   "expected": {
+    "score": 325.0,
+    "steps": 827,
+    "frames": 3310,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 325.0,
+    "steps": 827,
+    "frames": 3310,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-off-ready-114",
+   "arm": "sweep-off-ready",
+   "seed": 114,
+   "expected": {
+    "score": 650.0,
+    "steps": 834,
+    "frames": 3335,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 650.0,
+    "steps": 834,
+    "frames": 3335,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-still-off-ready-133",
+   "arm": "still-off-ready",
+   "seed": 133,
+   "expected": {
+    "score": 210.0,
+    "steps": 640,
+    "frames": 2559,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 210.0,
+    "steps": 640,
+    "frames": 2559,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-on-aimed-136",
+   "arm": "sweep-on-aimed",
+   "seed": 136,
+   "expected": {
+    "score": 455.0,
+    "steps": 937,
+    "frames": 3747,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 455.0,
+    "steps": 937,
+    "frames": 3747,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-still-off-ready-120",
+   "arm": "still-off-ready",
+   "seed": 120,
+   "expected": {
+    "score": 210.0,
+    "steps": 640,
+    "frames": 2559,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 210.0,
+    "steps": 640,
+    "frames": 2559,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-on-ready-112",
+   "arm": "sweep-on-ready",
+   "seed": 112,
+   "expected": {
+    "score": 685.0,
+    "steps": 683,
+    "frames": 2734,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 685.0,
+    "steps": 683,
+    "frames": 2734,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-still-on-ready-137",
+   "arm": "still-on-ready",
+   "seed": 137,
+   "expected": {
+    "score": 545.0,
+    "steps": 817,
+    "frames": 3267,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 545.0,
+    "steps": 817,
+    "frames": 3267,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-on-ready-106",
+   "arm": "sweep-on-ready",
+   "seed": 106,
+   "expected": {
+    "score": 730.0,
+    "steps": 950,
+    "frames": 3799,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 730.0,
+    "steps": 950,
+    "frames": 3799,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-track-on-aimed-117",
+   "arm": "track-on-aimed",
+   "seed": 117,
+   "expected": {
+    "score": 600.0,
+    "steps": 1323,
+    "frames": 5291,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 600.0,
+    "steps": 1323,
+    "frames": 5291,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-track-off-aimed-129",
+   "arm": "track-off-aimed",
+   "seed": 129,
+   "expected": {
+    "score": 155.0,
+    "steps": 344,
+    "frames": 1377,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 155.0,
+    "steps": 344,
+    "frames": 1377,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-still-on-aimed-112",
+   "arm": "still-on-aimed",
+   "seed": 112,
+   "expected": {
+    "score": 315.0,
+    "steps": 1030,
+    "frames": 4121,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 315.0,
+    "steps": 1030,
+    "frames": 4121,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-still-off-ready-112",
+   "arm": "still-off-ready",
+   "seed": 112,
+   "expected": {
+    "score": 210.0,
+    "steps": 640,
+    "frames": 2559,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 210.0,
+    "steps": 640,
+    "frames": 2559,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-on-ready-117",
+   "arm": "sweep-on-ready",
+   "seed": 117,
+   "expected": {
+    "score": 425.0,
+    "steps": 980,
+    "frames": 3922,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 425.0,
+    "steps": 980,
+    "frames": 3922,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-track-off-aimed-107",
+   "arm": "track-off-aimed",
+   "seed": 107,
+   "expected": {
+    "score": 225.0,
+    "steps": 448,
+    "frames": 1793,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 225.0,
+    "steps": 448,
+    "frames": 1793,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-still-on-aimed-116",
+   "arm": "still-on-aimed",
+   "seed": 116,
+   "expected": {
+    "score": 210.0,
+    "steps": 1121,
+    "frames": 4483,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 210.0,
+    "steps": 1121,
+    "frames": 4483,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-off-aimed-130",
+   "arm": "sweep-off-aimed",
+   "seed": 130,
+   "expected": {
+    "score": 90.0,
+    "steps": 301,
+    "frames": 1203,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 90.0,
+    "steps": 301,
+    "frames": 1203,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-still-off-ready-109",
+   "arm": "still-off-ready",
+   "seed": 109,
+   "expected": {
+    "score": 210.0,
+    "steps": 640,
+    "frames": 2559,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 210.0,
+    "steps": 640,
+    "frames": 2559,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-on-ready-100",
+   "arm": "sweep-on-ready",
+   "seed": 100,
+   "expected": {
+    "score": 600.0,
+    "steps": 1058,
+    "frames": 4231,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 600.0,
+    "steps": 1058,
+    "frames": 4231,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-track-off-ready-104",
+   "arm": "track-off-ready",
+   "seed": 104,
+   "expected": {
+    "score": 135.0,
+    "steps": 313,
+    "frames": 1251,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 135.0,
+    "steps": 313,
+    "frames": 1251,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-still-off-aimed-132",
+   "arm": "still-off-aimed",
+   "seed": 132,
+   "expected": {
+    "score": 135.0,
+    "steps": 604,
+    "frames": 2417,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 135.0,
+    "steps": 604,
+    "frames": 2417,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-on-ready-108",
+   "arm": "sweep-on-ready",
+   "seed": 108,
+   "expected": {
+    "score": 620.0,
+    "steps": 891,
+    "frames": 3566,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 620.0,
+    "steps": 891,
+    "frames": 3566,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-still-off-aimed-130",
+   "arm": "still-off-aimed",
+   "seed": 130,
+   "expected": {
+    "score": 135.0,
+    "steps": 604,
+    "frames": 2417,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 135.0,
+    "steps": 604,
+    "frames": 2417,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-on-ready-136",
+   "arm": "sweep-on-ready",
+   "seed": 136,
+   "expected": {
+    "score": 465.0,
+    "steps": 941,
+    "frames": 3763,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 465.0,
+    "steps": 941,
+    "frames": 3763,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-still-on-aimed-125",
+   "arm": "still-on-aimed",
+   "seed": 125,
+   "expected": {
+    "score": 210.0,
+    "steps": 1121,
+    "frames": 4483,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 210.0,
+    "steps": 1121,
+    "frames": 4483,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-on-aimed-114",
+   "arm": "sweep-on-aimed",
+   "seed": 114,
+   "expected": {
+    "score": 320.0,
+    "steps": 577,
+    "frames": 2307,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 320.0,
+    "steps": 577,
+    "frames": 2307,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-track-off-aimed-128",
+   "arm": "track-off-aimed",
+   "seed": 128,
+   "expected": {
+    "score": 515.0,
+    "steps": 745,
+    "frames": 2981,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 515.0,
+    "steps": 745,
+    "frames": 2981,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-on-aimed-132",
+   "arm": "sweep-on-aimed",
+   "seed": 132,
+   "expected": {
+    "score": 525.0,
+    "steps": 907,
+    "frames": 3629,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 525.0,
+    "steps": 907,
+    "frames": 3629,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-off-ready-118",
+   "arm": "sweep-off-ready",
+   "seed": 118,
+   "expected": {
+    "score": 215.0,
+    "steps": 634,
+    "frames": 2537,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 215.0,
+    "steps": 634,
+    "frames": 2537,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-track-off-ready-137",
+   "arm": "track-off-ready",
+   "seed": 137,
+   "expected": {
+    "score": 315.0,
+    "steps": 1020,
+    "frames": 4081,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 315.0,
+    "steps": 1020,
+    "frames": 4081,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-off-aimed-100",
+   "arm": "sweep-off-aimed",
+   "seed": 100,
+   "expected": {
+    "score": 395.0,
+    "steps": 656,
+    "frames": 2624,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 395.0,
+    "steps": 656,
+    "frames": 2624,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-off-ready-138",
+   "arm": "sweep-off-ready",
+   "seed": 138,
+   "expected": {
+    "score": 100.0,
+    "steps": 346,
+    "frames": 1385,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 100.0,
+    "steps": 346,
+    "frames": 1385,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-on-ready-119",
+   "arm": "sweep-on-ready",
+   "seed": 119,
+   "expected": {
+    "score": 435.0,
+    "steps": 950,
+    "frames": 3801,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 435.0,
+    "steps": 950,
+    "frames": 3801,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-track-on-ready-132",
+   "arm": "track-on-ready",
+   "seed": 132,
+   "expected": {
+    "score": 595.0,
+    "steps": 1017,
+    "frames": 4067,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 595.0,
+    "steps": 1017,
+    "frames": 4067,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-off-ready-132",
+   "arm": "sweep-off-ready",
+   "seed": 132,
+   "expected": {
+    "score": 105.0,
+    "steps": 346,
+    "frames": 1383,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 105.0,
+    "steps": 346,
+    "frames": 1383,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-sweep-off-aimed-125",
+   "arm": "sweep-off-aimed",
+   "seed": 125,
+   "expected": {
+    "score": 405.0,
+    "steps": 772,
+    "frames": 3089,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 405.0,
+    "steps": 772,
+    "frames": 3089,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-still-on-ready-133",
+   "arm": "still-on-ready",
+   "seed": 133,
+   "expected": {
+    "score": 410.0,
+    "steps": 1121,
+    "frames": 4483,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 410.0,
+    "steps": 1121,
+    "frames": 4483,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-still-on-ready-107",
+   "arm": "still-on-ready",
+   "seed": 107,
+   "expected": {
+    "score": 610.0,
+    "steps": 1121,
+    "frames": 4483,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 610.0,
+    "steps": 1121,
+    "frames": 4483,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-track-on-aimed-106",
+   "arm": "track-on-aimed",
+   "seed": 106,
+   "expected": {
+    "score": 465.0,
+    "steps": 1119,
+    "frames": 4475,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 465.0,
+    "steps": 1119,
+    "frames": 4475,
+    "lives_lost": 3
+   }
+  },
+  {
+   "episode_id": "swarm-B-track-off-aimed-137",
+   "arm": "track-off-aimed",
+   "seed": 137,
+   "expected": {
+    "score": 420.0,
+    "steps": 1002,
+    "frames": 4008,
+    "lives_lost": 3
+   },
+   "ok": true,
+   "got": {
+    "score": 420.0,
+    "steps": 1002,
+    "frames": 4008,
+    "lives_lost": 3
+   }
+  }
+ ]
+}

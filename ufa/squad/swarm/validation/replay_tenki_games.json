@@ -1,0 +1,16 @@
+{
+ "v3_aborted_infra": {
+  "games_in_run": 1200,
+  "sampled": 120,
+  "matched": 120,
+  "sandboxes_covered": 11,
+  "mismatched": []
+ },
+ "v0smoke2": {
+  "games_in_run": 360,
+  "sampled": 40,
+  "matched": 40,
+  "sandboxes_covered": 23,
+  "mismatched": []
+ }
+}

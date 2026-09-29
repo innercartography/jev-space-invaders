@@ -1,0 +1,1938 @@
+{
+ "seeds": [
+  1310685,
+  13018181,
+  13863032,
+  17934899,
+  30965639,
+  39755254,
+  62148383,
+  64768303,
+  74069225,
+  79682642,
+  88518486,
+  88602151,
+  104416553,
+  106807491,
+  110111015,
+  121436577,
+  128077668,
+  135266045,
+  139706367,
+  146395744
+ ],
+ "rounds": {
+  "1": [
+   "ref",
+   "momentum",
+   "safe",
+   "minimal",
+   "split",
+   "hold17",
+   "k2",
+   "k4",
+   "sweepwords"
+  ],
+  "2": [
+   "safe",
+   "safe_sweepwords",
+   "safe_min",
+   "safe_k2",
+   "safe_k4",
+   "safe_hold17",
+   "safe_split"
+  ]
+ },
+ "arms": {
+  "hold17": {
+   "change": "keeps the last action when the answer's confidence is below 0.17",
+   "games": {
+    "104416553": {
+     "ex_bonus": 90.0,
+     "score": 90.0,
+     "cost_usd": 0.006894,
+     "wall_clock_s": 36.73
+    },
+    "106807491": {
+     "ex_bonus": 275.0,
+     "score": 275.0,
+     "cost_usd": 0.017968,
+     "wall_clock_s": 86.28
+    },
+    "110111015": {
+     "ex_bonus": 65.0,
+     "score": 65.0,
+     "cost_usd": 0.006798,
+     "wall_clock_s": 34.04
+    },
+    "121436577": {
+     "ex_bonus": 180.0,
+     "score": 180.0,
+     "cost_usd": 0.01452,
+     "wall_clock_s": 67.58
+    },
+    "128077668": {
+     "ex_bonus": 155.0,
+     "score": 155.0,
+     "cost_usd": 0.014272,
+     "wall_clock_s": 65.98
+    },
+    "13018181": {
+     "ex_bonus": 240.0,
+     "score": 240.0,
+     "cost_usd": 0.017539,
+     "wall_clock_s": 83.81
+    },
+    "1310685": {
+     "ex_bonus": 90.0,
+     "score": 90.0,
+     "cost_usd": 0.006894,
+     "wall_clock_s": 34.24
+    },
+    "135266045": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.015317,
+     "wall_clock_s": 74.73
+    },
+    "13863032": {
+     "ex_bonus": 260.0,
+     "score": 460.0,
+     "cost_usd": 0.017992,
+     "wall_clock_s": 85.87
+    },
+    "139706367": {
+     "ex_bonus": 120.0,
+     "score": 120.0,
+     "cost_usd": 0.014109,
+     "wall_clock_s": 74.95
+    },
+    "146395744": {
+     "ex_bonus": 335.0,
+     "score": 335.0,
+     "cost_usd": 0.022433,
+     "wall_clock_s": 111.74
+    },
+    "17934899": {
+     "ex_bonus": 125.0,
+     "score": 125.0,
+     "cost_usd": 0.011595,
+     "wall_clock_s": 57.29
+    },
+    "30965639": {
+     "ex_bonus": 150.0,
+     "score": 150.0,
+     "cost_usd": 0.014379,
+     "wall_clock_s": 68.75
+    },
+    "39755254": {
+     "ex_bonus": 120.0,
+     "score": 120.0,
+     "cost_usd": 0.011917,
+     "wall_clock_s": 57.88
+    },
+    "62148383": {
+     "ex_bonus": 210.0,
+     "score": 410.0,
+     "cost_usd": 0.014401,
+     "wall_clock_s": 67.57
+    },
+    "64768303": {
+     "ex_bonus": 90.0,
+     "score": 90.0,
+     "cost_usd": 0.006894,
+     "wall_clock_s": 31.53
+    },
+    "74069225": {
+     "ex_bonus": 330.0,
+     "score": 330.0,
+     "cost_usd": 0.019641,
+     "wall_clock_s": 94.43
+    },
+    "79682642": {
+     "ex_bonus": 35.0,
+     "score": 35.0,
+     "cost_usd": 0.006711,
+     "wall_clock_s": 35.2
+    },
+    "88518486": {
+     "ex_bonus": 120.0,
+     "score": 120.0,
+     "cost_usd": 0.011935,
+     "wall_clock_s": 61.51
+    },
+    "88602151": {
+     "ex_bonus": 90.0,
+     "score": 90.0,
+     "cost_usd": 0.006894,
+     "wall_clock_s": 33.35
+    }
+   },
+   "true_mean": 164.5
+  },
+  "k2": {
+   "change": "asks once every 2 steps and repeats the answer in between",
+   "games": {
+    "104416553": {
+     "ex_bonus": 210.0,
+     "score": 410.0,
+     "cost_usd": 0.007663,
+     "wall_clock_s": 39.15
+    },
+    "106807491": {
+     "ex_bonus": 295.0,
+     "score": 295.0,
+     "cost_usd": 0.009695,
+     "wall_clock_s": 48.18
+    },
+    "110111015": {
+     "ex_bonus": 190.0,
+     "score": 190.0,
+     "cost_usd": 0.008776,
+     "wall_clock_s": 42.72
+    },
+    "121436577": {
+     "ex_bonus": 55.0,
+     "score": 55.0,
+     "cost_usd": 0.00353,
+     "wall_clock_s": 17.22
+    },
+    "128077668": {
+     "ex_bonus": 260.0,
+     "score": 260.0,
+     "cost_usd": 0.008621,
+     "wall_clock_s": 41.83
+    },
+    "13018181": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.007387,
+     "wall_clock_s": 37.46
+    },
+    "1310685": {
+     "ex_bonus": 465.0,
+     "score": 665.0,
+     "cost_usd": 0.013497,
+     "wall_clock_s": 65.07
+    },
+    "135266045": {
+     "ex_bonus": 195.0,
+     "score": 395.0,
+     "cost_usd": 0.007853,
+     "wall_clock_s": 37.25
+    },
+    "13863032": {
+     "ex_bonus": 365.0,
+     "score": 565.0,
+     "cost_usd": 0.013206,
+     "wall_clock_s": 63.57
+    },
+    "139706367": {
+     "ex_bonus": 155.0,
+     "score": 155.0,
+     "cost_usd": 0.006612,
+     "wall_clock_s": 31.02
+    },
+    "146395744": {
+     "ex_bonus": 180.0,
+     "score": 180.0,
+     "cost_usd": 0.007174,
+     "wall_clock_s": 36.57
+    },
+    "17934899": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.007241,
+     "wall_clock_s": 35.56
+    },
+    "30965639": {
+     "ex_bonus": 150.0,
+     "score": 150.0,
+     "cost_usd": 0.007617,
+     "wall_clock_s": 38.0
+    },
+    "39755254": {
+     "ex_bonus": 290.0,
+     "score": 490.0,
+     "cost_usd": 0.01215,
+     "wall_clock_s": 58.43
+    },
+    "62148383": {
+     "ex_bonus": 260.0,
+     "score": 460.0,
+     "cost_usd": 0.008847,
+     "wall_clock_s": 43.92
+    },
+    "64768303": {
+     "ex_bonus": 50.0,
+     "score": 50.0,
+     "cost_usd": 0.003375,
+     "wall_clock_s": 16.28
+    },
+    "74069225": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.007218,
+     "wall_clock_s": 35.51
+    },
+    "79682642": {
+     "ex_bonus": 105.0,
+     "score": 105.0,
+     "cost_usd": 0.00589,
+     "wall_clock_s": 30.35
+    },
+    "88518486": {
+     "ex_bonus": 365.0,
+     "score": 365.0,
+     "cost_usd": 0.012975,
+     "wall_clock_s": 63.4
+    },
+    "88602151": {
+     "ex_bonus": 260.0,
+     "score": 260.0,
+     "cost_usd": 0.008908,
+     "wall_clock_s": 43.45
+    }
+   },
+   "true_mean": 224.0
+  },
+  "k4": {
+   "change": "asks once every 4 steps and repeats the answer in between",
+   "games": {
+    "104416553": {
+     "ex_bonus": 135.0,
+     "score": 135.0,
+     "cost_usd": 0.002868,
+     "wall_clock_s": 16.09
+    },
+    "106807491": {
+     "ex_bonus": 365.0,
+     "score": 365.0,
+     "cost_usd": 0.007239,
+     "wall_clock_s": 36.6
+    },
+    "110111015": {
+     "ex_bonus": 55.0,
+     "score": 55.0,
+     "cost_usd": 0.001776,
+     "wall_clock_s": 9.59
+    },
+    "121436577": {
+     "ex_bonus": 80.0,
+     "score": 80.0,
+     "cost_usd": 0.002583,
+     "wall_clock_s": 13.45
+    },
+    "128077668": {
+     "ex_bonus": 335.0,
+     "score": 335.0,
+     "cost_usd": 0.004955,
+     "wall_clock_s": 24.68
+    },
+    "13018181": {
+     "ex_bonus": 195.0,
+     "score": 195.0,
+     "cost_usd": 0.003882,
+     "wall_clock_s": 22.03
+    },
+    "1310685": {
+     "ex_bonus": 260.0,
+     "score": 260.0,
+     "cost_usd": 0.004508,
+     "wall_clock_s": 22.53
+    },
+    "135266045": {
+     "ex_bonus": 155.0,
+     "score": 155.0,
+     "cost_usd": 0.003658,
+     "wall_clock_s": 19.42
+    },
+    "13863032": {
+     "ex_bonus": 315.0,
+     "score": 515.0,
+     "cost_usd": 0.004783,
+     "wall_clock_s": 24.11
+    },
+    "139706367": {
+     "ex_bonus": 215.0,
+     "score": 215.0,
+     "cost_usd": 0.00449,
+     "wall_clock_s": 24.36
+    },
+    "146395744": {
+     "ex_bonus": 105.0,
+     "score": 105.0,
+     "cost_usd": 0.003287,
+     "wall_clock_s": 16.59
+    },
+    "17934899": {
+     "ex_bonus": 235.0,
+     "score": 235.0,
+     "cost_usd": 0.004229,
+     "wall_clock_s": 22.04
+    },
+    "30965639": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.003639,
+     "wall_clock_s": 19.01
+    },
+    "39755254": {
+     "ex_bonus": 330.0,
+     "score": 330.0,
+     "cost_usd": 0.006402,
+     "wall_clock_s": 33.71
+    },
+    "62148383": {
+     "ex_bonus": 375.0,
+     "score": 375.0,
+     "cost_usd": 0.004977,
+     "wall_clock_s": 24.85
+    },
+    "64768303": {
+     "ex_bonus": 410.0,
+     "score": 610.0,
+     "cost_usd": 0.006695,
+     "wall_clock_s": 33.26
+    },
+    "74069225": {
+     "ex_bonus": 215.0,
+     "score": 215.0,
+     "cost_usd": 0.00408,
+     "wall_clock_s": 20.39
+    },
+    "79682642": {
+     "ex_bonus": 225.0,
+     "score": 225.0,
+     "cost_usd": 0.004022,
+     "wall_clock_s": 21.01
+    },
+    "88518486": {
+     "ex_bonus": 210.0,
+     "score": 410.0,
+     "cost_usd": 0.003742,
+     "wall_clock_s": 20.09
+    },
+    "88602151": {
+     "ex_bonus": 180.0,
+     "score": 180.0,
+     "cost_usd": 0.004032,
+     "wall_clock_s": 21.04
+    }
+   },
+   "true_mean": 230.25
+  },
+  "minimal": {
+   "change": "removes the incoming-bullet list and lives from the view",
+   "games": {
+    "104416553": {
+     "ex_bonus": 180.0,
+     "score": 180.0,
+     "cost_usd": 0.008087,
+     "wall_clock_s": 44.26
+    },
+    "106807491": {
+     "ex_bonus": 135.0,
+     "score": 135.0,
+     "cost_usd": 0.007651,
+     "wall_clock_s": 40.74
+    },
+    "110111015": {
+     "ex_bonus": 125.0,
+     "score": 125.0,
+     "cost_usd": 0.006262,
+     "wall_clock_s": 33.29
+    },
+    "121436577": {
+     "ex_bonus": 110.0,
+     "score": 110.0,
+     "cost_usd": 0.00761,
+     "wall_clock_s": 38.4
+    },
+    "128077668": {
+     "ex_bonus": 110.0,
+     "score": 110.0,
+     "cost_usd": 0.006115,
+     "wall_clock_s": 31.46
+    },
+    "13018181": {
+     "ex_bonus": 100.0,
+     "score": 100.0,
+     "cost_usd": 0.006219,
+     "wall_clock_s": 32.49
+    },
+    "1310685": {
+     "ex_bonus": 260.0,
+     "score": 460.0,
+     "cost_usd": 0.014988,
+     "wall_clock_s": 79.12
+    },
+    "135266045": {
+     "ex_bonus": 120.0,
+     "score": 120.0,
+     "cost_usd": 0.011477,
+     "wall_clock_s": 57.9
+    },
+    "13863032": {
+     "ex_bonus": 105.0,
+     "score": 105.0,
+     "cost_usd": 0.006071,
+     "wall_clock_s": 32.67
+    },
+    "139706367": {
+     "ex_bonus": 240.0,
+     "score": 240.0,
+     "cost_usd": 0.014944,
+     "wall_clock_s": 75.12
+    },
+    "146395744": {
+     "ex_bonus": 105.0,
+     "score": 105.0,
+     "cost_usd": 0.006418,
+     "wall_clock_s": 33.55
+    },
+    "17934899": {
+     "ex_bonus": 215.0,
+     "score": 215.0,
+     "cost_usd": 0.013296,
+     "wall_clock_s": 70.03
+    },
+    "30965639": {
+     "ex_bonus": 80.0,
+     "score": 80.0,
+     "cost_usd": 0.005831,
+     "wall_clock_s": 31.1
+    },
+    "39755254": {
+     "ex_bonus": 120.0,
+     "score": 120.0,
+     "cost_usd": 0.006633,
+     "wall_clock_s": 35.52
+    },
+    "62148383": {
+     "ex_bonus": 155.0,
+     "score": 155.0,
+     "cost_usd": 0.008043,
+     "wall_clock_s": 40.42
+    },
+    "64768303": {
+     "ex_bonus": 180.0,
+     "score": 180.0,
+     "cost_usd": 0.012193,
+     "wall_clock_s": 61.89
+    },
+    "74069225": {
+     "ex_bonus": 80.0,
+     "score": 80.0,
+     "cost_usd": 0.006089,
+     "wall_clock_s": 32.53
+    },
+    "79682642": {
+     "ex_bonus": 215.0,
+     "score": 215.0,
+     "cost_usd": 0.012188,
+     "wall_clock_s": 65.84
+    },
+    "88518486": {
+     "ex_bonus": 105.0,
+     "score": 105.0,
+     "cost_usd": 0.00605,
+     "wall_clock_s": 32.97
+    },
+    "88602151": {
+     "ex_bonus": 135.0,
+     "score": 135.0,
+     "cost_usd": 0.007304,
+     "wall_clock_s": 36.68
+    }
+   },
+   "true_mean": 143.75
+  },
+  "momentum": {
+   "change": "adds the ship's previous move direction to the view",
+   "games": {
+    "104416553": {
+     "ex_bonus": 180.0,
+     "score": 180.0,
+     "cost_usd": 0.014671,
+     "wall_clock_s": 70.47
+    },
+    "106807491": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.015534,
+     "wall_clock_s": 76.2
+    },
+    "110111015": {
+     "ex_bonus": 480.0,
+     "score": 480.0,
+     "cost_usd": 0.030967,
+     "wall_clock_s": 145.38
+    },
+    "121436577": {
+     "ex_bonus": 120.0,
+     "score": 120.0,
+     "cost_usd": 0.01211,
+     "wall_clock_s": 57.63
+    },
+    "128077668": {
+     "ex_bonus": 180.0,
+     "score": 180.0,
+     "cost_usd": 0.014802,
+     "wall_clock_s": 69.46
+    },
+    "13018181": {
+     "ex_bonus": 365.0,
+     "score": 365.0,
+     "cost_usd": 0.024477,
+     "wall_clock_s": 114.05
+    },
+    "1310685": {
+     "ex_bonus": 260.0,
+     "score": 260.0,
+     "cost_usd": 0.017958,
+     "wall_clock_s": 84.99
+    },
+    "135266045": {
+     "ex_bonus": 180.0,
+     "score": 180.0,
+     "cost_usd": 0.014307,
+     "wall_clock_s": 69.34
+    },
+    "13863032": {
+     "ex_bonus": 290.0,
+     "score": 290.0,
+     "cost_usd": 0.017523,
+     "wall_clock_s": 81.71
+    },
+    "139706367": {
+     "ex_bonus": 280.0,
+     "score": 280.0,
+     "cost_usd": 0.018397,
+     "wall_clock_s": 88.98
+    },
+    "146395744": {
+     "ex_bonus": 180.0,
+     "score": 380.0,
+     "cost_usd": 0.015206,
+     "wall_clock_s": 74.64
+    },
+    "17934899": {
+     "ex_bonus": 285.0,
+     "score": 285.0,
+     "cost_usd": 0.018772,
+     "wall_clock_s": 90.53
+    },
+    "30965639": {
+     "ex_bonus": 155.0,
+     "score": 355.0,
+     "cost_usd": 0.014426,
+     "wall_clock_s": 68.84
+    },
+    "39755254": {
+     "ex_bonus": 315.0,
+     "score": 315.0,
+     "cost_usd": 0.02523,
+     "wall_clock_s": 118.61
+    },
+    "62148383": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.015466,
+     "wall_clock_s": 73.16
+    },
+    "64768303": {
+     "ex_bonus": 260.0,
+     "score": 260.0,
+     "cost_usd": 0.018898,
+     "wall_clock_s": 85.84
+    },
+    "74069225": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.015707,
+     "wall_clock_s": 77.09
+    },
+    "79682642": {
+     "ex_bonus": 375.0,
+     "score": 575.0,
+     "cost_usd": 0.026285,
+     "wall_clock_s": 128.52
+    },
+    "88518486": {
+     "ex_bonus": 210.0,
+     "score": 410.0,
+     "cost_usd": 0.014759,
+     "wall_clock_s": 72.2
+    },
+    "88602151": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.014834,
+     "wall_clock_s": 70.26
+    }
+   },
+   "true_mean": 247.75
+  },
+  "ref": {
+   "change": "reference: THREAT view (bullet list, lane danger), one move question",
+   "games": {
+    "104416553": {
+     "ex_bonus": 210.0,
+     "score": 410.0,
+     "cost_usd": 0.014656,
+     "wall_clock_s": 70.98
+    },
+    "106807491": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.014396,
+     "wall_clock_s": 69.33
+    },
+    "110111015": {
+     "ex_bonus": 285.0,
+     "score": 685.0,
+     "cost_usd": 0.023729,
+     "wall_clock_s": 112.89
+    },
+    "121436577": {
+     "ex_bonus": 165.0,
+     "score": 165.0,
+     "cost_usd": 0.014292,
+     "wall_clock_s": 67.77
+    },
+    "128077668": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.014793,
+     "wall_clock_s": 68.86
+    },
+    "13018181": {
+     "ex_bonus": 105.0,
+     "score": 105.0,
+     "cost_usd": 0.013643,
+     "wall_clock_s": 66.5
+    },
+    "1310685": {
+     "ex_bonus": 240.0,
+     "score": 240.0,
+     "cost_usd": 0.017936,
+     "wall_clock_s": 83.57
+    },
+    "135266045": {
+     "ex_bonus": 225.0,
+     "score": 225.0,
+     "cost_usd": 0.016654,
+     "wall_clock_s": 77.25
+    },
+    "13863032": {
+     "ex_bonus": 270.0,
+     "score": 270.0,
+     "cost_usd": 0.017498,
+     "wall_clock_s": 83.37
+    },
+    "139706367": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.014437,
+     "wall_clock_s": 68.0
+    },
+    "146395744": {
+     "ex_bonus": 180.0,
+     "score": 180.0,
+     "cost_usd": 0.014363,
+     "wall_clock_s": 73.85
+    },
+    "17934899": {
+     "ex_bonus": 330.0,
+     "score": 530.0,
+     "cost_usd": 0.025458,
+     "wall_clock_s": 123.31
+    },
+    "30965639": {
+     "ex_bonus": 450.0,
+     "score": 450.0,
+     "cost_usd": 0.02689,
+     "wall_clock_s": 129.32
+    },
+    "39755254": {
+     "ex_bonus": 295.0,
+     "score": 295.0,
+     "cost_usd": 0.017999,
+     "wall_clock_s": 88.57
+    },
+    "62148383": {
+     "ex_bonus": 360.0,
+     "score": 360.0,
+     "cost_usd": 0.028801,
+     "wall_clock_s": 140.08
+    },
+    "64768303": {
+     "ex_bonus": 80.0,
+     "score": 80.0,
+     "cost_usd": 0.006942,
+     "wall_clock_s": 33.11
+    },
+    "74069225": {
+     "ex_bonus": 180.0,
+     "score": 180.0,
+     "cost_usd": 0.014518,
+     "wall_clock_s": 68.13
+    },
+    "79682642": {
+     "ex_bonus": 390.0,
+     "score": 590.0,
+     "cost_usd": 0.026145,
+     "wall_clock_s": 129.18
+    },
+    "88518486": {
+     "ex_bonus": 180.0,
+     "score": 180.0,
+     "cost_usd": 0.01451,
+     "wall_clock_s": 75.56
+    },
+    "88602151": {
+     "ex_bonus": 260.0,
+     "score": 460.0,
+     "cost_usd": 0.01738,
+     "wall_clock_s": 86.69
+    }
+   },
+   "true_mean": 241.75
+  },
+  "safe": {
+   "change": "replaces lane danger with move_is_safe: whether each move avoids every projected bullet",
+   "games": {
+    "104416553": {
+     "ex_bonus": 335.0,
+     "score": 535.0,
+     "cost_usd": 0.025648,
+     "wall_clock_s": 123.14
+    },
+    "106807491": {
+     "ex_bonus": 315.0,
+     "score": 315.0,
+     "cost_usd": 0.023724,
+     "wall_clock_s": 114.09
+    },
+    "110111015": {
+     "ex_bonus": 390.0,
+     "score": 590.0,
+     "cost_usd": 0.027788,
+     "wall_clock_s": 132.01
+    },
+    "121436577": {
+     "ex_bonus": 330.0,
+     "score": 930.0,
+     "cost_usd": 0.024577,
+     "wall_clock_s": 118.17
+    },
+    "128077668": {
+     "ex_bonus": 315.0,
+     "score": 315.0,
+     "cost_usd": 0.023112,
+     "wall_clock_s": 110.64
+    },
+    "13018181": {
+     "ex_bonus": 310.0,
+     "score": 310.0,
+     "cost_usd": 0.023827,
+     "wall_clock_s": 113.02
+    },
+    "1310685": {
+     "ex_bonus": 470.0,
+     "score": 470.0,
+     "cost_usd": 0.028269,
+     "wall_clock_s": 137.31
+    },
+    "135266045": {
+     "ex_bonus": 315.0,
+     "score": 515.0,
+     "cost_usd": 0.023361,
+     "wall_clock_s": 109.2
+    },
+    "13863032": {
+     "ex_bonus": 395.0,
+     "score": 395.0,
+     "cost_usd": 0.025441,
+     "wall_clock_s": 122.88
+    },
+    "139706367": {
+     "ex_bonus": 420.0,
+     "score": 620.0,
+     "cost_usd": 0.027792,
+     "wall_clock_s": 137.68
+    },
+    "146395744": {
+     "ex_bonus": 440.0,
+     "score": 640.0,
+     "cost_usd": 0.027112,
+     "wall_clock_s": 136.78
+    },
+    "17934899": {
+     "ex_bonus": 500.0,
+     "score": 700.0,
+     "cost_usd": 0.02526,
+     "wall_clock_s": 122.31
+    },
+    "30965639": {
+     "ex_bonus": 315.0,
+     "score": 315.0,
+     "cost_usd": 0.023513,
+     "wall_clock_s": 115.18
+    },
+    "39755254": {
+     "ex_bonus": 450.0,
+     "score": 650.0,
+     "cost_usd": 0.028509,
+     "wall_clock_s": 132.21
+    },
+    "62148383": {
+     "ex_bonus": 450.0,
+     "score": 450.0,
+     "cost_usd": 0.026757,
+     "wall_clock_s": 121.9
+    },
+    "64768303": {
+     "ex_bonus": 345.0,
+     "score": 345.0,
+     "cost_usd": 0.030399,
+     "wall_clock_s": 144.95
+    },
+    "74069225": {
+     "ex_bonus": 380.0,
+     "score": 780.0,
+     "cost_usd": 0.027002,
+     "wall_clock_s": 136.03
+    },
+    "79682642": {
+     "ex_bonus": 315.0,
+     "score": 515.0,
+     "cost_usd": 0.023504,
+     "wall_clock_s": 118.63
+    },
+    "88518486": {
+     "ex_bonus": 420.0,
+     "score": 620.0,
+     "cost_usd": 0.027128,
+     "wall_clock_s": 133.19
+    },
+    "88602151": {
+     "ex_bonus": 450.0,
+     "score": 650.0,
+     "cost_usd": 0.02724,
+     "wall_clock_s": 128.85
+    }
+   },
+   "true_mean": 383.0
+  },
+  "safe_hold17": {
+   "change": "move_is_safe view, keeps the last action when the answer's confidence is below 0.17",
+   "games": {
+    "104416553": {
+     "ex_bonus": 285.0,
+     "score": 485.0,
+     "cost_usd": 0.022413,
+     "wall_clock_s": 115.99
+    },
+    "106807491": {
+     "ex_bonus": 450.0,
+     "score": 650.0,
+     "cost_usd": 0.027506,
+     "wall_clock_s": 149.01
+    },
+    "110111015": {
+     "ex_bonus": 365.0,
+     "score": 765.0,
+     "cost_usd": 0.027367,
+     "wall_clock_s": 154.11
+    },
+    "121436577": {
+     "ex_bonus": 360.0,
+     "score": 560.0,
+     "cost_usd": 0.027529,
+     "wall_clock_s": 167.46
+    },
+    "128077668": {
+     "ex_bonus": 395.0,
+     "score": 795.0,
+     "cost_usd": 0.025779,
+     "wall_clock_s": 153.76
+    },
+    "13018181": {
+     "ex_bonus": 315.0,
+     "score": 515.0,
+     "cost_usd": 0.0,
+     "wall_clock_s": 159.11
+    },
+    "1310685": {
+     "ex_bonus": 440.0,
+     "score": 640.0,
+     "cost_usd": 0.0,
+     "wall_clock_s": 186.65
+    },
+    "135266045": {
+     "ex_bonus": 470.0,
+     "score": 670.0,
+     "cost_usd": 0.027629,
+     "wall_clock_s": 159.89
+    },
+    "13863032": {
+     "ex_bonus": 385.0,
+     "score": 585.0,
+     "cost_usd": 0.0,
+     "wall_clock_s": 187.46
+    },
+    "139706367": {
+     "ex_bonus": 445.0,
+     "score": 645.0,
+     "cost_usd": 0.028056,
+     "wall_clock_s": 164.33
+    },
+    "146395744": {
+     "ex_bonus": 340.0,
+     "score": 340.0,
+     "cost_usd": 0.0246,
+     "wall_clock_s": 144.59
+    },
+    "17934899": {
+     "ex_bonus": 375.0,
+     "score": 775.0,
+     "cost_usd": 0.0,
+     "wall_clock_s": 169.93
+    },
+    "30965639": {
+     "ex_bonus": 420.0,
+     "score": 620.0,
+     "cost_usd": 0.0,
+     "wall_clock_s": 182.34
+    },
+    "39755254": {
+     "ex_bonus": 395.0,
+     "score": 395.0,
+     "cost_usd": 0.026246,
+     "wall_clock_s": 131.21
+    },
+    "62148383": {
+     "ex_bonus": 470.0,
+     "score": 470.0,
+     "cost_usd": 0.026006,
+     "wall_clock_s": 129.98
+    },
+    "64768303": {
+     "ex_bonus": 370.0,
+     "score": 370.0,
+     "cost_usd": 0.02626,
+     "wall_clock_s": 127.75
+    },
+    "74069225": {
+     "ex_bonus": 335.0,
+     "score": 335.0,
+     "cost_usd": 0.025976,
+     "wall_clock_s": 126.01
+    },
+    "79682642": {
+     "ex_bonus": 380.0,
+     "score": 580.0,
+     "cost_usd": 0.025653,
+     "wall_clock_s": 129.86
+    },
+    "88518486": {
+     "ex_bonus": 375.0,
+     "score": 375.0,
+     "cost_usd": 0.030424,
+     "wall_clock_s": 155.73
+    },
+    "88602151": {
+     "ex_bonus": 375.0,
+     "score": 575.0,
+     "cost_usd": 0.025664,
+     "wall_clock_s": 134.26
+    }
+   },
+   "true_mean": 387.25
+  },
+  "safe_k2": {
+   "change": "move_is_safe view, asks once every 2 steps and repeats the answer in between",
+   "games": {
+    "104416553": {
+     "ex_bonus": 470.0,
+     "score": 870.0,
+     "cost_usd": 0.013586,
+     "wall_clock_s": 70.33
+    },
+    "106807491": {
+     "ex_bonus": 435.0,
+     "score": 635.0,
+     "cost_usd": 0.013859,
+     "wall_clock_s": 90.55
+    },
+    "110111015": {
+     "ex_bonus": 605.0,
+     "score": 1005.0,
+     "cost_usd": 0.019368,
+     "wall_clock_s": 132.63
+    },
+    "121436577": {
+     "ex_bonus": 315.0,
+     "score": 315.0,
+     "cost_usd": 0.011783,
+     "wall_clock_s": 74.79
+    },
+    "128077668": {
+     "ex_bonus": 365.0,
+     "score": 565.0,
+     "cost_usd": 0.012956,
+     "wall_clock_s": 71.12
+    },
+    "13018181": {
+     "ex_bonus": 355.0,
+     "score": 755.0,
+     "cost_usd": 0.01381,
+     "wall_clock_s": 75.76
+    },
+    "1310685": {
+     "ex_bonus": 335.0,
+     "score": 735.0,
+     "cost_usd": 0.012934,
+     "wall_clock_s": 68.45
+    },
+    "135266045": {
+     "ex_bonus": 420.0,
+     "score": 820.0,
+     "cost_usd": 0.013038,
+     "wall_clock_s": 70.05
+    },
+    "13863032": {
+     "ex_bonus": 340.0,
+     "score": 540.0,
+     "cost_usd": 0.012936,
+     "wall_clock_s": 71.51
+    },
+    "139706367": {
+     "ex_bonus": 445.0,
+     "score": 645.0,
+     "cost_usd": 0.013148,
+     "wall_clock_s": 85.32
+    },
+    "146395744": {
+     "ex_bonus": 465.0,
+     "score": 665.0,
+     "cost_usd": 0.014878,
+     "wall_clock_s": 108.22
+    },
+    "17934899": {
+     "ex_bonus": 495.0,
+     "score": 495.0,
+     "cost_usd": 0.012913,
+     "wall_clock_s": 67.72
+    },
+    "30965639": {
+     "ex_bonus": 345.0,
+     "score": 545.0,
+     "cost_usd": 0.012323,
+     "wall_clock_s": 62.72
+    },
+    "39755254": {
+     "ex_bonus": 430.0,
+     "score": 630.0,
+     "cost_usd": 0.013878,
+     "wall_clock_s": 73.45
+    },
+    "62148383": {
+     "ex_bonus": 315.0,
+     "score": 515.0,
+     "cost_usd": 0.011743,
+     "wall_clock_s": 60.96
+    },
+    "64768303": {
+     "ex_bonus": 420.0,
+     "score": 620.0,
+     "cost_usd": 0.012843,
+     "wall_clock_s": 68.48
+    },
+    "74069225": {
+     "ex_bonus": 450.0,
+     "score": 650.0,
+     "cost_usd": 0.013565,
+     "wall_clock_s": 71.94
+    },
+    "79682642": {
+     "ex_bonus": 300.0,
+     "score": 300.0,
+     "cost_usd": 0.011733,
+     "wall_clock_s": 62.4
+    },
+    "88518486": {
+     "ex_bonus": 365.0,
+     "score": 365.0,
+     "cost_usd": 0.012945,
+     "wall_clock_s": 68.54
+    },
+    "88602151": {
+     "ex_bonus": 515.0,
+     "score": 515.0,
+     "cost_usd": 0.01879,
+     "wall_clock_s": 97.73
+    }
+   },
+   "true_mean": 409.25
+  },
+  "safe_k4": {
+   "change": "move_is_safe view, asks once every 4 steps and repeats the answer in between",
+   "games": {
+    "104416553": {
+     "ex_bonus": 440.0,
+     "score": 640.0,
+     "cost_usd": 0.006831,
+     "wall_clock_s": 36.04
+    },
+    "106807491": {
+     "ex_bonus": 345.0,
+     "score": 545.0,
+     "cost_usd": 0.00618,
+     "wall_clock_s": 38.32
+    },
+    "110111015": {
+     "ex_bonus": 335.0,
+     "score": 335.0,
+     "cost_usd": 0.007579,
+     "wall_clock_s": 59.52
+    },
+    "121436577": {
+     "ex_bonus": 390.0,
+     "score": 390.0,
+     "cost_usd": 0.006834,
+     "wall_clock_s": 44.25
+    },
+    "128077668": {
+     "ex_bonus": 420.0,
+     "score": 420.0,
+     "cost_usd": 0.006683,
+     "wall_clock_s": 38.77
+    },
+    "13018181": {
+     "ex_bonus": 405.0,
+     "score": 605.0,
+     "cost_usd": 0.006818,
+     "wall_clock_s": 37.41
+    },
+    "1310685": {
+     "ex_bonus": 460.0,
+     "score": 460.0,
+     "cost_usd": 0.007003,
+     "wall_clock_s": 39.96
+    },
+    "135266045": {
+     "ex_bonus": 315.0,
+     "score": 315.0,
+     "cost_usd": 0.005859,
+     "wall_clock_s": 32.51
+    },
+    "13863032": {
+     "ex_bonus": 610.0,
+     "score": 1010.0,
+     "cost_usd": 0.009672,
+     "wall_clock_s": 55.18
+    },
+    "139706367": {
+     "ex_bonus": 600.0,
+     "score": 800.0,
+     "cost_usd": 0.009069,
+     "wall_clock_s": 63.72
+    },
+    "146395744": {
+     "ex_bonus": 450.0,
+     "score": 450.0,
+     "cost_usd": 0.006764,
+     "wall_clock_s": 43.41
+    },
+    "17934899": {
+     "ex_bonus": 445.0,
+     "score": 1045.0,
+     "cost_usd": 0.0068,
+     "wall_clock_s": 37.68
+    },
+    "30965639": {
+     "ex_bonus": 350.0,
+     "score": 550.0,
+     "cost_usd": 0.006849,
+     "wall_clock_s": 35.42
+    },
+    "39755254": {
+     "ex_bonus": 425.0,
+     "score": 625.0,
+     "cost_usd": 0.006595,
+     "wall_clock_s": 35.33
+    },
+    "62148383": {
+     "ex_bonus": 470.0,
+     "score": 670.0,
+     "cost_usd": 0.006531,
+     "wall_clock_s": 35.99
+    },
+    "64768303": {
+     "ex_bonus": 425.0,
+     "score": 625.0,
+     "cost_usd": 0.00684,
+     "wall_clock_s": 37.67
+    },
+    "74069225": {
+     "ex_bonus": 380.0,
+     "score": 380.0,
+     "cost_usd": 0.006734,
+     "wall_clock_s": 38.18
+    },
+    "79682642": {
+     "ex_bonus": 375.0,
+     "score": 575.0,
+     "cost_usd": 0.007031,
+     "wall_clock_s": 39.28
+    },
+    "88518486": {
+     "ex_bonus": 340.0,
+     "score": 740.0,
+     "cost_usd": 0.006097,
+     "wall_clock_s": 34.58
+    },
+    "88602151": {
+     "ex_bonus": 605.0,
+     "score": 805.0,
+     "cost_usd": 0.009408,
+     "wall_clock_s": 50.34
+    }
+   },
+   "true_mean": 429.25
+  },
+  "safe_min": {
+   "change": "move_is_safe view, with the incoming-bullet list and lives removed",
+   "games": {
+    "104416553": {
+     "ex_bonus": 415.0,
+     "score": 415.0,
+     "cost_usd": 0.02639,
+     "wall_clock_s": 170.12
+    },
+    "106807491": {
+     "ex_bonus": 425.0,
+     "score": 425.0,
+     "cost_usd": 0.024478,
+     "wall_clock_s": 168.77
+    },
+    "110111015": {
+     "ex_bonus": 450.0,
+     "score": 450.0,
+     "cost_usd": 0.025223,
+     "wall_clock_s": 172.64
+    },
+    "121436577": {
+     "ex_bonus": 405.0,
+     "score": 605.0,
+     "cost_usd": 0.024178,
+     "wall_clock_s": 154.4
+    },
+    "128077668": {
+     "ex_bonus": 290.0,
+     "score": 490.0,
+     "cost_usd": 0.023837,
+     "wall_clock_s": 156.64
+    },
+    "13018181": {
+     "ex_bonus": 330.0,
+     "score": 530.0,
+     "cost_usd": 0.020486,
+     "wall_clock_s": 119.5
+    },
+    "1310685": {
+     "ex_bonus": 350.0,
+     "score": 550.0,
+     "cost_usd": 0.024312,
+     "wall_clock_s": 138.54
+    },
+    "135266045": {
+     "ex_bonus": 370.0,
+     "score": 370.0,
+     "cost_usd": 0.021403,
+     "wall_clock_s": 140.28
+    },
+    "13863032": {
+     "ex_bonus": 350.0,
+     "score": 550.0,
+     "cost_usd": 0.027734,
+     "wall_clock_s": 158.58
+    },
+    "139706367": {
+     "ex_bonus": 470.0,
+     "score": 670.0,
+     "cost_usd": 0.023265,
+     "wall_clock_s": 176.84
+    },
+    "146395744": {
+     "ex_bonus": 420.0,
+     "score": 620.0,
+     "cost_usd": 0.024433,
+     "wall_clock_s": 197.71
+    },
+    "17934899": {
+     "ex_bonus": 375.0,
+     "score": 575.0,
+     "cost_usd": 0.022224,
+     "wall_clock_s": 125.3
+    },
+    "30965639": {
+     "ex_bonus": 405.0,
+     "score": 805.0,
+     "cost_usd": 0.025113,
+     "wall_clock_s": 140.22
+    },
+    "39755254": {
+     "ex_bonus": 450.0,
+     "score": 650.0,
+     "cost_usd": 0.026044,
+     "wall_clock_s": 148.61
+    },
+    "62148383": {
+     "ex_bonus": 440.0,
+     "score": 640.0,
+     "cost_usd": 0.024866,
+     "wall_clock_s": 141.11
+    },
+    "64768303": {
+     "ex_bonus": 375.0,
+     "score": 375.0,
+     "cost_usd": 0.021396,
+     "wall_clock_s": 123.58
+    },
+    "74069225": {
+     "ex_bonus": 345.0,
+     "score": 545.0,
+     "cost_usd": 0.022441,
+     "wall_clock_s": 129.88
+    },
+    "79682642": {
+     "ex_bonus": 450.0,
+     "score": 650.0,
+     "cost_usd": 0.0258,
+     "wall_clock_s": 145.18
+    },
+    "88518486": {
+     "ex_bonus": 315.0,
+     "score": 315.0,
+     "cost_usd": 0.02153,
+     "wall_clock_s": 120.94
+    },
+    "88602151": {
+     "ex_bonus": 420.0,
+     "score": 620.0,
+     "cost_usd": 0.025115,
+     "wall_clock_s": 159.47
+    }
+   },
+   "true_mean": 392.5
+  },
+  "safe_split": {
+   "change": "move_is_safe view, asks move and fire as two separate typed answers",
+   "games": {
+    "104416553": {
+     "ex_bonus": 330.0,
+     "score": 330.0,
+     "cost_usd": 0.0161,
+     "wall_clock_s": 82.37
+    },
+    "106807491": {
+     "ex_bonus": 420.0,
+     "score": 420.0,
+     "cost_usd": 0.024882,
+     "wall_clock_s": 134.9
+    },
+    "110111015": {
+     "ex_bonus": 340.0,
+     "score": 340.0,
+     "cost_usd": 0.015312,
+     "wall_clock_s": 83.4
+    },
+    "121436577": {
+     "ex_bonus": 505.0,
+     "score": 705.0,
+     "cost_usd": 0.027983,
+     "wall_clock_s": 169.03
+    },
+    "128077668": {
+     "ex_bonus": 390.0,
+     "score": 390.0,
+     "cost_usd": 0.020594,
+     "wall_clock_s": 130.49
+    },
+    "13018181": {
+     "ex_bonus": 425.0,
+     "score": 625.0,
+     "cost_usd": 0.0,
+     "wall_clock_s": 175.89
+    },
+    "1310685": {
+     "ex_bonus": 450.0,
+     "score": 450.0,
+     "cost_usd": 0.0,
+     "wall_clock_s": 157.87
+    },
+    "135266045": {
+     "ex_bonus": 605.0,
+     "score": 805.0,
+     "cost_usd": 0.036714,
+     "wall_clock_s": 204.71
+    },
+    "13863032": {
+     "ex_bonus": 525.0,
+     "score": 725.0,
+     "cost_usd": 0.0,
+     "wall_clock_s": 124.78
+    },
+    "139706367": {
+     "ex_bonus": 315.0,
+     "score": 515.0,
+     "cost_usd": 0.02024,
+     "wall_clock_s": 127.51
+    },
+    "146395744": {
+     "ex_bonus": 575.0,
+     "score": 775.0,
+     "cost_usd": 0.033658,
+     "wall_clock_s": 170.18
+    },
+    "17934899": {
+     "ex_bonus": 390.0,
+     "score": 390.0,
+     "cost_usd": 0.0,
+     "wall_clock_s": 127.83
+    },
+    "30965639": {
+     "ex_bonus": 315.0,
+     "score": 315.0,
+     "cost_usd": 0.018945,
+     "wall_clock_s": 88.7
+    },
+    "39755254": {
+     "ex_bonus": 600.0,
+     "score": 600.0,
+     "cost_usd": 0.036486,
+     "wall_clock_s": 182.98
+    },
+    "62148383": {
+     "ex_bonus": 435.0,
+     "score": 635.0,
+     "cost_usd": 0.025796,
+     "wall_clock_s": 125.95
+    },
+    "64768303": {
+     "ex_bonus": 915.0,
+     "score": 915.0,
+     "cost_usd": 0.051321,
+     "wall_clock_s": 258.9
+    },
+    "74069225": {
+     "ex_bonus": 255.0,
+     "score": 255.0,
+     "cost_usd": 0.021993,
+     "wall_clock_s": 110.53
+    },
+    "79682642": {
+     "ex_bonus": 600.0,
+     "score": 600.0,
+     "cost_usd": 0.035751,
+     "wall_clock_s": 180.92
+    },
+    "88518486": {
+     "ex_bonus": 390.0,
+     "score": 390.0,
+     "cost_usd": 0.024513,
+     "wall_clock_s": 121.43
+    },
+    "88602151": {
+     "ex_bonus": 450.0,
+     "score": 450.0,
+     "cost_usd": 0.026066,
+     "wall_clock_s": 138.36
+    }
+   },
+   "true_mean": 461.5
+  },
+  "safe_sweepwords": {
+   "change": "move_is_safe view + question wording to keep sweeping steadily, reverse only at edges or to dodge",
+   "games": {
+    "104416553": {
+     "ex_bonus": 1025.0,
+     "score": 1425.0,
+     "cost_usd": 0.05377,
+     "wall_clock_s": 303.2
+    },
+    "106807491": {
+     "ex_bonus": 435.0,
+     "score": 435.0,
+     "cost_usd": 0.029365,
+     "wall_clock_s": 174.33
+    },
+    "110111015": {
+     "ex_bonus": 600.0,
+     "score": 800.0,
+     "cost_usd": 0.037761,
+     "wall_clock_s": 221.88
+    },
+    "121436577": {
+     "ex_bonus": 950.0,
+     "score": 1350.0,
+     "cost_usd": 0.05883,
+     "wall_clock_s": 390.97
+    },
+    "128077668": {
+     "ex_bonus": 600.0,
+     "score": 1000.0,
+     "cost_usd": 0.037427,
+     "wall_clock_s": 215.58
+    },
+    "13018181": {
+     "ex_bonus": 545.0,
+     "score": 545.0,
+     "cost_usd": 0.029843,
+     "wall_clock_s": 156.36
+    },
+    "1310685": {
+     "ex_bonus": 575.0,
+     "score": 775.0,
+     "cost_usd": 0.037643,
+     "wall_clock_s": 189.04
+    },
+    "135266045": {
+     "ex_bonus": 915.0,
+     "score": 1115.0,
+     "cost_usd": 0.057695,
+     "wall_clock_s": 375.8
+    },
+    "13863032": {
+     "ex_bonus": 500.0,
+     "score": 500.0,
+     "cost_usd": 0.029902,
+     "wall_clock_s": 154.68
+    },
+    "139706367": {
+     "ex_bonus": 460.0,
+     "score": 660.0,
+     "cost_usd": 0.027718,
+     "wall_clock_s": 180.78
+    },
+    "146395744": {
+     "ex_bonus": 495.0,
+     "score": 695.0,
+     "cost_usd": 0.025136,
+     "wall_clock_s": 191.05
+    },
+    "17934899": {
+     "ex_bonus": 585.0,
+     "score": 985.0,
+     "cost_usd": 0.033793,
+     "wall_clock_s": 167.4
+    },
+    "30965639": {
+     "ex_bonus": 575.0,
+     "score": 575.0,
+     "cost_usd": 0.039798,
+     "wall_clock_s": 202.5
+    },
+    "39755254": {
+     "ex_bonus": 495.0,
+     "score": 495.0,
+     "cost_usd": 0.026139,
+     "wall_clock_s": 131.27
+    },
+    "62148383": {
+     "ex_bonus": 600.0,
+     "score": 600.0,
+     "cost_usd": 0.034399,
+     "wall_clock_s": 175.83
+    },
+    "64768303": {
+     "ex_bonus": 545.0,
+     "score": 745.0,
+     "cost_usd": 0.036504,
+     "wall_clock_s": 181.2
+    },
+    "74069225": {
+     "ex_bonus": 425.0,
+     "score": 625.0,
+     "cost_usd": 0.028195,
+     "wall_clock_s": 145.26
+    },
+    "79682642": {
+     "ex_bonus": 320.0,
+     "score": 320.0,
+     "cost_usd": 0.022416,
+     "wall_clock_s": 112.79
+    },
+    "88518486": {
+     "ex_bonus": 570.0,
+     "score": 570.0,
+     "cost_usd": 0.036815,
+     "wall_clock_s": 204.05
+    },
+    "88602151": {
+     "ex_bonus": 500.0,
+     "score": 900.0,
+     "cost_usd": 0.027717,
+     "wall_clock_s": 150.98
+    }
+   },
+   "true_mean": 585.75
+  },
+  "split": {
+   "change": "asks move and fire as two separate typed answers",
+   "games": {
+    "104416553": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.020584,
+     "wall_clock_s": 102.06
+    },
+    "106807491": {
+     "ex_bonus": 185.0,
+     "score": 185.0,
+     "cost_usd": 0.008704,
+     "wall_clock_s": 40.94
+    },
+    "110111015": {
+     "ex_bonus": 260.0,
+     "score": 260.0,
+     "cost_usd": 0.021558,
+     "wall_clock_s": 103.69
+    },
+    "121436577": {
+     "ex_bonus": 155.0,
+     "score": 155.0,
+     "cost_usd": 0.009847,
+     "wall_clock_s": 47.01
+    },
+    "128077668": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.011765,
+     "wall_clock_s": 55.72
+    },
+    "13018181": {
+     "ex_bonus": 195.0,
+     "score": 195.0,
+     "cost_usd": 0.00877,
+     "wall_clock_s": 43.85
+    },
+    "1310685": {
+     "ex_bonus": 320.0,
+     "score": 320.0,
+     "cost_usd": 0.019608,
+     "wall_clock_s": 91.51
+    },
+    "135266045": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.024506,
+     "wall_clock_s": 117.2
+    },
+    "13863032": {
+     "ex_bonus": 100.0,
+     "score": 100.0,
+     "cost_usd": 0.006964,
+     "wall_clock_s": 33.12
+    },
+    "139706367": {
+     "ex_bonus": 230.0,
+     "score": 230.0,
+     "cost_usd": 0.011745,
+     "wall_clock_s": 56.3
+    },
+    "146395744": {
+     "ex_bonus": 165.0,
+     "score": 165.0,
+     "cost_usd": 0.008846,
+     "wall_clock_s": 41.78
+    },
+    "17934899": {
+     "ex_bonus": 135.0,
+     "score": 135.0,
+     "cost_usd": 0.029125,
+     "wall_clock_s": 140.98
+    },
+    "30965639": {
+     "ex_bonus": 255.0,
+     "score": 255.0,
+     "cost_usd": 0.014367,
+     "wall_clock_s": 67.99
+    },
+    "39755254": {
+     "ex_bonus": 195.0,
+     "score": 595.0,
+     "cost_usd": 0.029291,
+     "wall_clock_s": 138.16
+    },
+    "62148383": {
+     "ex_bonus": 320.0,
+     "score": 320.0,
+     "cost_usd": 0.017803,
+     "wall_clock_s": 81.67
+    },
+    "64768303": {
+     "ex_bonus": 260.0,
+     "score": 260.0,
+     "cost_usd": 0.024256,
+     "wall_clock_s": 112.56
+    },
+    "74069225": {
+     "ex_bonus": 140.0,
+     "score": 140.0,
+     "cost_usd": 0.009194,
+     "wall_clock_s": 42.92
+    },
+    "79682642": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.013873,
+     "wall_clock_s": 67.9
+    },
+    "88518486": {
+     "ex_bonus": 250.0,
+     "score": 250.0,
+     "cost_usd": 0.017279,
+     "wall_clock_s": 81.65
+    },
+    "88602151": {
+     "ex_bonus": 80.0,
+     "score": 80.0,
+     "cost_usd": 0.007911,
+     "wall_clock_s": 36.72
+    }
+   },
+   "true_mean": 204.25
+  },
+  "sweepwords": {
+   "change": "question wording tells it to keep sweeping steadily and reverse only at edges or to dodge",
+   "games": {
+    "104416553": {
+     "ex_bonus": 225.0,
+     "score": 225.0,
+     "cost_usd": 0.019777,
+     "wall_clock_s": 94.31
+    },
+    "106807491": {
+     "ex_bonus": 415.0,
+     "score": 615.0,
+     "cost_usd": 0.026777,
+     "wall_clock_s": 124.74
+    },
+    "110111015": {
+     "ex_bonus": 420.0,
+     "score": 620.0,
+     "cost_usd": 0.026333,
+     "wall_clock_s": 120.62
+    },
+    "121436577": {
+     "ex_bonus": 270.0,
+     "score": 270.0,
+     "cost_usd": 0.017943,
+     "wall_clock_s": 83.71
+    },
+    "128077668": {
+     "ex_bonus": 500.0,
+     "score": 700.0,
+     "cost_usd": 0.029494,
+     "wall_clock_s": 136.55
+    },
+    "13018181": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.015646,
+     "wall_clock_s": 74.02
+    },
+    "1310685": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.015365,
+     "wall_clock_s": 73.15
+    },
+    "135266045": {
+     "ex_bonus": 120.0,
+     "score": 120.0,
+     "cost_usd": 0.011781,
+     "wall_clock_s": 55.73
+    },
+    "13863032": {
+     "ex_bonus": 210.0,
+     "score": 210.0,
+     "cost_usd": 0.015171,
+     "wall_clock_s": 73.25
+    },
+    "139706367": {
+     "ex_bonus": 240.0,
+     "score": 240.0,
+     "cost_usd": 0.017411,
+     "wall_clock_s": 85.35
+    },
+    "146395744": {
+     "ex_bonus": 435.0,
+     "score": 635.0,
+     "cost_usd": 0.029262,
+     "wall_clock_s": 139.31
+    },
+    "17934899": {
+     "ex_bonus": 180.0,
+     "score": 180.0,
+     "cost_usd": 0.014029,
+     "wall_clock_s": 66.92
+    },
+    "30965639": {
+     "ex_bonus": 315.0,
+     "score": 515.0,
+     "cost_usd": 0.030383,
+     "wall_clock_s": 149.26
+    },
+    "39755254": {
+     "ex_bonus": 370.0,
+     "score": 370.0,
+     "cost_usd": 0.026286,
+     "wall_clock_s": 121.57
+    },
+    "62148383": {
+     "ex_bonus": 265.0,
+     "score": 265.0,
+     "cost_usd": 0.017783,
+     "wall_clock_s": 79.3
+    },
+    "64768303": {
+     "ex_bonus": 300.0,
+     "score": 500.0,
+     "cost_usd": 0.018557,
+     "wall_clock_s": 85.7
+    },
+    "74069225": {
+     "ex_bonus": 405.0,
+     "score": 405.0,
+     "cost_usd": 0.029248,
+     "wall_clock_s": 138.2
+    },
+    "79682642": {
+     "ex_bonus": 125.0,
+     "score": 125.0,
+     "cost_usd": 0.013621,
+     "wall_clock_s": 67.89
+    },
+    "88518486": {
+     "ex_bonus": 310.0,
+     "score": 510.0,
+     "cost_usd": 0.021953,
+     "wall_clock_s": 105.88
+    },
+    "88602151": {
+     "ex_bonus": 450.0,
+     "score": 650.0,
+     "cost_usd": 0.034606,
+     "wall_clock_s": 161.73
+    }
+   },
+   "true_mean": 298.75
+  }
+ }
+}

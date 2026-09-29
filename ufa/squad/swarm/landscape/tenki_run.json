@@ -1,0 +1,88 @@
+{
+ "started_utc": "2026-09-27T19:55:26.171482+00:00",
+ "regimes": {
+  "A": {
+   "mode": 0,
+   "difficulty": 0
+  },
+  "B": {
+   "mode": 1,
+   "difficulty": 0
+  }
+ },
+ "jobs": 960,
+ "games_returned": 960,
+ "workers": 5,
+ "cpu_per_worker": 2,
+ "wall_s": 429.76,
+ "game_seconds_total": 4194.4,
+ "compute_cost_usd_estimate": 0.078441,
+ "failures": [],
+ "workers_detail": [
+  {
+   "worker": 0,
+   "jobs": 192,
+   "timings_s": {
+    "create_to_ready": 0.4,
+    "upload": 0.44,
+    "install_deps": 1.47,
+    "play": 418.34
+   },
+   "sandbox_id": "01a0e469-3abb-772b-b9fb-f924434d5b81",
+   "teardown": "close() returned",
+   "compute_cost_usd_estimate": 0.015567
+  },
+  {
+   "worker": 1,
+   "jobs": 192,
+   "timings_s": {
+    "create_to_ready": 0.39,
+    "upload": 0.46,
+    "install_deps": 1.46,
+    "play": 414.49
+   },
+   "sandbox_id": "01a0e469-3abb-772c-b81a-ae341465b076",
+   "teardown": "close() returned",
+   "compute_cost_usd_estimate": 0.015424
+  },
+  {
+   "worker": 2,
+   "jobs": 192,
+   "timings_s": {
+    "create_to_ready": 0.4,
+    "upload": 0.44,
+    "install_deps": 1.39,
+    "play": 427.32
+   },
+   "sandbox_id": "01a0e469-3aba-7d4d-98a2-bc42418f2639",
+   "teardown": "close() returned",
+   "compute_cost_usd_estimate": 0.015896
+  },
+  {
+   "worker": 3,
+   "jobs": 192,
+   "timings_s": {
+    "create_to_ready": 0.43,
+    "upload": 0.44,
+    "install_deps": 1.52,
+    "play": 422.21
+   },
+   "sandbox_id": "01a0e469-3abf-7a6c-8db3-0b80e5e6acb1",
+   "teardown": "close() returned",
+   "compute_cost_usd_estimate": 0.015713
+  },
+  {
+   "worker": 4,
+   "jobs": 192,
+   "timings_s": {
+    "create_to_ready": 0.4,
+    "upload": 0.5,
+    "install_deps": 1.56,
+    "play": 425.59
+   },
+   "sandbox_id": "01a0e469-3aba-7d46-8103-d19c3cf1165b",
+   "teardown": "close() returned",
+   "compute_cost_usd_estimate": 0.015841
+  }
+ ]
+}

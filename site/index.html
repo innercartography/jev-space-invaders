@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Memory Helps. Until the World Changes.</title>
+<meta name="description" content="We gave a Space Invaders swarm shared memory. It learned faster. Then the game changed, and its inheritance became a liability. A JEV × Mitosis × Tenki experiment in memory, adaptation and distribution shift.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Memory Helps. Until the World Changes.">
+<meta property="og:description" content="We gave a Space Invaders swarm shared memory. It learned faster. Then the game changed, and its inheritance became a liability. A JEV × Mitosis × Tenki experiment in memory, adaptation and distribution shift.">
+<meta property="og:url" content="https://innercartography.github.io/jev-space-invaders/">
+<meta property="og:image" content="https://innercartography.github.io/jev-space-invaders/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Memory Helps. Until the World Changes.">
+<meta name="twitter:description" content="A Space Invaders swarm learned faster with shared memory. Then the game changed. A JEV × Mitosis × Tenki experiment.">
+<meta name="twitter:image" content="https://innercartography.github.io/jev-space-invaders/assets/og.png">
+<meta name="theme-color" content="#060708">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,300..500&family=Inter+Tight:wght@400..900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<div id="demo-bar" hidden><span></span></div>
+
+<main>
+
+<!-- ============ 1. HOOK ============ -->
+<section class="scene" id="hook" data-steps="9">
+  <div class="stage">
+    <figure class="screen" id="hook-screen">
+      <video id="hook-v-pilot" src="assets/pilot.mp4" muted playsinline loop preload="auto" poster="assets/pilot_still.png"></video>
+      <video id="hook-v-a" src="assets/regime_A.mp4" muted playsinline loop preload="metadata" poster="assets/regime_A.png"></video>
+      <video id="hook-v-b" src="assets/regime_B.mp4" muted playsinline loop preload="metadata" poster="assets/regime_B.png"></video>
+      <figcaption class="tag">
+        <span class="b" data-in="0" data-out="7">recorded replay · JEV playing an untouched holdout seed</span>
+        <span class="b" data-in="7" data-out="8">recorded replay · the standard game</span>
+        <span class="b shift" data-in="8">recorded replay · game variation 1: the shields start to move</span>
+      </figcaption>
+    </figure>
+
+    <div class="copy">
+      <ol class="qs">
+        <li class="b" data-in="0" data-out="5"><span class="q">Can a fast model play Space&nbsp;Invaders?</span> <span class="yes b" data-in="1">Yes.</span></li>
+        <li class="b" data-in="2" data-out="5"><span class="q">Can experience make it better?</span> <span class="yes">Yes.</span></li>
+        <li class="b" data-in="3" data-out="5"><span class="q">Can what it learned become wrong?</span> <span class="yes">Yes.</span></li>
+        <li class="b" data-in="4" data-out="5"><span class="q">Can it know when to let&nbsp;go?</span></li>
+      </ol>
+      <p class="big b center-abs" data-in="5" data-out="6">That's where things got&nbsp;interesting.</p>
+      <div class="b center-abs" data-in="6">
+        <h1 class="thesis"><span>Memory helps.</span><span class="b" data-in="6"><em>Until the world changes.</em></span></h1>
+        <div class="duel b" data-in="7">
+          <div class="duel-row">
+            <span class="lbl">No shared memory</span>
+            <span class="bar"><i id="hook-bar-a"></i></span>
+            <span class="num" id="hook-n-a">–</span>
+          </div>
+          <div class="duel-row mem">
+            <span class="lbl" id="hook-lbl-b">Mitosis memory</span>
+            <span class="bar"><i id="hook-bar-b"></i></span>
+            <span class="num" id="hook-n-b">–</span>
+          </div>
+          <p class="cap"><span id="hook-world">stable world</span> · average points below the best setup · lower is better</p>
+        </div>
+        <p class="kicker b" data-in="8">The memory didn't disappear.<br>The world it described did.</p>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-hint" aria-hidden="true">scroll</div>
+</section>
+
+<!-- ============ 2. PILOT ============ -->
+<section class="scene" id="pilot" data-steps="5">
+  <div class="stage">
+    <figure class="screen live" id="pilot-screen">
+      <video id="pilot-v" src="assets/pilot.mp4" muted playsinline loop preload="metadata" poster="assets/pilot_still.png"></video>
+      <div class="act" id="pilot-act" aria-live="off">NOOP</div>
+      <figcaption class="tag">recorded replay · every move chosen by JEV · re-derived exactly from the seed and action log · <span data-v="footage.pilot.recorded_score" data-f="0"></span> points</figcaption>
+    </figure>
+    <div class="copy">
+      <h2 class="b" data-in="0" data-out="1">First, we had to survive one&nbsp;frame.</h2>
+
+      <div class="b" data-in="1" data-out="3">
+        <p class="lede">Space Invaders made latency&nbsp;visible.</p>
+        <div class="race" id="race">
+          <div class="lane"><span class="who">JEV</span><div class="track" id="race-jev"></div><span class="ms"><b data-v="pilot.latency_ms_p50" data-f="0"></b> ms / decision</span></div>
+          <div class="lane haiku"><span class="who">Haiku 4.5</span><div class="track" id="race-haiku"></div><span class="ms"><b data-v="pilot.haiku_latency_ms_p50" data-f="0"></b> ms / decision</span></div>
+          <p class="cap">one second of play, slowed down · median per decision, holdout games</p>
+        </div>
+        <p class="ratio b" data-in="2"><span data-v="pilot.speed_ratio" data-f="floor"></span>× faster</p>
+      </div>
+
+      <div class="b" data-in="3" data-out="4">
+        <p class="lede">A language model could reason about the frame.<br><strong>JEV could decide while the frame still mattered.</strong></p>
+        <div class="pair">
+          <div><span class="k">JEV</span><span class="v" data-v="pilot.cost_per_game" data-f="usd3"></span><span class="u">per game</span></div>
+          <div class="dim"><span class="k">Haiku 4.5</span><span class="v" data-v="pilot.haiku_cost_per_game" data-f="usd2"></span><span class="u">per game</span></div>
+        </div>
+      </div>
+
+      <div class="b" data-in="4">
+        <div class="hero-num"><span data-v="pilot.mean" data-f="0" data-count></span></div>
+        <p class="hero-cap">average score · <span data-v="pilot.holdout_games" data-f="0"></span> untouched seeds, run once</p>
+        <div class="pair">
+          <div><span class="v" data-v="pilot.rt_vs_haiku_wtl" data-f="wins"></span><span class="u">real-time head-to-head vs Haiku 4.5</span></div>
+          <div><span class="v" data-v="pilot.vs_haiku_wtl" data-f="wins"></span><span class="u">turn-based vs Haiku 4.5 (5 seeds, cost-limited)</span></div>
+        </div>
+        <details class="receipt">
+          <summary>show receipts</summary>
+          <div id="pilot-receipt"></div>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. THE BENCHMARK ARGUES BACK ============ -->
+<section class="scene" id="argue" data-steps="7">
+  <div class="stage wide">
+    <h2 class="b solo" data-in="0" data-out="1">Then the benchmark started arguing&nbsp;back.</h2>
+
+    <div class="views b" data-in="1" data-out="4">
+      <p class="eyebrow">one real frame · what the model was shown</p>
+      <div class="view raw">
+        <header><b>RAW</b> <span id="raw-chars"></span></header>
+        <pre id="raw-json"></pre>
+        <footer class="b" data-in="2"><strong>Fire jitter</strong>
+          <span>fired with a shot already in flight <b data-v="representation.RAW view.p_fire_shot_in_flight" data-f="pct"></b></span>
+          <span>reversed direction on <b data-v="representation.RAW view.direction_flip_rate_per_move" data-f="pct"></b> of moves</span>
+          <span>scored <b data-v="representation.RAW view.score" data-f="0"></b></span></footer>
+      </div>
+      <div class="view comp">
+        <header><b>COMPRESSED</b> <span id="threat-chars"></span></header>
+        <pre id="threat-json"></pre>
+        <footer class="b" data-in="2"><strong>Persistent motion</strong>
+          <span>fired with a shot already in flight <b data-v="representation.THREAT view.p_fire_shot_in_flight" data-f="pct"></b></span>
+          <span>reversed direction on <b data-v="representation.THREAT view.direction_flip_rate_per_move" data-f="pct"></b> of moves</span>
+          <span>scored <b data-v="representation.THREAT view.score" data-f="0"></b></span></footer>
+      </div>
+      <p class="stack-lines b" data-in="3">Same model. Same game.<br>Different representation.<br><strong>Different policy.</strong></p>
+    </div>
+
+    <div class="dumb b" data-in="4" data-out="6">
+      <p class="lede b" data-in="4">So we tried something embarrassing:<br><strong>a dumb rule.</strong></p>
+      <div class="sweep-lane" aria-hidden="true"><div class="sweeper"></div></div>
+      <div class="b" data-in="5">
+        <p class="eyebrow">sweep bot (no model) vs JEV on the compressed view · 50 fresh seeds · points without the bonus ship</p>
+        <p class="verdict" id="sweep-verdict"></p>
+        <p class="lede">High score was not enough evidence of understanding.</p>
+      </div>
+    </div>
+
+    <div class="ladder b" data-in="6">
+      <p class="eyebrow">every strong result got a cheaper control</p>
+      <ol id="ladder"></ol>
+      <p class="note">What survived: tell JEV which moves are safe, and to sweep unless it has a reason not to. On the holdout that player scored <b data-v="pilot.mean" data-f="0"></b> against the sweep bot's <b data-v="pilot.sweep_mean" data-f="0"></b>, and won <b data-v="pilot.vs_sweep_wtl" data-f="wins"></b> seeds.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4. THREE TIMESCALES ============ -->
+<section class="scene" id="scales" data-steps="4">
+  <div class="stage wide">
+    <div class="scales">
+      <div class="scale b" data-in="0"><h3>Play</h3><p>What should I do now?</p><span class="n"><b data-v="pilot.latency_ms_p50" data-f="0"></b> ms per move</span></div>
+      <div class="scale b" data-in="1"><h3>Eval</h3><p>Did that decision survive reality?</p><span class="n"><b data-v="eval.JEV, SAFE view.accuracy" data-f="pct1"></b> on <b data-v="eval.JEV, SAFE view.n" data-f="0"></b> unseen life-or-death moments</span></div>
+      <div class="scale b" data-in="2"><h3>Lab</h3><p>What deserves another experiment?</p><span class="n">which setup gets the next games, and which old finding to doubt</span></div>
+    </div>
+    <p class="big b bottom" data-in="3">One decision model.<br><em>Three timescales.</em></p>
+  </div>
+</section>
+
+<!-- ============ 5. BODIES + INHERITANCE (centerpiece) ============ -->
+<section class="scene dark" id="bodies" data-steps="8">
+  <div class="stage wide">
+    <h2 class="b solo top" data-in="0" data-out="1">Let experience outlive the&nbsp;agent.</h2>
+    <p class="lede b top" data-in="1" data-out="3">Four workers search <span data-v="landscape.A.rank.length" data-f="0"></span> ways to play: stand still, track, or sweep · dodge or not · fire when ready, or aimed. Each round, each worker plays one real game.</p>
+    <p class="lede b top" data-in="3" data-out="4"><span data-v="swarm.L" data-f="words"></span> rounds later, we killed the workers.</p>
+    <p class="lede b top" data-in="4" data-out="5">The new workers had never played those games.</p>
+    <p class="big b top" data-in="5" data-out="6"><em>But the swarm had.</em></p>
+
+    <svg id="swarm-svg" viewBox="0 0 1000 560" role="img" aria-label="Four worker nodes write findings into a shared memory layer; the workers are destroyed and new ones inherit the findings.">
+      <g id="workers"></g>
+      <g id="links"></g>
+      <g id="mitosis-layer">
+        <rect x="120" y="430" width="760" height="104" rx="4" class="mit-rect"/>
+        <text x="140" y="456" class="mit-title">MITOSIS · shared findings</text>
+        <g id="findings"></g>
+      </g>
+    </svg>
+    <pre class="term" id="term" aria-live="off"></pre>
+
+    <div class="b slogan" data-in="6">
+      <p><span class="t">Tenki</span> gave the swarm bodies.</p>
+      <p><span class="m">Mitosis</span> gave it inheritance.</p>
+    </div>
+    <p class="cap b bottom" data-in="7">This picture is the distributed run: real Tenki sandboxes. <b data-v="validation.tenki.worker_sandboxes_created" data-f="0"></b> workers created, <b data-v="validation.tenki.planned_replacements" data-f="0"></b> replaced exactly on schedule, <b data-v="validation.tenki.unplanned_replacements" data-f="0"></b> unplanned deaths. Every newborn worker was checked at birth: it knew nothing. Findings shown are real inherited findings from trial 502.</p>
+  </div>
+</section>
+
+<!-- ============ 6. MEMORY WORKS ============ -->
+<section class="scene" id="works" data-steps="5">
+  <div class="stage wide">
+    <div class="chart-wrap">
+      <svg id="chart-main" viewBox="0 0 1000 440" role="img" aria-label="Regret per round, with and without shared memory, main run"></svg>
+    </div>
+    <div class="side">
+      <div class="b" data-in="0" data-out="2">
+        <p class="eyebrow">stable world · main run · <span data-v="swarm.trials" data-f="0"></span> paired trials · pre-registered</p>
+        <div class="duel static">
+          <div class="duel-row"><span class="lbl">No memory</span><span class="num" data-v="swarm.conditions.A.ph1.0" data-f="0"></span></div>
+          <div class="duel-row mem"><span class="lbl">Shared memory</span><span class="num" data-v="swarm.conditions.B.ph1.0" data-f="0"></span></div>
+        </div>
+        <p class="cap">average points below the best setup · lower is better</p>
+        <p class="lede b" data-in="1">Shared memory cut search error by more than&nbsp;half.</p>
+      </div>
+      <div class="b" data-in="2" data-out="4">
+        <div class="stat"><span class="v"><span data-v="swarm.benefit_ph1.x_better_trials" data-f="0"></span>/<span data-v="swarm.benefit_ph1.n" data-f="0"></span></span><span class="u">trials better with memory</span></div>
+        <div class="stat"><span class="v" data-v="swarm.rediscovery_avoided_ph1.0" data-f="0"></span><span class="u">fewer games per trial spent re-testing losing setups the swarm had already tried</span></div>
+        <ol class="flow b" data-in="3">
+          <li>a new worker picks a strategy</li>
+          <li>checks the shared inheritance</li>
+          <li>skips the experiment a dead worker already ran</li>
+        </ol>
+      </div>
+      <p class="lede b" data-in="4">The swarm stopped paying twice for knowledge it had already&nbsp;earned.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7. CHANGE THE WORLD ============ -->
+<section class="scene" id="change" data-steps="6">
+  <div class="stage wide">
+    <figure class="screen small" id="change-screen">
+      <video id="change-v-a" src="assets/regime_A.mp4" muted playsinline loop preload="metadata" poster="assets/regime_A.png"></video>
+      <video id="change-v-b" src="assets/regime_B.mp4" muted playsinline loop preload="metadata" poster="assets/regime_B.png"></video>
+      <figcaption class="tag"><span class="b" data-in="0" data-out="1">standard game</span><span class="b shift" data-in="1">variation 1 · the shields move</span></figcaption>
+    </figure>
+    <div class="copy">
+      <h2 class="b" data-in="0" data-out="1">Then we changed the&nbsp;world.</h2>
+      <div class="board b" data-in="1" data-out="5">
+        <p class="eyebrow" id="board-eyebrow">old world · true mean score of each setup</p>
+        <ol id="board"></ol>
+      </div>
+      <p class="lede b low" data-in="3" data-out="4" id="dodge-note"></p>
+      <div class="b low" data-in="4" data-out="5">
+        <p class="lede">Some inheritance survived. Some became&nbsp;wrong.</p>
+        <p class="quiet">The difficult part wasn't remembering. It was knowing which memory still belonged to this world.</p>
+      </div>
+      <div class="b" data-in="5">
+        <p class="eyebrow">after the change · main run</p>
+        <div class="duel static">
+          <div class="duel-row"><span class="lbl">No memory</span><span class="num" data-v="swarm.conditions.A.ph2.0" data-f="0"></span></div>
+          <div class="duel-row mem bad"><span class="lbl">Shared memory</span><span class="num" data-v="swarm.conditions.B.ph2.0" data-f="0"></span></div>
+        </div>
+        <p class="big"><em>Inheritance became inertia.</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 8. CHALLENGE THE ANCESTORS ============ -->
+<section class="scene" id="ancestors" data-steps="7">
+  <div class="stage wide">
+    <h2 class="b solo" data-in="0" data-out="1">Can JEV challenge its&nbsp;ancestors?</h2>
+    <div class="finding-card b" data-in="1" data-out="4" id="fcard">
+      <p class="eyebrow">one inherited Mitosis finding</p>
+      <h3>still · dodge · fire when ready</h3>
+      <div class="frow"><span>inherited</span><b id="fc-inh"></b></div>
+      <div class="frow b" data-in="2"><span>this world, so far</span><b id="fc-now"></b></div>
+      <div class="probs b" data-in="3" id="fc-probs"></div>
+      <div class="status" id="fc-status">status: <b>ACTIVE</b></div>
+      <p class="cap" id="fc-cap"></p>
+    </div>
+
+    <div class="b results-3" data-in="4">
+      <p class="eyebrow">after the change · main run · average points below best</p>
+      <div class="duel static">
+        <div class="duel-row mem bad"><span class="lbl">Memory only</span><span class="num" data-v="swarm.conditions.B.ph2.0" data-f="0"></span></div>
+        <div class="duel-row jev"><span class="lbl">JEV + memory</span><span class="num" data-v="swarm.conditions.D.ph2.0" data-f="0"></span></div>
+        <div class="duel-row rule b" data-in="5"><span class="lbl">Simple rule + memory</span><span class="num" data-v="swarm.conditions.F.ph2.0" data-f="0"></span></div>
+      </div>
+    </div>
+    <div class="verdict-r">
+      <p class="huge b" data-in="5" data-out="6">The rule beat&nbsp;JEV.</p>
+      <div class="b" data-in="6">
+        <p class="huge">Good.</p>
+        <p class="lede">The experiment was supposed to teach us something, not flatter the&nbsp;model.</p>
+        <p class="quiet">In this small world a hand-built change detector was better: over the whole run it was ahead in <b data-v="swarm.jev_vs_rule_total.y_better_trials" data-f="0"></b> of <b data-v="swarm.jev_vs_rule_total.n" data-f="0"></b> paired trials. JEV's value was flexible typed judgment in about <b data-v="validation.jev_totals.latency_ms_p50" data-f="0"></b> ms, not magic superiority over deterministic code.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 9. DISTRIBUTED VALIDATION ============ -->
+<section class="scene dark" id="real" data-steps="8">
+  <div class="stage wide">
+    <h2 class="b solo top" data-in="0" data-out="1">So we moved the swarm onto real&nbsp;machines.</h2>
+    <svg id="topo" class="b" data-in="1" data-out="3" viewBox="0 0 1000 420" role="img" aria-label="A Tenki coordinator connected to four ephemeral Tenki workers, Mitosis and JEV"></svg>
+    <div class="metrics b" data-in="2" data-out="3">
+      <div><b data-v="validation.tenki.games" data-f="int"></b><span>games in the validation run</span></div>
+      <div><b data-v="validation.tenki.worker_sandboxes_created" data-f="0"></b><span>worker sandboxes created and destroyed on schedule</span></div>
+      <div><b data-v="validation.tenki.unplanned_replacements" data-f="0"></b><span>unplanned worker deaths</span></div>
+      <div><b><span data-v="validation.replay.matched" data-f="0"></span>/<span data-v="validation.replay.sampled" data-f="0"></span></b><span>sampled games replayed exactly on a laptop</span></div>
+      <div><b><span data-v="validation.official_replay.matched" data-f="0"></span>/<span data-v="validation.official_replay.games" data-f="0"></span></b><span>official Pilot games re-derived in clean Tenki sandboxes</span></div>
+    </div>
+
+    <div class="two b" data-in="3" data-out="5">
+      <div>
+        <p class="eyebrow">before the change · <span data-v="validation.trials" data-f="0"></span> paired trials on Tenki</p>
+        <div class="duel static">
+          <div class="duel-row"><span class="lbl">Without memory</span><span class="num" data-v="validation.E.ph1.0" data-f="0"></span></div>
+          <div class="duel-row jev"><span class="lbl">JEV + memory</span><span class="num" data-v="validation.D.ph1.0" data-f="0"></span></div>
+        </div>
+        <p class="cap">Memory still helped: better in <b data-v="validation.benefit_ph1.x_better" data-f="0"></b> of <b data-v="validation.benefit_ph1.n" data-f="0"></b> trials.</p>
+      </div>
+      <div class="b" data-in="4">
+        <p class="eyebrow">after the change</p>
+        <div class="duel static">
+          <div class="duel-row"><span class="lbl">Without memory</span><span class="num" data-v="validation.E.ph2.0" data-f="0"></span></div>
+          <div class="duel-row jev bad"><span class="lbl">JEV + memory</span><span class="num" data-v="validation.D.ph2.0" data-f="0"></span></div>
+        </div>
+        <p class="lede">The original JEV recovery did not&nbsp;replicate.</p>
+      </div>
+    </div>
+
+    <div class="why b" data-in="5" data-out="7">
+      <h3 class="b" data-in="5">Why?</h3>
+      <svg id="retrieval" viewBox="0 0 1000 300" role="img" aria-label="Many findings in the store; the retrieval returns only part of them"></svg>
+      <p class="lede b" data-in="6">The memory was there. Our retrieval path wasn't returning all of&nbsp;it.</p>
+      <p class="cap b" data-in="6">In <b data-v="validation.mitosis.stale_read_rate" data-f="pct"></b> of reads, at least one of the trial's own findings was missing. None of the findings that came back was out of date.</p>
+    </div>
+
+    <div class="b" data-in="7">
+      <p class="huge">Memory is not only what you store.</p>
+      <p class="huge"><em>It is what the agent can recover when it matters.</em></p>
+      <p class="quiet">We read memory with a search call that returns its top matches, over one feed shared by <span data-v="validation.trials" data-f="0"></span> parallel trials. Under that load our adapter returned an incomplete slice, so JEV often couldn't see the outdated finding it needed to challenge: its first challenge of one came at round <b data-v="validation.first_stale_challenge_round.0" data-f="1"></b>, against <b data-v="swarm.first_stale_challenge_round_D.0" data-f="1"></b> in the main run. We froze the experiment instead of repairing it after seeing the result.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10. PRINCIPLE ============ -->
+<section class="flow-sec" id="principle">
+  <p class="eyebrow r">a surprisingly small principle</p>
+  <ul class="pairs">
+    <li class="r"><span>raw state</span><i>→</i><span>different policy</span><small>fire jitter, <b data-v="representation.RAW view.score" data-f="0"></b> points vs <b data-v="representation.THREAT view.score" data-f="0"></b></small></li>
+    <li class="r"><span>compressed state</span><i>→</i><span>different policy</span><small>steady motion; with safe moves, <b data-v="representation.SAFE view.score" data-f="0"></b></small></li>
+    <li class="r"><span>full memory</span><i>→</i><span>different governance</span><small>first outdated finding challenged at round <b data-v="swarm.first_stale_challenge_round_D.0" data-f="1"></b></small></li>
+    <li class="r"><span>partial retrieval</span><i>→</i><span>different governance</span><small>…at round <b data-v="validation.first_stale_challenge_round.0" data-f="1"></b></small></li>
+    <li class="r"><span>option order</span><i>→</i><span>different borderline judgment</span><small><b data-v="audit.order.mode.flip_rate" data-f="pct"></b> flips on borderline states vs <b data-v="audit.order.mode.same_order_repeat_flip_rate" data-f="pct"></b> on a plain repeat</small></li>
+  </ul>
+  <p class="huge r">Representation shapes the decision&nbsp;landscape.</p>
+  <p class="lede r">A model does not act on the world directly. It acts on the representation of the world it can&nbsp;see.</p>
+</section>
+
+<!-- ============ 11. ECOLOGY ============ -->
+<section class="flow-sec" id="ecology">
+  <p class="eyebrow r">a question we left with</p>
+  <p class="huge r">An ecology of wisdom?</p>
+  <div class="tri">
+    <div class="r"><h3>Memory</h3><p>What from the past remains available?</p></div>
+    <div class="r"><h3>Salience</h3><p>What deserves attention now?</p></div>
+    <div class="r"><h3>Agency</h3><p>Can the system revise what it inherited?</p></div>
+  </div>
+  <p class="lede r">Perfect memory is not perfect adaptation.<br>Forgetting everything prevents learning.<br>Obeying everything remembered prevents change.</p>
+  <p class="quiet r">Perhaps the interesting problem isn't how much an agent can remember. It's how experience should keep influencing action as the world changes.</p>
+</section>
+
+<!-- ============ 12. STACK ============ -->
+<section class="flow-sec" id="stack">
+  <p class="eyebrow r">the stack, as an ecology</p>
+  <div class="layers">
+    <div class="layer tenki r">
+      <h3>Tenki</h3><p class="lw">Experience needs somewhere to happen.</p>
+      <p>Disposable workers. Parallel games. Independent replay. Reproducible execution.</p>
+      <p class="without">without it here → no ephemeral population, no independent remote replay</p>
+    </div>
+    <div class="layer mitosis r">
+      <h3>Mitosis</h3><p class="lw">Experience needs somewhere to persist.</p>
+      <p>Shared findings survive worker death. New generations inherit earlier experiments.</p>
+      <p class="without">without it → worker death erases what was learned</p>
+    </div>
+    <div class="layer jev r">
+      <h3>JEV</h3><p class="lw">Inheritance needs judgment.</p>
+      <p>Fast typed decisions: what to do now, and which inherited findings deserve another look.</p>
+      <p class="without">without it → no learned, typed governance layer</p>
+    </div>
+  </div>
+  <p class="lede r">Remove any layer and you get a different&nbsp;system.</p>
+  <p class="cap r">Tenki is this implementation's execution substrate. The algorithm itself could run elsewhere; this swarm ran there.</p>
+</section>
+
+<!-- ============ 13. RECEIPTS ============ -->
+<section class="flow-sec" id="receipts">
+  <p class="eyebrow">receipts</p>
+  <h2>Everything above, with its source.</h2>
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <div class="panel" id="panel" role="tabpanel"></div>
+</section>
+
+<!-- ============ END ============ -->
+<section class="flow-sec" id="end">
+  <svg class="ship r" viewBox="0 0 16 10" aria-hidden="true"><path d="M7 0h2v2h1v1h3v1h2v6H1V4h2V3h3V2h1z"/></svg>
+  <p class="quiet r">We started by asking whether JEV could play Space Invaders faster than an LLM.</p>
+  <p class="quiet r">We ended up asking what happens when agents inherit experience in a world that refuses to stay still.</p>
+  <p class="huge r">Self-improvement isn't remembering everything.</p>
+  <p class="huge r"><em>It's getting better at knowing what still applies.</em></p>
+  <p class="verbs r"><span>Play.</span><span>Remember.</span><span>Question.</span><span>Adapt.</span></p>
+  <nav class="ctas r">
+    <a href="?demo=1" id="cta-demo">Watch the demo</a>
+    <a href="#" id="cta-code" data-repo="">View the code</a>
+    <a href="#receipts" data-tab="repro">Reproduce the results</a>
+    <a href="#receipts" data-tab="swarm">Explore the data</a>
+  </nav>
+  <footer>
+    <p>Built for the UFA JEV Bake-Off · Pilot track.</p>
+    <p>JEV × Mitosis × Tenki</p>
+    <p>InnerCartography</p>
+    <p class="fine">Every number on this page is generated from committed result files (<code>site/data/results.js</code>). Footage is exact emulator replay of recorded games, not live inference.</p>
+  </footer>
+</section>
+
+</main>
+<noscript><p style="padding:2rem">This page needs JavaScript for its figures. The full write-up is in the repository README.</p></noscript>
+</body>
+</html>
